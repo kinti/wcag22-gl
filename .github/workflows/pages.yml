@@ -1,0 +1,25 @@
+name: Deploy Pages (borrador de traducción)
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Upload work/export as the Pages site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: work/export
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4

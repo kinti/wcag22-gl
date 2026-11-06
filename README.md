@@ -81,7 +81,12 @@ mantedores aplícannas e rexístranas no glosario canónico.
 
 ## Como ler e xerar o documento
 
-**Ler o borrador actual**: abre `work/export/index.html` nun navegador (con
+**Ler o borrador actual**: está publicado en
+**<https://kinti.github.io/wcag22-gl/>** (GitHub Pages serve o contido de
+`work/export/` — a páxina de entrada é o propio documento traducido, co
+aviso de tradución non oficial arriba).
+
+Tamén podes lelo en local: abre `work/export/index.html` nun navegador (con
 `work/export/fixup.js` e `work/export/guidelines.css` ao lado), ou serve a
 carpeta por HTTP:
 

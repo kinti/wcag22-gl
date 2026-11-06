@@ -1,0 +1,65 @@
+<section id="input-purposes">
+	<h2>Finalidades da entrada para os compoñentes da interfaz de usuario</h2>
+    <p>Esta sección contén unha relación das finalidades de entrada habituais dos <a href="#dfn-user-interface-components">compoñentes da interfaz de usuario</a>. Os termos seguintes non son palabras chave que se deban usar, senón que representan finalidades que se deben recoller na taxonomía adoptada por cada páxina web. Cando sexa aplicable, as persoas autoras marcan os controis coa taxonomía escollida para indicar a finalidade semántica. Isto ofrece a posibilidade de que os axentes de usuario e as tecnoloxías de asistencia apliquen presentacións personalizadas que permitan que máis xente poida comprender e usar o contido.</p>
+  
+  <p class="note">A relación de finalidades de entrada baséase nas finalidades de control definidas na <a href="https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill">sección Autofill da especificación <abbr title="HyperText Markup Language">HTML</abbr></a>, pero é importante entender que outra tecnoloxía pode ter algúns ou todos os mesmos conceptos definidos na súa especificación, e só se requiren os conceptos que se corresponden cos significados indicados abaixo.</p>
+	    
+  <p>As seguintes finalidades de control de entrada están pensadas para referirse á persoa usuaria do contido e afectan só á información relativa a esa persoa.</p>
+
+	<ul>
+		<li><code class="language-html">name</code> - Nome completo</li>
+		<li><code class="language-html">honorific-prefix</code> - Prefixo ou título (por exemplo, "Mr.", "Ms.", "Dr.", "M<sup>lle</sup>")</li>
+        <li><code class="language-html">given-name</code> - Nome de pila (en nalgunhas culturas occidentais, tamén coñecido como <i lang="en">first name</i>)</li>
+        <li><code class="language-html">additional-name</code> - Nomes adicionais (en nalgunhas culturas occidentais, tamén coñecidos como <i lang="en">middle names</i>, nomes de pila distintos do primeiro)</li>
+        <li><code class="language-html">family-name</code> - Apelido ou apelidos (en nalgunhas culturas occidentais, tamén coñecidos como <i lang="en">last name</i> ou <i lang="en">surname</i>)</li>
+		<li><code class="language-html">honorific-suffix</code> - Sufixo (por exemplo, "Jr.", "B.Sc.", "MBASW", "II")</li>
+		<li><code class="language-html">nickname</code> - Alcume, nome na pantalla ou pseudónimo: un nome normalmente curto usado no lugar do nome completo</li>
+        <li><code class="language-html">organization-title</code> - Cargo laboral (por exemplo, <span lang="en">"Software Engineer"</span>, <span lang="en">"Senior Vice President"</span>, <span lang="en">"Deputy Managing Director"</span>)</li>
+		<li><code class="language-html">username</code> - Un nome de usuario</li>
+		<li><code class="language-html">new-password</code> - Unha contrasinal nova (por exemplo, ao crear unha conta ou cambiar a contrasinal)</li>
+        <li><code class="language-html">current-password</code> - A contrasinal actual da conta identificada no campo <code class="language-html">username</code> (por exemplo, ao iniciar sesión)</li>
+		<li><code class="language-html">organization</code> - Nome da empresa correspondente á persoa, enderezo ou información de contacto dos outros campos asociados a este campo</li>
+        <li><code class="language-html">street-address</code> - Enderezo da rúa (varias liñas, os saltos de liña consérvanse)</li>
+        <li><code class="language-html">address-line1</code> - Enderezo da rúa (unha liña por campo, liña 1)</li>
+        <li><code class="language-html">address-line2</code> - Enderezo da rúa (unha liña por campo, liña 2)</li>
+        <li><code class="language-html">address-line3</code> - Enderezo da rúa (unha liña por campo, liña 3)</li>
+		<li><code class="language-html">address-level4</code> - O nivel administrativo máis fino, en enderezos con catro niveis administrativos</li>
+		<li><code class="language-html">address-level3</code> - O terceiro nivel administrativo, en enderezos con tres ou máis niveis administrativos</li>
+        <li><code class="language-html">address-level2</code> - O segundo nivel administrativo, en enderezos con dous ou máis niveis administrativos; nos países con dous niveis administrativos, adoita ser a cidade, vila, aldea ou outra localidade na que se atopa o enderezo da rúa</li>
+		<li><code class="language-html">address-level1</code> - O nivel administrativo máis amplo do enderezo, é dicir, a provincia na que se atopa a localidade; por exemplo, nos Estados Unidos sería o estado; en Suíza, o cantón; no Reino Unido, a vila postal</li>
+		<li><code class="language-html">country</code> - Código do país</li>
+		<li><code class="language-html">country-name</code> - Nome do país</li>
+		<li><code class="language-html">postal-code</code> - Código postal, código ZIP, código CEDEX (se é CEDEX, engádese "CEDEX", e o <i lang="fr">arrondissement</i>, se procede, ao campo <code class="language-html">address-level2</code>)</li>
+		<li><code class="language-html">cc-name</code> - Nome completo tal e como aparece no medio de pagamento</li>
+        <li><code class="language-html">cc-given-name</code> - Nome de pila tal e como aparece no medio de pagamento (en nalgunhas culturas occidentais, tamén coñecido como <i lang="en">first name</i>)</li>
+        <li><code class="language-html">cc-additional-name</code> - Nomes adicionais do medio de pagamento (en nalgunhas culturas occidentais, tamén coñecidos como <i lang="en">middle names</i>, nomes de pila distintos do primeiro)</li>
+        <li><code class="language-html">cc-family-name</code> - Apelido ou apelidos do medio de pagamento (en nalgunhas culturas occidentais, tamén coñecidos como <i lang="en">last name</i> ou <i lang="en">surname</i>)</li>
+		<li><code class="language-html">cc-number</code> - Código que identifica o medio de pagamento (por exemplo, o número de tarxeta de crédito)</li>
+		<li><code class="language-html">cc-exp</code> - Data de caducidade do medio de pagamento</li>
+		<li><code class="language-html">cc-exp-month</code> - Compoñente do mes da data de caducidade do medio de pagamento</li>
+		<li><code class="language-html">cc-exp-year</code> - Compoñente do ano da data de caducidade do medio de pagamento</li>
+		<li><code class="language-html">cc-csc</code> - Código de seguridade do medio de pagamento (tamén coñecido como código de seguridade da tarxeta (CSC), código de validación da tarxeta (CVC), valor de verificación da tarxeta (CVV), código do panel de sinatura (SPC), identificador da tarxeta de crédito (CCID), etc.)</li>
+		<li><code class="language-html">cc-type</code> - Tipo de medio de pagamento</li>
+		<li><code class="language-html">transaction-currency</code> - A moeda na que a persoa usuaria prefire realizar a transacción</li>
+		<li><code class="language-html">transaction-amount</code> - O importe que a persoa usuaria quere para a transacción (por exemplo, ao introducir unha poxa ou un prezo de venda)</li>
+		<li><code class="language-html">language</code> - Lingua preferida</li>
+		<li><code class="language-html">bday</code> - Data de nacemento</li>
+		<li><code class="language-html">bday-day</code> - Compoñente do día da data de nacemento</li>
+		<li><code class="language-html">bday-month</code> - Compoñente do mes da data de nacemento</li>
+		<li><code class="language-html">bday-year</code> - Compoñente do ano da data de nacemento</li>
+		<li><code class="language-html">sex</code> - Identidade de xénero (por exemplo, Feminino, <span lang="sm">Fa’afafine</span>)</li>
+		<li><code class="language-html">url</code> - Páxina inicial ou outra páxina web correspondente á empresa, persoa, enderezo ou información de contacto dos outros campos asociados a este campo</li>
+        <li><code class="language-html">photo</code> - Fotografía, icona ou outra imaxe correspondente á empresa, persoa, enderezo ou información de contacto dos outros campos asociados a este campo</li>
+		<li><code class="language-html">tel</code> - Número de teléfono completo, incluído o código do país</li>
+		<li><code class="language-html">tel-country-code</code> - Compoñente do código do país do número de teléfono</li>
+		<li><code class="language-html">tel-national</code> - Número de teléfono sen o compoñente do código do país, co prefixo interno do país aplicado se é aplicable</li>
+		<li><code class="language-html">tel-area-code</code> - Compoñente do código de área do número de teléfono, co prefixo interno do país aplicado se é aplicable</li>
+		<li><code class="language-html">tel-local</code> - Número de teléfono sen os compoñentes do código do país nin do código de área</li>
+		<li><code class="language-html">tel-local-prefix</code> - Primeira parte do compoñente do número de teléfono que segue ao código de área, cando ese compoñente se divide en dous</li>
+		<li><code class="language-html">tel-local-suffix</code> - Segunda parte do compoñente do número de teléfono que segue ao código de área, cando ese compoñente se divide en dous</li>
+		<li><code class="language-html">tel-extension</code> - Código da extensión interna do número de teléfono</li>
+		<li><code class="language-html">email</code> - Enderezo de correo electrónico</li>
+		<li><code class="language-html">impp</code> - <abbr title="Uniform Resource Locator">URL</abbr> que representa un punto de acceso a un protocolo de mensaxería instantánea (por exemplo, "<code class="language-html">aim:goim?screenname=example</code>" ou "<code class="language-html">xmpp:fred@example.net</code>")</li>
+	</ul>
+	
+</section>

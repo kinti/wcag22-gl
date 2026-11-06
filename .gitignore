@@ -1,0 +1,11 @@
+# Copia inglesa do tag WCAG22-20241212 (documentado no README para descargar)
+source/
+# Material de traballo local con copyright de terceiros (Fundación Sidar)
+docs/sbs/
+docs/es-sidar/
+# Artefactos de construción
+__pycache__/
+*.pyc
+index-inlined.html
+work/guidelines/index-inlined.html
+*.log

@@ -1,0 +1,4 @@
+# Falsos positivos do detector: ids/chaves JSON do pipeline de tradución
+# (h2 do SC 2.1.4 en inglés; fonte w3c baixo source/, gitignorado)
+tools/original-heading-ids.json:generic-api-key:46
+source/wcag20/sources/guide-to-wcag2-src.xml:generic-api-key:773

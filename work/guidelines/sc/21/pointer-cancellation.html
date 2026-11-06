@@ -1,0 +1,28 @@
+<section id="pointer-cancellation" class="sc">
+   					
+   <h4>Cancelación do Punteiro</h4>
+   					
+   <p class="conformance-level">A</p>
+   					
+   <p>Para a <a href="#dfn-functionality">funcionalidade</a> que pode operarse usando un <a href="#dfn-single-pointer">único punteiro</a>, cúmprese polo menos unha das seguintes condicións:</p>
+   					
+   <dl>
+   
+   <dt>Sen down-event</dt>
+     <dd>O <a href="#dfn-down-event">down-event</a> do punteiro non se usa para executar ningunha parte da función;</dd>
+      						
+   <dt>Interromper ou Desfacer</dt>
+     <dd>A finalización da función prodúcese no <a href="#dfn-up-event">up-event</a>, e hai dispoñible un <a href="#dfn-mechanism">mecanismo</a> para interromper a función antes de que remate ou para desfacer a función despois de que remate;</dd>
+      						
+   <dt>Reversión ao Soltar</dt>
+     <dd>O up-event invirte calquera resultado do down-event precedente;</dd>
+      						
+   <dt>Esencial</dt>
+     <dd>Completar a función no down-event é <a href="#dfn-essential">esencial</a>.</dd>
+      						
+   </dl>
+   <p class="note">As funcións que emulan a pulsación dunha tecla de teclado ou de teclado numérico considéranse esenciais.</p>
+   					
+  <p class="note">Este requirimento aplícase ao contido web que interpreta accións do punteiro (é dicir, non se aplica ás accións requiridas para operar o axente de usuario ou a tecnoloxía de asistencia).</p>
+	
+</section>

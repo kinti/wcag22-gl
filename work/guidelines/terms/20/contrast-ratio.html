@@ -1,0 +1,47 @@
+<dt><dfn id="dfn-contrast-ratio">razón de contraste</dfn></dt>
+<dd>
+   
+   <p>(L1 + 0.05) / (L2 + 0.05), onde</p>
+   
+   <ul>
+      
+      <li>L1 é a <a href="#dfn-relative-luminance">luminancia relativa</a> da máis clara das cores, e
+      </li>
+      
+      <li>L2 é a <a href="#dfn-relative-luminance">luminancia relativa</a> da máis escura das cores.
+      </li>
+      
+   </ul>
+   
+   <p class="note">As razóns de contraste poden ir de 1 a 21 (escrito normalmente 1:1 a 21:1).</p>
+   
+   <p class="note">Como as persoas autoras non teñen control sobre os axustes de usuario de como se renderiza o texto
+      (por exemplo, o suavizado de fontes ou o anti-aliasing), a razón de contraste do texto pode
+      avaliarse co anti-aliasing desactivado.
+   </p>
+   
+   <p class="note">Para os propósitos dos Criterios de Éxito 1.4.3 e 1.4.6, o contraste mídese con respecto
+      ao fondo especificado sobre o que se renderiza o texto no uso normal. Se non se especifica
+      cor de fondo, asúmese branco.
+   </p>
+   
+   <p class="note">A cor de fondo é a cor especificada do contido sobre o que se vai renderizar o texto
+      no uso normal. É un fallo non especificar cor de fondo cando se especifica a cor do texto,
+      porque a cor de fondo por defecto da persoa usuaria é descoñecida e non pode
+      avaliarse para contraste suficiente. Pola mesma razón, é un fallo non especificar a cor do texto
+      cando se especifica unha cor de fondo.
+   </p>
+   
+   <p class="note">Cando hai un bordo ao redor da letra, o bordo pode engadir contraste e usaríase
+      no cálculo do contraste entre a letra e o seu fondo. Un bordo estreito
+      ao redor da letra usaríase como a letra. Un bordo ancho ao redor da letra que
+      enche os detalles interiores das letras actúa como un halo e consideraríase fondo.
+   </p>
+   
+   <p class="note">A conformidade WCAG debería avaliarse para os pares de cores especificados no contido que
+      unha persoa autora esperaría que aparecesen adxacentes na presentación típica. As persoas autoras non necesitan
+      considerar presentacións inusuais, como os cambios de cor feitos polo axente de usuario, agás
+      cando sexan causados polo código das persoas autoras.
+   </p>
+   
+</dd>

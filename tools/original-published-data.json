@@ -1,0 +1,2973 @@
+{
+  "source_url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/",
+  "sha256": "6e3c5fe397257cae509a2fb4752b73062cf8cbeb92c2cec618989b17e4cf7057",
+  "ids": [
+    "respec-mainstyle",
+    "initialUserConfig",
+    "title",
+    "w3c-state",
+    "abstract",
+    "sotd",
+    "w3c_process_revision",
+    "toc",
+    "table-of-contents",
+    "intro",
+    "introduction",
+    "background-on-wcag-2",
+    "background-on-wcag-2-0",
+    "wcag-2-layers-of-guidance",
+    "wcag-2-layers-of-guidance-0",
+    "wcag-2-2-supporting-documents",
+    "wcag-2-2-supporting-documents-0",
+    "requirements-for-wcag-2-2",
+    "requirements-for-wcag-2-2-0",
+    "comparison-with-wcag-2-1",
+    "comparison-with-wcag-2-1-0",
+    "new-features-in-wcag-2-2",
+    "new-features-in-wcag-2-2-0",
+    "numbering-in-wcag-2-2",
+    "numbering-in-wcag-2-2-0",
+    "conformance-to-wcag-2-2",
+    "conformance-to-wcag-2-2-0",
+    "later-versions-of-accessibility-guidelines",
+    "later-versions-of-accessibility-guidelines-0",
+    "perceivable",
+    "x1-perceivable",
+    "text-alternatives",
+    "x1-1-text-alternatives",
+    "non-text-content",
+    "x1-1-1-non-text-content",
+    "ref-for-dfn-non-text-content-1",
+    "ref-for-dfn-text-alternative-1",
+    "ref-for-dfn-name-1",
+    "ref-for-dfn-text-1",
+    "ref-for-dfn-specific-sensory-experience-1",
+    "ref-for-dfn-captcha-1",
+    "ref-for-dfn-pure-decoration-1",
+    "ref-for-dfn-assistive-technologies-1",
+    "time-based-media",
+    "x1-2-time-based-media",
+    "audio-only-and-video-only-prerecorded",
+    "x1-2-1-audio-only-and-video-only-prerecorded",
+    "ref-for-dfn-prerecorded-1",
+    "ref-for-dfn-audio-only-1",
+    "ref-for-dfn-video-only-1",
+    "ref-for-dfn-media-alternative-for-text-1",
+    "ref-for-dfn-alternative-for-time-based-media-1",
+    "captions-prerecorded",
+    "x1-2-2-captions-prerecorded",
+    "ref-for-dfn-captions-1",
+    "ref-for-dfn-prerecorded-2",
+    "ref-for-dfn-audio-1",
+    "ref-for-dfn-synchronized-media-1",
+    "ref-for-dfn-media-alternative-for-text-2",
+    "audio-description-or-media-alternative-prerecorded",
+    "x1-2-3-audio-description-or-media-alternative-prerecorded",
+    "ref-for-dfn-alternative-for-time-based-media-2",
+    "ref-for-dfn-audio-descriptions-1",
+    "ref-for-dfn-prerecorded-3",
+    "ref-for-dfn-video-1",
+    "ref-for-dfn-synchronized-media-2",
+    "ref-for-dfn-media-alternative-for-text-3",
+    "captions-live",
+    "x1-2-4-captions-live",
+    "ref-for-dfn-captions-2",
+    "ref-for-dfn-live-1",
+    "ref-for-dfn-audio-2",
+    "ref-for-dfn-synchronized-media-3",
+    "audio-description-prerecorded",
+    "x1-2-5-audio-description-prerecorded",
+    "ref-for-dfn-audio-descriptions-2",
+    "ref-for-dfn-prerecorded-4",
+    "ref-for-dfn-video-2",
+    "ref-for-dfn-synchronized-media-4",
+    "sign-language-prerecorded",
+    "x1-2-6-sign-language-prerecorded",
+    "ref-for-dfn-sign-language-interpretation-1",
+    "ref-for-dfn-prerecorded-5",
+    "ref-for-dfn-audio-3",
+    "ref-for-dfn-synchronized-media-5",
+    "extended-audio-description-prerecorded",
+    "x1-2-7-extended-audio-description-prerecorded",
+    "ref-for-dfn-audio-descriptions-3",
+    "ref-for-dfn-extended-audio-description-1",
+    "ref-for-dfn-prerecorded-6",
+    "ref-for-dfn-video-3",
+    "ref-for-dfn-synchronized-media-6",
+    "media-alternative-prerecorded",
+    "x1-2-8-media-alternative-prerecorded",
+    "ref-for-dfn-alternative-for-time-based-media-3",
+    "ref-for-dfn-prerecorded-7",
+    "ref-for-dfn-synchronized-media-7",
+    "ref-for-dfn-video-only-2",
+    "audio-only-live",
+    "x1-2-9-audio-only-live",
+    "ref-for-dfn-alternative-for-time-based-media-4",
+    "ref-for-dfn-live-2",
+    "ref-for-dfn-audio-only-2",
+    "adaptable",
+    "x1-3-adaptable",
+    "info-and-relationships",
+    "x1-3-1-info-and-relationships",
+    "ref-for-dfn-structure-1",
+    "ref-for-dfn-relationships-1",
+    "ref-for-dfn-presentation-1",
+    "ref-for-dfn-programmatically-determinable-1",
+    "meaningful-sequence",
+    "x1-3-2-meaningful-sequence",
+    "ref-for-dfn-correct-reading-sequence-1",
+    "ref-for-dfn-programmatically-determinable-2",
+    "sensory-characteristics",
+    "x1-3-3-sensory-characteristics",
+    "issue-container-generatedID",
+    "h-note",
+    "orientation",
+    "x1-3-4-orientation",
+    "ref-for-dfn-essential-1",
+    "issue-container-generatedID-0",
+    "h-note-0",
+    "identify-input-purpose",
+    "x1-3-5-identify-input-purpose",
+    "ref-for-dfn-programmatically-determinable-3",
+    "identify-purpose",
+    "x1-3-6-identify-purpose",
+    "ref-for-dfn-user-interface-components-1",
+    "ref-for-dfn-regions-1",
+    "ref-for-dfn-programmatically-determinable-4",
+    "distinguishable",
+    "x1-4-distinguishable",
+    "use-of-color",
+    "x1-4-1-use-of-color",
+    "issue-container-generatedID-1",
+    "h-note-1",
+    "audio-control",
+    "x1-4-2-audio-control",
+    "ref-for-dfn-mechanism-1",
+    "ref-for-dfn-pause-1",
+    "issue-container-generatedID-2",
+    "h-note-2",
+    "contrast-minimum",
+    "x1-4-3-contrast-minimum",
+    "ref-for-dfn-text-2",
+    "ref-for-dfn-images-of-text-1",
+    "ref-for-dfn-contrast-ratio-1",
+    "ref-for-dfn-large-scale-1",
+    "ref-for-dfn-user-interface-components-2",
+    "ref-for-dfn-pure-decoration-2",
+    "resize-text",
+    "x1-4-4-resize-text",
+    "ref-for-dfn-captions-3",
+    "ref-for-dfn-images-of-text-2",
+    "ref-for-dfn-text-3",
+    "ref-for-dfn-assistive-technologies-2",
+    "images-of-text",
+    "x1-4-5-images-of-text",
+    "ref-for-dfn-text-4",
+    "ref-for-dfn-images-of-text-3",
+    "ref-for-dfn-visually-customized-1",
+    "ref-for-dfn-essential-2",
+    "issue-container-generatedID-3",
+    "h-note-3",
+    "contrast-enhanced",
+    "x1-4-6-contrast-enhanced",
+    "ref-for-dfn-text-5",
+    "ref-for-dfn-images-of-text-4",
+    "ref-for-dfn-contrast-ratio-2",
+    "ref-for-dfn-large-scale-2",
+    "ref-for-dfn-user-interface-components-3",
+    "ref-for-dfn-pure-decoration-3",
+    "low-or-no-background-audio",
+    "x1-4-7-low-or-no-background-audio",
+    "ref-for-dfn-prerecorded-8",
+    "ref-for-dfn-audio-only-3",
+    "ref-for-dfn-captcha-2",
+    "issue-container-generatedID-4",
+    "h-note-4",
+    "visual-presentation",
+    "x1-4-8-visual-presentation",
+    "ref-for-dfn-blocks-of-text-1",
+    "ref-for-dfn-mechanism-2",
+    "ref-for-dfn-assistive-technologies-3",
+    "ref-for-dfn-on-a-full-screen-window-1",
+    "issue-container-generatedID-5",
+    "h-note-5",
+    "issue-container-generatedID-6",
+    "h-note-6",
+    "images-of-text-no-exception",
+    "x1-4-9-images-of-text-no-exception",
+    "ref-for-dfn-images-of-text-5",
+    "ref-for-dfn-pure-decoration-4",
+    "ref-for-dfn-text-6",
+    "ref-for-dfn-essential-3",
+    "issue-container-generatedID-7",
+    "h-note-7",
+    "reflow",
+    "x1-4-10-reflow",
+    "ref-for-dfn-css-pixels-1",
+    "ref-for-dfn-css-pixels-2",
+    "issue-container-generatedID-8",
+    "h-note-8",
+    "ref-for-dfn-viewport-1",
+    "issue-container-generatedID-9",
+    "h-note-9",
+    "non-text-contrast",
+    "x1-4-11-non-text-contrast",
+    "ref-for-dfn-presentation-2",
+    "ref-for-dfn-contrast-ratio-3",
+    "ref-for-dfn-user-interface-components-4",
+    "ref-for-dfn-states-1",
+    "ref-for-dfn-user-agents-1",
+    "ref-for-dfn-essential-4",
+    "text-spacing",
+    "x1-4-12-text-spacing",
+    "ref-for-dfn-text-7",
+    "ref-for-dfn-style-properties-1",
+    "ref-for-dfn-human-language-s-1",
+    "issue-container-generatedID-10",
+    "h-note-10",
+    "issue-container-generatedID-11",
+    "h-note-11",
+    "content-on-hover-or-focus",
+    "x1-4-13-content-on-hover-or-focus",
+    "ref-for-dfn-mechanism-3",
+    "ref-for-dfn-input-error-1",
+    "ref-for-dfn-user-agents-2",
+    "issue-container-generatedID-12",
+    "h-note-12",
+    "issue-container-generatedID-13",
+    "h-note-13",
+    "issue-container-generatedID-14",
+    "h-note-14",
+    "operable",
+    "x2-operable",
+    "keyboard-accessible",
+    "x2-1-keyboard-accessible",
+    "keyboard",
+    "x2-1-1-keyboard",
+    "ref-for-dfn-functionality-1",
+    "ref-for-dfn-keyboard-interface-1",
+    "issue-container-generatedID-15",
+    "h-note-15",
+    "issue-container-generatedID-16",
+    "h-note-16",
+    "no-keyboard-trap",
+    "x2-1-2-no-keyboard-trap",
+    "ref-for-dfn-keyboard-interface-2",
+    "issue-container-generatedID-17",
+    "h-note-17",
+    "keyboard-no-exception",
+    "x2-1-3-keyboard-no-exception",
+    "ref-for-dfn-functionality-2",
+    "ref-for-dfn-keyboard-interface-3",
+    "character-key-shortcuts",
+    "x2-1-4-character-key-shortcuts",
+    "ref-for-dfn-keyboard-shortcuts-1",
+    "ref-for-dfn-mechanism-4",
+    "ref-for-dfn-user-interface-components-5",
+    "enough-time",
+    "x2-2-enough-time",
+    "timing-adjustable",
+    "x2-2-1-timing-adjustable",
+    "ref-for-dfn-real-time-events-1",
+    "ref-for-dfn-essential-5",
+    "issue-container-generatedID-18",
+    "h-note-18",
+    "pause-stop-hide",
+    "x2-2-2-pause-stop-hide",
+    "ref-for-dfn-blinking-1",
+    "ref-for-dfn-mechanism-5",
+    "ref-for-dfn-pause-2",
+    "ref-for-dfn-essential-6",
+    "issue-container-generatedID-19",
+    "h-note-19",
+    "issue-container-generatedID-20",
+    "h-note-20",
+    "issue-container-generatedID-21",
+    "h-note-21",
+    "issue-container-generatedID-22",
+    "h-note-22",
+    "no-timing",
+    "x2-2-3-no-timing",
+    "ref-for-dfn-essential-7",
+    "ref-for-dfn-synchronized-media-8",
+    "ref-for-dfn-real-time-events-2",
+    "interruptions",
+    "x2-2-4-interruptions",
+    "ref-for-dfn-emergency-1",
+    "re-authenticating",
+    "x2-2-5-re-authenticating",
+    "timeouts",
+    "x2-2-6-timeouts",
+    "ref-for-dfn-user-inactivity-1",
+    "issue-container-generatedID-23",
+    "h-note-23",
+    "seizures-and-physical-reactions",
+    "x2-3-seizures-and-physical-reactions",
+    "three-flashes-or-below-threshold",
+    "x2-3-1-three-flashes-or-below-threshold",
+    "ref-for-dfn-web-page-s-1",
+    "ref-for-dfn-flashes-1",
+    "ref-for-dfn-general-flash-and-red-flash-thresholds-1",
+    "issue-container-generatedID-24",
+    "h-note-24",
+    "three-flashes",
+    "x2-3-2-three-flashes",
+    "ref-for-dfn-web-page-s-2",
+    "ref-for-dfn-flashes-2",
+    "animation-from-interactions",
+    "x2-3-3-animation-from-interactions",
+    "ref-for-dfn-motion-animation-1",
+    "ref-for-dfn-essential-8",
+    "navigable",
+    "x2-4-navigable",
+    "bypass-blocks",
+    "x2-4-1-bypass-blocks",
+    "ref-for-dfn-mechanism-6",
+    "ref-for-dfn-web-page-s-3",
+    "page-titled",
+    "x2-4-2-page-titled",
+    "ref-for-dfn-web-page-s-4",
+    "focus-order",
+    "x2-4-3-focus-order",
+    "ref-for-dfn-web-page-s-5",
+    "ref-for-dfn-navigated-sequentially-1",
+    "link-purpose-in-context",
+    "x2-4-4-link-purpose-in-context",
+    "ref-for-dfn-purpose-of-each-link-1",
+    "ref-for-dfn-programmatically-determined-link-context-1",
+    "ref-for-dfn-ambiguous-to-users-in-general-1",
+    "multiple-ways",
+    "x2-4-5-multiple-ways",
+    "ref-for-dfn-web-page-s-6",
+    "ref-for-dfn-set-of-web-pages-1",
+    "ref-for-dfn-processes-1",
+    "headings-and-labels",
+    "x2-4-6-headings-and-labels",
+    "ref-for-dfn-labels-1",
+    "focus-visible",
+    "x2-4-7-focus-visible",
+    "ref-for-dfn-focus-indicator-1",
+    "location",
+    "x2-4-8-location",
+    "ref-for-dfn-set-of-web-pages-2",
+    "link-purpose-link-only",
+    "x2-4-9-link-purpose-link-only",
+    "ref-for-dfn-mechanism-7",
+    "ref-for-dfn-purpose-of-each-link-2",
+    "ref-for-dfn-ambiguous-to-users-in-general-2",
+    "section-headings",
+    "x2-4-10-section-headings",
+    "ref-for-dfn-section-1",
+    "issue-container-generatedID-25",
+    "h-note-25",
+    "issue-container-generatedID-26",
+    "h-note-26",
+    "ref-for-dfn-user-interface-components-6",
+    "focus-not-obscured-minimum",
+    "x2-4-11-focus-not-obscured-minimum",
+    "ref-for-dfn-user-interface-components-7",
+    "issue-container-generatedID-27",
+    "h-note-27",
+    "issue-container-generatedID-28",
+    "h-note-28",
+    "focus-not-obscured-enhanced",
+    "x2-4-12-focus-not-obscured-enhanced",
+    "ref-for-dfn-user-interface-components-8",
+    "focus-appearance",
+    "x2-4-13-focus-appearance",
+    "ref-for-dfn-focus-indicator-2",
+    "ref-for-dfn-css-pixels-3",
+    "ref-for-dfn-perimeter-1",
+    "ref-for-dfn-user-agents-3",
+    "issue-container-generatedID-29",
+    "h-note-29",
+    "ref-for-dfn-presentation-3",
+    "ref-for-dfn-content-1",
+    "issue-container-generatedID-30",
+    "h-note-30",
+    "issue-container-generatedID-31",
+    "h-note-31",
+    "ref-for-dfn-technologies-1",
+    "input-modalities",
+    "x2-5-input-modalities",
+    "pointer-gestures",
+    "x2-5-1-pointer-gestures",
+    "ref-for-dfn-functionality-3",
+    "ref-for-dfn-single-pointer-1",
+    "ref-for-dfn-essential-9",
+    "issue-container-generatedID-32",
+    "h-note-32",
+    "pointer-cancellation",
+    "x2-5-2-pointer-cancellation",
+    "ref-for-dfn-functionality-4",
+    "ref-for-dfn-single-pointer-2",
+    "ref-for-dfn-down-event-1",
+    "ref-for-dfn-up-event-1",
+    "ref-for-dfn-mechanism-8",
+    "ref-for-dfn-essential-10",
+    "issue-container-generatedID-33",
+    "h-note-33",
+    "issue-container-generatedID-34",
+    "h-note-34",
+    "label-in-name",
+    "x2-5-3-label-in-name",
+    "ref-for-dfn-user-interface-components-9",
+    "ref-for-dfn-labels-2",
+    "ref-for-dfn-text-8",
+    "ref-for-dfn-images-of-text-6",
+    "ref-for-dfn-name-2",
+    "issue-container-generatedID-35",
+    "h-note-35",
+    "motion-actuation",
+    "x2-5-4-motion-actuation",
+    "ref-for-dfn-functionality-5",
+    "ref-for-dfn-user-interface-components-10",
+    "ref-for-dfn-accessibility-supported-1",
+    "ref-for-dfn-essential-11",
+    "target-size-enhanced",
+    "x2-5-5-target-size-enhanced",
+    "ref-for-dfn-targets-1",
+    "ref-for-dfn-pointer-inputs-1",
+    "ref-for-dfn-css-pixels-4",
+    "ref-for-dfn-blocks-of-text-2",
+    "ref-for-dfn-user-agents-4",
+    "ref-for-dfn-presentation-4",
+    "ref-for-dfn-essential-12",
+    "concurrent-input-mechanisms",
+    "x2-5-6-concurrent-input-mechanisms",
+    "ref-for-dfn-essential-13",
+    "dragging-movements",
+    "x2-5-7-dragging-movements",
+    "ref-for-dfn-functionality-6",
+    "ref-for-dfn-dragging-movements-1",
+    "ref-for-dfn-single-pointer-3",
+    "ref-for-dfn-essential-14",
+    "ref-for-dfn-user-agents-5",
+    "issue-container-generatedID-36",
+    "h-note-36",
+    "target-size-minimum",
+    "x2-5-8-target-size-minimum",
+    "ref-for-dfn-targets-2",
+    "ref-for-dfn-pointer-inputs-2",
+    "ref-for-dfn-css-pixels-5",
+    "ref-for-dfn-bounding-boxes-1",
+    "ref-for-dfn-user-agents-6",
+    "ref-for-dfn-presentation-5",
+    "ref-for-dfn-essential-15",
+    "issue-container-generatedID-37",
+    "h-note-37",
+    "issue-container-generatedID-38",
+    "h-note-38",
+    "understandable",
+    "x3-understandable",
+    "readable",
+    "x3-1-readable",
+    "language-of-page",
+    "x3-1-1-language-of-page",
+    "ref-for-dfn-human-language-s-2",
+    "ref-for-dfn-web-page-s-7",
+    "ref-for-dfn-programmatically-determinable-5",
+    "language-of-parts",
+    "x3-1-2-language-of-parts",
+    "ref-for-dfn-human-language-s-3",
+    "ref-for-dfn-programmatically-determinable-6",
+    "ref-for-dfn-text-9",
+    "unusual-words",
+    "x3-1-3-unusual-words",
+    "ref-for-dfn-mechanism-9",
+    "ref-for-dfn-used-in-an-unusual-or-restricted-way-1",
+    "ref-for-dfn-idioms-1",
+    "ref-for-dfn-jargon-1",
+    "abbreviations",
+    "x3-1-4-abbreviations",
+    "ref-for-dfn-mechanism-10",
+    "ref-for-dfn-abbreviations-1",
+    "reading-level",
+    "x3-1-5-reading-level",
+    "ref-for-dfn-lower-secondary-education-level-1",
+    "ref-for-dfn-supplementary-content-1",
+    "pronunciation",
+    "x3-1-6-pronunciation",
+    "ref-for-dfn-mechanism-11",
+    "predictable",
+    "x3-2-predictable",
+    "on-focus",
+    "x3-2-1-on-focus",
+    "ref-for-dfn-user-interface-components-11",
+    "ref-for-dfn-change-of-context-1",
+    "on-input",
+    "x3-2-2-on-input",
+    "ref-for-dfn-user-interface-components-12",
+    "ref-for-dfn-change-of-context-2",
+    "consistent-navigation",
+    "x3-2-3-consistent-navigation",
+    "ref-for-dfn-web-page-s-8",
+    "ref-for-dfn-set-of-web-pages-3",
+    "ref-for-dfn-same-relative-order-1",
+    "consistent-identification",
+    "x3-2-4-consistent-identification",
+    "ref-for-dfn-same-functionality-1",
+    "ref-for-dfn-set-of-web-pages-4",
+    "change-on-request",
+    "x3-2-5-change-on-request",
+    "ref-for-dfn-change-of-context-3",
+    "ref-for-dfn-mechanism-12",
+    "consistent-help",
+    "x3-2-6-consistent-help",
+    "ref-for-dfn-web-page-s-9",
+    "ref-for-dfn-mechanism-13",
+    "ref-for-dfn-set-of-web-pages-5",
+    "issue-container-generatedID-39",
+    "h-note-39",
+    "issue-container-generatedID-40",
+    "h-note-40",
+    "input-assistance",
+    "x3-3-input-assistance",
+    "error-identification",
+    "x3-3-1-error-identification",
+    "ref-for-dfn-input-error-2",
+    "labels-or-instructions",
+    "x3-3-2-labels-or-instructions",
+    "ref-for-dfn-labels-3",
+    "error-suggestion",
+    "x3-3-3-error-suggestion",
+    "ref-for-dfn-input-error-3",
+    "error-prevention-legal-financial-data",
+    "x3-3-4-error-prevention-legal-financial-data",
+    "ref-for-dfn-web-page-s-10",
+    "ref-for-dfn-legal-commitments-1",
+    "ref-for-dfn-user-controllable-1",
+    "ref-for-dfn-input-error-4",
+    "ref-for-dfn-mechanism-14",
+    "help",
+    "x3-3-5-help",
+    "ref-for-dfn-context-sensitive-help-1",
+    "error-prevention-all",
+    "x3-3-6-error-prevention-all",
+    "ref-for-dfn-web-page-s-11",
+    "ref-for-dfn-input-error-5",
+    "ref-for-dfn-mechanism-15",
+    "redundant-entry",
+    "x3-3-7-redundant-entry",
+    "ref-for-dfn-processes-2",
+    "ref-for-dfn-essential-16",
+    "accessible-authentication-minimum",
+    "x3-3-8-accessible-authentication-minimum",
+    "ref-for-dfn-cognitive-function-test-1",
+    "ref-for-dfn-processes-3",
+    "ref-for-dfn-mechanism-16",
+    "ref-for-dfn-non-text-content-2",
+    "issue-container-generatedID-41",
+    "h-note-41",
+    "issue-container-generatedID-42",
+    "h-note-42",
+    "accessible-authentication-enhanced",
+    "x3-3-9-accessible-authentication-enhanced",
+    "ref-for-dfn-cognitive-function-test-2",
+    "ref-for-dfn-processes-4",
+    "ref-for-dfn-mechanism-17",
+    "robust",
+    "x4-robust",
+    "compatible",
+    "x4-1-compatible",
+    "parsing",
+    "x4-1-1-parsing-obsolete-and-removed",
+    "issue-container-generatedID-43",
+    "h-note-43",
+    "name-role-value",
+    "x4-1-2-name-role-value",
+    "ref-for-dfn-user-interface-components-13",
+    "ref-for-dfn-name-3",
+    "ref-for-dfn-role-1",
+    "ref-for-dfn-programmatically-determinable-7",
+    "ref-for-dfn-states-2",
+    "ref-for-dfn-programmatically-set-1",
+    "ref-for-dfn-user-agents-7",
+    "ref-for-dfn-assistive-technologies-4",
+    "issue-container-generatedID-44",
+    "h-note-44",
+    "status-messages",
+    "x4-1-3-status-messages",
+    "ref-for-dfn-status-messages-1",
+    "ref-for-dfn-programmatically-determinable-8",
+    "ref-for-dfn-role-2",
+    "ref-for-dfn-assistive-technologies-5",
+    "conformance",
+    "x5-conformance",
+    "ref-for-dfn-conform-1",
+    "ref-for-dfn-accessibility-supported-2",
+    "ref-for-dfn-relied-upon-1",
+    "interpreting-normative-requirements",
+    "x5-1-interpreting-normative-requirements",
+    "ref-for-dfn-normative-1",
+    "ref-for-dfn-informative-1",
+    "conformance-reqs",
+    "x5-2-conformance-requirements",
+    "cc1",
+    "x5-2-1-conformance-level",
+    "cc1_A",
+    "ref-for-dfn-web-page-s-12",
+    "ref-for-dfn-satisfies-1",
+    "ref-for-dfn-conforming-alternate-versions-1",
+    "cc1_AA",
+    "cc1_AAA",
+    "issue-container-generatedID-45",
+    "h-note-45",
+    "issue-container-generatedID-46",
+    "h-note-46",
+    "cc2",
+    "x5-2-2-full-pages",
+    "ref-for-dfn-conform-2",
+    "ref-for-dfn-web-page-s-13",
+    "issue-container-generatedID-47",
+    "h-note-47",
+    "issue-container-generatedID-48",
+    "h-note-48",
+    "issue-container-generatedID-49",
+    "h-note-49",
+    "cc3",
+    "x5-2-3-complete-processes",
+    "ref-for-dfn-web-page-s-14",
+    "ref-for-dfn-processes-5",
+    "example-1",
+    "cc4",
+    "x5-2-4-only-accessibility-supported-ways-of-using-technologies",
+    "ref-for-dfn-accessibility-supported-3",
+    "ref-for-dfn-technologies-2",
+    "ref-for-dfn-relied-upon-2",
+    "cc5",
+    "x5-2-5-non-interference",
+    "ref-for-dfn-technologies-3",
+    "ref-for-dfn-accessibility-supported-4",
+    "ref-for-dfn-web-page-s-15",
+    "ref-for-dfn-relied-upon-3",
+    "issue-container-generatedID-50",
+    "h-note-50",
+    "conformance-claims",
+    "x5-3-conformance-claims-optional",
+    "ref-for-dfn-web-page-s-16",
+    "conformance-required",
+    "x5-3-1-required-components-of-a-conformance-claim",
+    "issue-container-generatedID-51",
+    "h-note-51",
+    "issue-container-generatedID-52",
+    "h-note-52",
+    "ref-for-dfn-technologies-4",
+    "ref-for-dfn-relied-upon-4",
+    "issue-container-generatedID-53",
+    "h-note-53",
+    "conformance-optional",
+    "x5-3-2-optional-components-of-a-conformance-claim",
+    "ref-for-dfn-relied-upon-5",
+    "ref-for-dfn-relied-upon-6",
+    "issue-container-generatedID-54",
+    "h-note-54",
+    "issue-container-generatedID-55",
+    "h-note-55",
+    "conformance-partial",
+    "x5-4-statement-of-partial-conformance-third-party-content",
+    "conformance-partial-lang",
+    "x5-5-statement-of-partial-conformance-language",
+    "ref-for-dfn-accessibility-supported-5",
+    "privacy-summary",
+    "x5-6-privacy-considerations",
+    "security-summary",
+    "x5-7-security-considerations",
+    "glossary",
+    "x6-glossary",
+    "terms",
+    "dfn-abbreviations",
+    "issue-container-generatedID-56",
+    "h-note-56",
+    "issue-container-generatedID-57",
+    "h-note-57",
+    "example-2",
+    "example-3",
+    "example-4",
+    "issue-container-generatedID-58",
+    "h-note-58",
+    "dfn-accessibility-supported",
+    "ref-for-dfn-assistive-technologies-6",
+    "ref-for-dfn-user-agents-8",
+    "ref-for-dfn-technologies-5",
+    "ref-for-dfn-human-language-s-4",
+    "issue-container-generatedID-59",
+    "h-note-59",
+    "issue-container-generatedID-60",
+    "h-note-60",
+    "ref-for-dfn-relied-upon-7",
+    "issue-container-generatedID-61",
+    "h-note-61",
+    "ref-for-dfn-technologies-6",
+    "issue-container-generatedID-62",
+    "h-note-62",
+    "issue-container-generatedID-63",
+    "h-note-63",
+    "dfn-alternative-for-time-based-media",
+    "issue-container-generatedID-64",
+    "h-note-64",
+    "dfn-ambiguous-to-users-in-general",
+    "example-5",
+    "dfn-ascii-art",
+    "dfn-assistive-technologies",
+    "ref-for-dfn-user-agents-9",
+    "issue-container-generatedID-65",
+    "h-note-65",
+    "issue-container-generatedID-66",
+    "h-note-66",
+    "issue-container-generatedID-67",
+    "h-note-67",
+    "example-6",
+    "dfn-audio",
+    "issue-container-generatedID-68",
+    "h-note-68",
+    "dfn-audio-descriptions",
+    "issue-container-generatedID-69",
+    "h-note-69",
+    "ref-for-dfn-video-4",
+    "issue-container-generatedID-70",
+    "h-note-70",
+    "ref-for-dfn-extended-audio-description-2",
+    "issue-container-generatedID-71",
+    "h-note-71",
+    "ref-for-dfn-video-5",
+    "ref-for-dfn-audio-4",
+    "issue-container-generatedID-72",
+    "h-note-72",
+    "dfn-audio-only",
+    "ref-for-dfn-audio-5",
+    "ref-for-dfn-video-6",
+    "dfn-blinking",
+    "issue-container-generatedID-73",
+    "h-note-73",
+    "ref-for-dfn-flashes-3",
+    "dfn-blocks-of-text",
+    "dfn-captcha",
+    "issue-container-generatedID-74",
+    "h-note-74",
+    "issue-container-generatedID-75",
+    "h-note-75",
+    "dfn-captions",
+    "ref-for-dfn-text-alternative-2",
+    "issue-container-generatedID-76",
+    "h-note-76",
+    "issue-container-generatedID-77",
+    "h-note-77",
+    "issue-container-generatedID-78",
+    "h-note-78",
+    "ref-for-dfn-images-of-text-7",
+    "ref-for-dfn-video-7",
+    "issue-container-generatedID-79",
+    "h-note-79",
+    "issue-container-generatedID-80",
+    "h-note-80",
+    "issue-container-generatedID-81",
+    "h-note-81",
+    "ref-for-dfn-audio-descriptions-4",
+    "dfn-change-of-context",
+    "ref-for-dfn-user-agents-10",
+    "ref-for-dfn-viewport-2",
+    "ref-for-dfn-content-2",
+    "ref-for-dfn-web-page-s-17",
+    "issue-container-generatedID-82",
+    "h-note-82",
+    "example-7",
+    "dfn-cognitive-function-test",
+    "dfn-conform",
+    "dfn-conforming-alternate-versions",
+    "ref-for-dfn-functionality-7",
+    "ref-for-dfn-human-language-s-5",
+    "ref-for-dfn-accessibility-supported-6",
+    "ref-for-dfn-mechanism-18",
+    "issue-container-generatedID-83",
+    "h-note-83",
+    "issue-container-generatedID-84",
+    "h-note-84",
+    "issue-container-generatedID-85",
+    "h-note-85",
+    "issue-container-generatedID-86",
+    "h-note-86",
+    "issue-container-generatedID-87",
+    "h-note-87",
+    "issue-container-generatedID-88",
+    "h-note-88",
+    "ref-for-dfn-supplementary-content-2",
+    "issue-container-generatedID-89",
+    "h-note-89",
+    "dfn-content",
+    "ref-for-dfn-user-agents-11",
+    "ref-for-dfn-structure-2",
+    "ref-for-dfn-presentation-6",
+    "dfn-context-sensitive-help",
+    "issue-container-generatedID-90",
+    "h-note-90",
+    "dfn-contrast-ratio",
+    "ref-for-dfn-relative-luminance-1",
+    "ref-for-dfn-relative-luminance-2",
+    "issue-container-generatedID-91",
+    "h-note-91",
+    "issue-container-generatedID-92",
+    "h-note-92",
+    "issue-container-generatedID-93",
+    "h-note-93",
+    "issue-container-generatedID-94",
+    "h-note-94",
+    "issue-container-generatedID-95",
+    "h-note-95",
+    "issue-container-generatedID-96",
+    "h-note-96",
+    "dfn-correct-reading-sequence",
+    "dfn-css-pixels",
+    "dfn-down-event",
+    "dfn-dragging-movements",
+    "ref-for-dfn-down-event-2",
+    "ref-for-dfn-up-event-2",
+    "issue-container-generatedID-97",
+    "h-note-97",
+    "dfn-emergency",
+    "dfn-essential",
+    "dfn-extended-audio-description",
+    "ref-for-dfn-video-8",
+    "issue-container-generatedID-98",
+    "h-note-98",
+    "ref-for-dfn-video-9",
+    "ref-for-dfn-audio-descriptions-5",
+    "dfn-flashes",
+    "ref-for-dfn-relative-luminance-3",
+    "issue-container-generatedID-99",
+    "h-note-99",
+    "ref-for-dfn-general-flash-and-red-flash-thresholds-2",
+    "issue-container-generatedID-100",
+    "h-note-100",
+    "ref-for-dfn-blinking-2",
+    "dfn-focus-indicator",
+    "ref-for-dfn-user-interface-components-14",
+    "ref-for-dfn-states-3",
+    "dfn-functionality",
+    "ref-for-dfn-processes-6",
+    "dfn-general-flash-and-red-flash-thresholds",
+    "ref-for-dfn-flashes-4",
+    "ref-for-dfn-relative-luminance-4",
+    "issue-container-generatedID-101",
+    "h-note-101",
+    "issue-container-generatedID-102",
+    "h-note-102",
+    "issue-container-generatedID-103",
+    "h-note-103",
+    "issue-container-generatedID-104",
+    "h-note-104",
+    "dfn-human-language-s",
+    "issue-container-generatedID-105",
+    "h-note-105",
+    "ref-for-dfn-sign-language-1",
+    "dfn-idioms",
+    "issue-container-generatedID-106",
+    "h-note-106",
+    "example-8",
+    "example-9",
+    "example-10",
+    "dfn-images-of-text",
+    "issue-container-generatedID-107",
+    "h-note-107",
+    "example-11",
+    "dfn-informative",
+    "issue-container-generatedID-108",
+    "h-note-108",
+    "ref-for-dfn-conform-3",
+    "ref-for-dfn-normative-2",
+    "dfn-input-error",
+    "issue-container-generatedID-109",
+    "h-note-109",
+    "ref-for-dfn-web-page-s-18",
+    "dfn-jargon",
+    "example-12",
+    "dfn-keyboard-interface",
+    "issue-container-generatedID-110",
+    "h-note-110",
+    "example-13",
+    "issue-container-generatedID-111",
+    "h-note-111",
+    "dfn-keyboard-shortcuts",
+    "dfn-labels",
+    "ref-for-dfn-text-10",
+    "ref-for-dfn-text-alternative-3",
+    "ref-for-dfn-content-3",
+    "issue-container-generatedID-112",
+    "h-note-112",
+    "ref-for-dfn-name-4",
+    "issue-container-generatedID-113",
+    "h-note-113",
+    "dfn-large-scale",
+    "issue-container-generatedID-114",
+    "h-note-114",
+    "issue-container-generatedID-115",
+    "h-note-115",
+    "issue-container-generatedID-116",
+    "h-note-116",
+    "issue-container-generatedID-117",
+    "h-note-117",
+    "issue-container-generatedID-118",
+    "h-note-118",
+    "dfn-legal-commitments",
+    "example-14",
+    "dfn-purpose-of-each-link",
+    "dfn-live",
+    "issue-container-generatedID-119",
+    "h-note-119",
+    "issue-container-generatedID-120",
+    "h-note-120",
+    "dfn-lower-secondary-education-level",
+    "ref-for-dfn-primary-education-1",
+    "issue-container-generatedID-121",
+    "h-note-121",
+    "dfn-mechanism",
+    "ref-for-dfn-processes-7",
+    "issue-container-generatedID-122",
+    "h-note-122",
+    "ref-for-dfn-relied-upon-8",
+    "ref-for-dfn-user-agents-12",
+    "ref-for-dfn-assistive-technologies-7",
+    "issue-container-generatedID-123",
+    "h-note-123",
+    "dfn-media-alternative-for-text",
+    "issue-container-generatedID-124",
+    "h-note-124",
+    "dfn-motion-animation",
+    "example-15",
+    "dfn-bounding-boxes",
+    "ref-for-dfn-blocks-of-text-3",
+    "dfn-name",
+    "issue-container-generatedID-125",
+    "h-note-125",
+    "ref-for-dfn-labels-4",
+    "issue-container-generatedID-126",
+    "h-note-126",
+    "dfn-navigated-sequentially",
+    "ref-for-dfn-keyboard-interface-4",
+    "dfn-non-text-content",
+    "ref-for-dfn-programmatically-determinable-9",
+    "ref-for-dfn-human-language-s-6",
+    "issue-container-generatedID-127",
+    "h-note-127",
+    "ref-for-dfn-ascii-art-1",
+    "dfn-normative",
+    "issue-container-generatedID-128",
+    "h-note-128",
+    "issue-container-generatedID-129",
+    "h-note-129",
+    "ref-for-dfn-informative-2",
+    "ref-for-dfn-conform-4",
+    "dfn-on-a-full-screen-window",
+    "ref-for-dfn-viewport-3",
+    "issue-container-generatedID-130",
+    "h-note-130",
+    "dfn-pause",
+    "dfn-perimeter",
+    "ref-for-dfn-bounding-boxes-2",
+    "example-16",
+    "dfn-pointer-inputs",
+    "issue-container-generatedID-131",
+    "h-note-131",
+    "dfn-prerecorded",
+    "ref-for-dfn-live-3",
+    "dfn-presentation",
+    "ref-for-dfn-content-4",
+    "dfn-primary-education",
+    "issue-container-generatedID-132",
+    "h-note-132",
+    "dfn-processes",
+    "example-17",
+    "example-18",
+    "dfn-programmatically-determinable",
+    "ref-for-dfn-user-agents-13",
+    "ref-for-dfn-assistive-technologies-8",
+    "example-19",
+    "example-20",
+    "dfn-programmatically-determined-link-context",
+    "ref-for-dfn-programmatically-determinable-10",
+    "ref-for-dfn-relationships-2",
+    "example-21",
+    "issue-container-generatedID-133",
+    "h-note-133",
+    "dfn-programmatically-set",
+    "ref-for-dfn-user-agents-14",
+    "ref-for-dfn-assistive-technologies-9",
+    "dfn-pure-decoration",
+    "issue-container-generatedID-134",
+    "h-note-134",
+    "example-22",
+    "dfn-real-time-events",
+    "example-23",
+    "example-24",
+    "example-25",
+    "dfn-regions",
+    "ref-for-dfn-programmatically-determinable-11",
+    "ref-for-dfn-section-2",
+    "issue-container-generatedID-135",
+    "h-note-135",
+    "dfn-relationships",
+    "dfn-relative-luminance",
+    "issue-container-generatedID-136",
+    "h-note-136",
+    "issue-container-generatedID-137",
+    "h-note-137",
+    "issue-container-generatedID-138",
+    "h-note-138",
+    "issue-container-generatedID-139",
+    "h-note-139",
+    "issue-container-generatedID-140",
+    "h-note-140",
+    "issue-container-generatedID-141",
+    "h-note-141",
+    "dfn-relied-upon",
+    "ref-for-dfn-conform-5",
+    "ref-for-dfn-technologies-7",
+    "dfn-role",
+    "example-26",
+    "dfn-same-functionality",
+    "example-27",
+    "dfn-same-relative-order",
+    "issue-container-generatedID-142",
+    "h-note-142",
+    "dfn-satisfies",
+    "dfn-section",
+    "issue-container-generatedID-143",
+    "h-note-143",
+    "dfn-set-of-web-pages",
+    "ref-for-dfn-web-page-s-19",
+    "example-28",
+    "issue-container-generatedID-144",
+    "h-note-144",
+    "dfn-sign-language",
+    "dfn-sign-language-interpretation",
+    "ref-for-dfn-sign-language-2",
+    "issue-container-generatedID-145",
+    "h-note-145",
+    "dfn-single-pointer",
+    "issue-container-generatedID-146",
+    "h-note-146",
+    "dfn-specific-sensory-experience",
+    "example-29",
+    "dfn-states",
+    "ref-for-dfn-user-interface-components-15",
+    "dfn-status-messages",
+    "ref-for-dfn-change-of-context-4",
+    "ref-for-dfn-processes-8",
+    "dfn-structure",
+    "ref-for-dfn-web-page-s-20",
+    "ref-for-dfn-web-page-s-21",
+    "dfn-style-properties",
+    "dfn-supplementary-content",
+    "ref-for-dfn-content-5",
+    "example-30",
+    "ref-for-dfn-web-page-s-22",
+    "example-31",
+    "ref-for-dfn-processes-9",
+    "example-32",
+    "dfn-synchronized-media",
+    "ref-for-dfn-audio-6",
+    "ref-for-dfn-video-10",
+    "ref-for-dfn-media-alternative-for-text-4",
+    "dfn-targets",
+    "ref-for-dfn-user-interface-components-16",
+    "issue-container-generatedID-147",
+    "h-note-147",
+    "dfn-technologies",
+    "ref-for-dfn-mechanism-19",
+    "ref-for-dfn-user-agents-15",
+    "issue-container-generatedID-148",
+    "h-note-148",
+    "issue-container-generatedID-149",
+    "h-note-149",
+    "example-33",
+    "dfn-text",
+    "ref-for-dfn-programmatically-determinable-12",
+    "ref-for-dfn-human-language-s-7",
+    "dfn-text-alternative",
+    "ref-for-dfn-text-11",
+    "ref-for-dfn-non-text-content-3",
+    "ref-for-dfn-programmatically-determinable-13",
+    "example-34",
+    "issue-container-generatedID-150",
+    "h-note-150",
+    "dfn-up-event",
+    "dfn-used-in-an-unusual-or-restricted-way",
+    "example-35",
+    "dfn-user-agents",
+    "example-36",
+    "ref-for-dfn-assistive-technologies-10",
+    "dfn-user-controllable",
+    "issue-container-generatedID-151",
+    "h-note-151",
+    "example-37",
+    "dfn-user-interface-components",
+    "issue-container-generatedID-152",
+    "h-note-152",
+    "issue-container-generatedID-153",
+    "h-note-153",
+    "issue-container-generatedID-154",
+    "h-note-154",
+    "example-38",
+    "dfn-user-inactivity",
+    "dfn-video",
+    "issue-container-generatedID-155",
+    "h-note-155",
+    "dfn-video-only",
+    "ref-for-dfn-video-11",
+    "ref-for-dfn-audio-7",
+    "dfn-viewport",
+    "ref-for-dfn-user-agents-16",
+    "issue-container-generatedID-156",
+    "h-note-156",
+    "issue-container-generatedID-157",
+    "h-note-157",
+    "dfn-visually-customized",
+    "dfn-web-page-s",
+    "ref-for-dfn-user-agents-17",
+    "issue-container-generatedID-158",
+    "h-note-158",
+    "issue-container-generatedID-159",
+    "h-note-159",
+    "example-39",
+    "example-40",
+    "example-41",
+    "example-42",
+    "input-purposes",
+    "x7-input-purposes-for-user-interface-components",
+    "ref-for-dfn-user-interface-components-17",
+    "issue-container-generatedID-160",
+    "h-note-160",
+    "changelog",
+    "a-change-log",
+    "ref-for-dfn-single-pointer-4",
+    "ref-for-dfn-used-in-an-unusual-or-restricted-way-2",
+    "ref-for-dfn-motion-animation-2",
+    "ref-for-dfn-programmatically-determinable-14",
+    "ref-for-dfn-change-of-context-5",
+    "ref-for-dfn-general-flash-and-red-flash-thresholds-3",
+    "ref-for-dfn-cognitive-function-test-3",
+    "ref-for-dfn-structure-3",
+    "acknowledgements",
+    "b-acknowledgments",
+    "ack_participants-active",
+    "b-1-participants-of-the-ag-wg-active-in-the-development-of-this-document",
+    "ack_participants-previous",
+    "b-2-other-previously-active-wcag-wg-participants-and-other-contributors-to-wcag-2-0-wcag-2-1-or-supporting-resources",
+    "enabling-funders",
+    "b-3-enabling-funders",
+    "references",
+    "c-references",
+    "informative-references",
+    "c-1-informative-references",
+    "bib-css3-values",
+    "bib-html",
+    "bib-iso_9241-391",
+    "bib-pointerevents",
+    "bib-rfc2119",
+    "bib-srgb",
+    "bib-uaag10",
+    "bib-unesco",
+    "bib-wai-webcontent",
+    "bib-wcag20",
+    "bib-wcag21",
+    "back-to-top",
+    "dfn-panel-for-dfn-abbreviations",
+    "dfn-panel-for-dfn-accessibility-supported",
+    "dfn-panel-for-dfn-alternative-for-time-based-media",
+    "dfn-panel-for-dfn-ambiguous-to-users-in-general",
+    "dfn-panel-for-dfn-ascii-art",
+    "dfn-panel-for-dfn-assistive-technologies",
+    "dfn-panel-for-dfn-audio",
+    "dfn-panel-for-dfn-audio-descriptions",
+    "dfn-panel-for-dfn-audio-only",
+    "dfn-panel-for-dfn-blinking",
+    "dfn-panel-for-dfn-blocks-of-text",
+    "dfn-panel-for-dfn-captcha",
+    "dfn-panel-for-dfn-captions",
+    "dfn-panel-for-dfn-change-of-context",
+    "dfn-panel-for-dfn-cognitive-function-test",
+    "dfn-panel-for-dfn-conform",
+    "dfn-panel-for-dfn-conforming-alternate-versions",
+    "dfn-panel-for-dfn-content",
+    "dfn-panel-for-dfn-context-sensitive-help",
+    "dfn-panel-for-dfn-contrast-ratio",
+    "dfn-panel-for-dfn-correct-reading-sequence",
+    "dfn-panel-for-dfn-css-pixels",
+    "dfn-panel-for-dfn-down-event",
+    "dfn-panel-for-dfn-dragging-movements",
+    "dfn-panel-for-dfn-emergency",
+    "dfn-panel-for-dfn-essential",
+    "dfn-panel-for-dfn-extended-audio-description",
+    "dfn-panel-for-dfn-flashes",
+    "dfn-panel-for-dfn-focus-indicator",
+    "dfn-panel-for-dfn-functionality",
+    "dfn-panel-for-dfn-general-flash-and-red-flash-thresholds",
+    "dfn-panel-for-dfn-human-language-s",
+    "dfn-panel-for-dfn-idioms",
+    "dfn-panel-for-dfn-images-of-text",
+    "dfn-panel-for-dfn-informative",
+    "dfn-panel-for-dfn-input-error",
+    "dfn-panel-for-dfn-jargon",
+    "dfn-panel-for-dfn-keyboard-interface",
+    "dfn-panel-for-dfn-keyboard-shortcuts",
+    "dfn-panel-for-dfn-labels",
+    "dfn-panel-for-dfn-large-scale",
+    "dfn-panel-for-dfn-legal-commitments",
+    "dfn-panel-for-dfn-purpose-of-each-link",
+    "dfn-panel-for-dfn-live",
+    "dfn-panel-for-dfn-lower-secondary-education-level",
+    "dfn-panel-for-dfn-mechanism",
+    "dfn-panel-for-dfn-media-alternative-for-text",
+    "dfn-panel-for-dfn-motion-animation",
+    "dfn-panel-for-dfn-bounding-boxes",
+    "dfn-panel-for-dfn-name",
+    "dfn-panel-for-dfn-navigated-sequentially",
+    "dfn-panel-for-dfn-non-text-content",
+    "dfn-panel-for-dfn-normative",
+    "dfn-panel-for-dfn-on-a-full-screen-window",
+    "dfn-panel-for-dfn-pause",
+    "dfn-panel-for-dfn-perimeter",
+    "dfn-panel-for-dfn-pointer-inputs",
+    "dfn-panel-for-dfn-prerecorded",
+    "dfn-panel-for-dfn-presentation",
+    "dfn-panel-for-dfn-primary-education",
+    "dfn-panel-for-dfn-processes",
+    "dfn-panel-for-dfn-programmatically-determinable",
+    "dfn-panel-for-dfn-programmatically-determined-link-context",
+    "dfn-panel-for-dfn-programmatically-set",
+    "dfn-panel-for-dfn-pure-decoration",
+    "dfn-panel-for-dfn-real-time-events",
+    "dfn-panel-for-dfn-regions",
+    "dfn-panel-for-dfn-relationships",
+    "dfn-panel-for-dfn-relative-luminance",
+    "dfn-panel-for-dfn-relied-upon",
+    "dfn-panel-for-dfn-role",
+    "dfn-panel-for-dfn-same-functionality",
+    "dfn-panel-for-dfn-same-relative-order",
+    "dfn-panel-for-dfn-satisfies",
+    "dfn-panel-for-dfn-section",
+    "dfn-panel-for-dfn-set-of-web-pages",
+    "dfn-panel-for-dfn-sign-language",
+    "dfn-panel-for-dfn-sign-language-interpretation",
+    "dfn-panel-for-dfn-single-pointer",
+    "dfn-panel-for-dfn-specific-sensory-experience",
+    "dfn-panel-for-dfn-states",
+    "dfn-panel-for-dfn-status-messages",
+    "dfn-panel-for-dfn-structure",
+    "dfn-panel-for-dfn-style-properties",
+    "dfn-panel-for-dfn-supplementary-content",
+    "dfn-panel-for-dfn-synchronized-media",
+    "dfn-panel-for-dfn-targets",
+    "dfn-panel-for-dfn-technologies",
+    "dfn-panel-for-dfn-text",
+    "dfn-panel-for-dfn-text-alternative",
+    "dfn-panel-for-dfn-up-event",
+    "dfn-panel-for-dfn-used-in-an-unusual-or-restricted-way",
+    "dfn-panel-for-dfn-user-agents",
+    "dfn-panel-for-dfn-user-controllable",
+    "dfn-panel-for-dfn-user-interface-components",
+    "dfn-panel-for-dfn-user-inactivity",
+    "dfn-panel-for-dfn-video",
+    "dfn-panel-for-dfn-video-only",
+    "dfn-panel-for-dfn-viewport",
+    "dfn-panel-for-dfn-visually-customized",
+    "dfn-panel-for-dfn-web-page-s",
+    "respec-dfn-panel"
+  ],
+  "references_html": "<section class=\"appendix\" id=\"references\"><div class=\"header-wrapper\"><h2 id=\"c-references\"><bdi class=\"secno\">C. </bdi>References</h2><a aria-label=\"Permalink for Appendix C.\" class=\"self-link\" href=\"#references\"></a></div><section id=\"informative-references\"><div class=\"header-wrapper\"><h3 id=\"c-1-informative-references\"><bdi class=\"secno\">C.1 </bdi>Informative references</h3><a aria-label=\"Permalink for Appendix C.1\" class=\"self-link\" href=\"#informative-references\"></a></div>\n<dl class=\"bibliography\"><dt id=\"bib-css3-values\">[css3-values]</dt><dd>\n<a href=\"https://www.w3.org/TR/css-values-3/\"><cite>CSS Values and Units Module Level 3</cite></a>. Tab Atkins Jr.; Elika Etemad.  W3C. 22 March 2024. W3C Candidate Recommendation. URL: <a href=\"https://www.w3.org/TR/css-values-3/\">https://www.w3.org/TR/css-values-3/</a>\n</dd><dt id=\"bib-html\">[HTML]</dt><dd>\n<a href=\"https://html.spec.whatwg.org/multipage/\"><cite>HTML Standard</cite></a>. Anne van Kesteren; Domenic Denicola; Dominic Farolino; Ian Hickson; Philip Jägenstedt; Simon Pieters.  WHATWG. Living Standard. URL: <a href=\"https://html.spec.whatwg.org/multipage/\">https://html.spec.whatwg.org/multipage/</a>\n</dd><dt id=\"bib-iso_9241-391\">[ISO_9241-391]</dt><dd>\n<a href=\"https://www.iso.org/standard/56350.html\"><cite>Ergonomics of human-system interaction—Part 391: Requirements, analysis and compliance test methods for the reduction of photosensitive seizures</cite></a>.  International Standards Organization. URL: <a href=\"https://www.iso.org/standard/56350.html\">https://www.iso.org/standard/56350.html</a>\n</dd><dt id=\"bib-pointerevents\">[pointerevents]</dt><dd>\n<a href=\"https://www.w3.org/TR/pointerevents/\"><cite>Pointer Events</cite></a>. Jacob Rossi; Matt Brubeck.  W3C. 4 April 2019. W3C Recommendation. URL: <a href=\"https://www.w3.org/TR/pointerevents/\">https://www.w3.org/TR/pointerevents/</a>\n</dd><dt id=\"bib-rfc2119\">[RFC2119]</dt><dd>\n<a href=\"https://www.rfc-editor.org/rfc/rfc2119\"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. S. Bradner.  IETF. March 1997. Best Current Practice. URL: <a href=\"https://www.rfc-editor.org/rfc/rfc2119\">https://www.rfc-editor.org/rfc/rfc2119</a>\n</dd><dt id=\"bib-srgb\">[SRGB]</dt><dd>\n<a href=\"https://webstore.iec.ch/publication/6169\"><cite>Multimedia systems and equipment - Colour measurement and management - Part 2-1: Colour management - Default RGB colour space - sRGB</cite></a>.  IEC. URL: <a href=\"https://webstore.iec.ch/publication/6169\">https://webstore.iec.ch/publication/6169</a>\n</dd><dt id=\"bib-uaag10\">[UAAG10]</dt><dd>\n<a href=\"https://www.w3.org/TR/UAAG10/\"><cite>User Agent Accessibility Guidelines 1.0</cite></a>. Ian Jacobs; Jon Gunderson; Eric Hansen.  W3C. 17 December 2002. W3C Recommendation. URL: <a href=\"https://www.w3.org/TR/UAAG10/\">https://www.w3.org/TR/UAAG10/</a>\n</dd><dt id=\"bib-unesco\">[UNESCO]</dt><dd>\n<a href=\"https://unesdoc.unesco.org/ark:/48223/pf0000219109\"><cite>International Standard Classification of Education</cite></a>. 2011. URL: <a href=\"https://unesdoc.unesco.org/ark:/48223/pf0000219109\">https://unesdoc.unesco.org/ark:/48223/pf0000219109</a>\n</dd><dt id=\"bib-wai-webcontent\">[WAI-WEBCONTENT]</dt><dd>\n<a href=\"https://www.w3.org/TR/WAI-WEBCONTENT/\"><cite>Web Content Accessibility Guidelines 1.0</cite></a>. Wendy Chisholm; Gregg Vanderheiden; Ian Jacobs.  W3C. 5 May 1999. W3C Recommendation. URL: <a href=\"https://www.w3.org/TR/WAI-WEBCONTENT/\">https://www.w3.org/TR/WAI-WEBCONTENT/</a>\n</dd><dt id=\"bib-wcag20\">[WCAG20]</dt><dd>\n<a href=\"https://www.w3.org/TR/WCAG20/\"><cite>Web Content Accessibility Guidelines (WCAG) 2.0</cite></a>. Ben Caldwell; Michael Cooper; Loretta Guarino Reid; Gregg Vanderheiden et al.  W3C. 11 December 2008. W3C Recommendation. URL: <a href=\"https://www.w3.org/TR/WCAG20/\">https://www.w3.org/TR/WCAG20/</a>\n</dd><dt id=\"bib-wcag21\">[WCAG21]</dt><dd>\n<a href=\"https://www.w3.org/TR/WCAG21/\"><cite>Web Content Accessibility Guidelines (WCAG) 2.1</cite></a>. Michael Cooper; Andrew Kirkpatrick; Joshue O'Connor; Alastair Campbell.  W3C. 21 September 2023. W3C Recommendation. URL: <a href=\"https://www.w3.org/TR/WCAG21/\">https://www.w3.org/TR/WCAG21/</a>\n</dd></dl>\n</section></section>",
+  "dfn_references": [
+    {
+      "id": "ref-for-dfn-non-text-content-1",
+      "href": "#dfn-non-text-content"
+    },
+    {
+      "id": "ref-for-dfn-text-alternative-1",
+      "href": "#dfn-text-alternative"
+    },
+    {
+      "id": "ref-for-dfn-name-1",
+      "href": "#dfn-name"
+    },
+    {
+      "id": "ref-for-dfn-text-1",
+      "href": "#dfn-text"
+    },
+    {
+      "id": "ref-for-dfn-specific-sensory-experience-1",
+      "href": "#dfn-specific-sensory-experience"
+    },
+    {
+      "id": "ref-for-dfn-captcha-1",
+      "href": "#dfn-captcha"
+    },
+    {
+      "id": "ref-for-dfn-pure-decoration-1",
+      "href": "#dfn-pure-decoration"
+    },
+    {
+      "id": "ref-for-dfn-assistive-technologies-1",
+      "href": "#dfn-assistive-technologies"
+    },
+    {
+      "id": "ref-for-dfn-prerecorded-1",
+      "href": "#dfn-prerecorded"
+    },
+    {
+      "id": "ref-for-dfn-audio-only-1",
+      "href": "#dfn-audio-only"
+    },
+    {
+      "id": "ref-for-dfn-video-only-1",
+      "href": "#dfn-video-only"
+    },
+    {
+      "id": "ref-for-dfn-media-alternative-for-text-1",
+      "href": "#dfn-media-alternative-for-text"
+    },
+    {
+      "id": "ref-for-dfn-alternative-for-time-based-media-1",
+      "href": "#dfn-alternative-for-time-based-media"
+    },
+    {
+      "id": "ref-for-dfn-captions-1",
+      "href": "#dfn-captions"
+    },
+    {
+      "id": "ref-for-dfn-prerecorded-2",
+      "href": "#dfn-prerecorded"
+    },
+    {
+      "id": "ref-for-dfn-audio-1",
+      "href": "#dfn-audio"
+    },
+    {
+      "id": "ref-for-dfn-synchronized-media-1",
+      "href": "#dfn-synchronized-media"
+    },
+    {
+      "id": "ref-for-dfn-media-alternative-for-text-2",
+      "href": "#dfn-media-alternative-for-text"
+    },
+    {
+      "id": "ref-for-dfn-alternative-for-time-based-media-2",
+      "href": "#dfn-alternative-for-time-based-media"
+    },
+    {
+      "id": "ref-for-dfn-audio-descriptions-1",
+      "href": "#dfn-audio-descriptions"
+    },
+    {
+      "id": "ref-for-dfn-prerecorded-3",
+      "href": "#dfn-prerecorded"
+    },
+    {
+      "id": "ref-for-dfn-video-1",
+      "href": "#dfn-video"
+    },
+    {
+      "id": "ref-for-dfn-synchronized-media-2",
+      "href": "#dfn-synchronized-media"
+    },
+    {
+      "id": "ref-for-dfn-media-alternative-for-text-3",
+      "href": "#dfn-media-alternative-for-text"
+    },
+    {
+      "id": "ref-for-dfn-captions-2",
+      "href": "#dfn-captions"
+    },
+    {
+      "id": "ref-for-dfn-live-1",
+      "href": "#dfn-live"
+    },
+    {
+      "id": "ref-for-dfn-audio-2",
+      "href": "#dfn-audio"
+    },
+    {
+      "id": "ref-for-dfn-synchronized-media-3",
+      "href": "#dfn-synchronized-media"
+    },
+    {
+      "id": "ref-for-dfn-audio-descriptions-2",
+      "href": "#dfn-audio-descriptions"
+    },
+    {
+      "id": "ref-for-dfn-prerecorded-4",
+      "href": "#dfn-prerecorded"
+    },
+    {
+      "id": "ref-for-dfn-video-2",
+      "href": "#dfn-video"
+    },
+    {
+      "id": "ref-for-dfn-synchronized-media-4",
+      "href": "#dfn-synchronized-media"
+    },
+    {
+      "id": "ref-for-dfn-sign-language-interpretation-1",
+      "href": "#dfn-sign-language-interpretation"
+    },
+    {
+      "id": "ref-for-dfn-prerecorded-5",
+      "href": "#dfn-prerecorded"
+    },
+    {
+      "id": "ref-for-dfn-audio-3",
+      "href": "#dfn-audio"
+    },
+    {
+      "id": "ref-for-dfn-synchronized-media-5",
+      "href": "#dfn-synchronized-media"
+    },
+    {
+      "id": "ref-for-dfn-audio-descriptions-3",
+      "href": "#dfn-audio-descriptions"
+    },
+    {
+      "id": "ref-for-dfn-extended-audio-description-1",
+      "href": "#dfn-extended-audio-description"
+    },
+    {
+      "id": "ref-for-dfn-prerecorded-6",
+      "href": "#dfn-prerecorded"
+    },
+    {
+      "id": "ref-for-dfn-video-3",
+      "href": "#dfn-video"
+    },
+    {
+      "id": "ref-for-dfn-synchronized-media-6",
+      "href": "#dfn-synchronized-media"
+    },
+    {
+      "id": "ref-for-dfn-alternative-for-time-based-media-3",
+      "href": "#dfn-alternative-for-time-based-media"
+    },
+    {
+      "id": "ref-for-dfn-prerecorded-7",
+      "href": "#dfn-prerecorded"
+    },
+    {
+      "id": "ref-for-dfn-synchronized-media-7",
+      "href": "#dfn-synchronized-media"
+    },
+    {
+      "id": "ref-for-dfn-video-only-2",
+      "href": "#dfn-video-only"
+    },
+    {
+      "id": "ref-for-dfn-alternative-for-time-based-media-4",
+      "href": "#dfn-alternative-for-time-based-media"
+    },
+    {
+      "id": "ref-for-dfn-live-2",
+      "href": "#dfn-live"
+    },
+    {
+      "id": "ref-for-dfn-audio-only-2",
+      "href": "#dfn-audio-only"
+    },
+    {
+      "id": "ref-for-dfn-structure-1",
+      "href": "#dfn-structure"
+    },
+    {
+      "id": "ref-for-dfn-relationships-1",
+      "href": "#dfn-relationships"
+    },
+    {
+      "id": "ref-for-dfn-presentation-1",
+      "href": "#dfn-presentation"
+    },
+    {
+      "id": "ref-for-dfn-programmatically-determinable-1",
+      "href": "#dfn-programmatically-determinable"
+    },
+    {
+      "id": "ref-for-dfn-correct-reading-sequence-1",
+      "href": "#dfn-correct-reading-sequence"
+    },
+    {
+      "id": "ref-for-dfn-programmatically-determinable-2",
+      "href": "#dfn-programmatically-determinable"
+    },
+    {
+      "id": "ref-for-dfn-essential-1",
+      "href": "#dfn-essential"
+    },
+    {
+      "id": "ref-for-dfn-programmatically-determinable-3",
+      "href": "#dfn-programmatically-determinable"
+    },
+    {
+      "id": "ref-for-dfn-user-interface-components-1",
+      "href": "#dfn-user-interface-components"
+    },
+    {
+      "id": "ref-for-dfn-regions-1",
+      "href": "#dfn-regions"
+    },
+    {
+      "id": "ref-for-dfn-programmatically-determinable-4",
+      "href": "#dfn-programmatically-determinable"
+    },
+    {
+      "id": "ref-for-dfn-mechanism-1",
+      "href": "#dfn-mechanism"
+    },
+    {
+      "id": "ref-for-dfn-pause-1",
+      "href": "#dfn-pause"
+    },
+    {
+      "id": "ref-for-dfn-text-2",
+      "href": "#dfn-text"
+    },
+    {
+      "id": "ref-for-dfn-images-of-text-1",
+      "href": "#dfn-images-of-text"
+    },
+    {
+      "id": "ref-for-dfn-contrast-ratio-1",
+      "href": "#dfn-contrast-ratio"
+    },
+    {
+      "id": "ref-for-dfn-large-scale-1",
+      "href": "#dfn-large-scale"
+    },
+    {
+      "id": "ref-for-dfn-user-interface-components-2",
+      "href": "#dfn-user-interface-components"
+    },
+    {
+      "id": "ref-for-dfn-pure-decoration-2",
+      "href": "#dfn-pure-decoration"
+    },
+    {
+      "id": "ref-for-dfn-captions-3",
+      "href": "#dfn-captions"
+    },
+    {
+      "id": "ref-for-dfn-images-of-text-2",
+      "href": "#dfn-images-of-text"
+    },
+    {
+      "id": "ref-for-dfn-text-3",
+      "href": "#dfn-text"
+    },
+    {
+      "id": "ref-for-dfn-assistive-technologies-2",
+      "href": "#dfn-assistive-technologies"
+    },
+    {
+      "id": "ref-for-dfn-text-4",
+      "href": "#dfn-text"
+    },
+    {
+      "id": "ref-for-dfn-images-of-text-3",
+      "href": "#dfn-images-of-text"
+    },
+    {
+      "id": "ref-for-dfn-visually-customized-1",
+      "href": "#dfn-visually-customized"
+    },
+    {
+      "id": "ref-for-dfn-essential-2",
+      "href": "#dfn-essential"
+    },
+    {
+      "id": "ref-for-dfn-text-5",
+      "href": "#dfn-text"
+    },
+    {
+      "id": "ref-for-dfn-images-of-text-4",
+      "href": "#dfn-images-of-text"
+    },
+    {
+      "id": "ref-for-dfn-contrast-ratio-2",
+      "href": "#dfn-contrast-ratio"
+    },
+    {
+      "id": "ref-for-dfn-large-scale-2",
+      "href": "#dfn-large-scale"
+    },
+    {
+      "id": "ref-for-dfn-user-interface-components-3",
+      "href": "#dfn-user-interface-components"
+    },
+    {
+      "id": "ref-for-dfn-pure-decoration-3",
+      "href": "#dfn-pure-decoration"
+    },
+    {
+      "id": "ref-for-dfn-prerecorded-8",
+      "href": "#dfn-prerecorded"
+    },
+    {
+      "id": "ref-for-dfn-audio-only-3",
+      "href": "#dfn-audio-only"
+    },
+    {
+      "id": "ref-for-dfn-captcha-2",
+      "href": "#dfn-captcha"
+    },
+    {
+      "id": "ref-for-dfn-blocks-of-text-1",
+      "href": "#dfn-blocks-of-text"
+    },
+    {
+      "id": "ref-for-dfn-mechanism-2",
+      "href": "#dfn-mechanism"
+    },
+    {
+      "id": "ref-for-dfn-assistive-technologies-3",
+      "href": "#dfn-assistive-technologies"
+    },
+    {
+      "id": "ref-for-dfn-on-a-full-screen-window-1",
+      "href": "#dfn-on-a-full-screen-window"
+    },
+    {
+      "id": "ref-for-dfn-images-of-text-5",
+      "href": "#dfn-images-of-text"
+    },
+    {
+      "id": "ref-for-dfn-pure-decoration-4",
+      "href": "#dfn-pure-decoration"
+    },
+    {
+      "id": "ref-for-dfn-text-6",
+      "href": "#dfn-text"
+    },
+    {
+      "id": "ref-for-dfn-essential-3",
+      "href": "#dfn-essential"
+    },
+    {
+      "id": "ref-for-dfn-css-pixels-1",
+      "href": "#dfn-css-pixels"
+    },
+    {
+      "id": "ref-for-dfn-css-pixels-2",
+      "href": "#dfn-css-pixels"
+    },
+    {
+      "id": "ref-for-dfn-viewport-1",
+      "href": "#dfn-viewport"
+    },
+    {
+      "id": "ref-for-dfn-presentation-2",
+      "href": "#dfn-presentation"
+    },
+    {
+      "id": "ref-for-dfn-contrast-ratio-3",
+      "href": "#dfn-contrast-ratio"
+    },
+    {
+      "id": "ref-for-dfn-user-interface-components-4",
+      "href": "#dfn-user-interface-components"
+    },
+    {
+      "id": "ref-for-dfn-states-1",
+      "href": "#dfn-states"
+    },
+    {
+      "id": "ref-for-dfn-user-agents-1",
+      "href": "#dfn-user-agents"
+    },
+    {
+      "id": "ref-for-dfn-essential-4",
+      "href": "#dfn-essential"
+    },
+    {
+      "id": "ref-for-dfn-text-7",
+      "href": "#dfn-text"
+    },
+    {
+      "id": "ref-for-dfn-style-properties-1",
+      "href": "#dfn-style-properties"
+    },
+    {
+      "id": "ref-for-dfn-human-language-s-1",
+      "href": "#dfn-human-language-s"
+    },
+    {
+      "id": "ref-for-dfn-mechanism-3",
+      "href": "#dfn-mechanism"
+    },
+    {
+      "id": "ref-for-dfn-input-error-1",
+      "href": "#dfn-input-error"
+    },
+    {
+      "id": "ref-for-dfn-user-agents-2",
+      "href": "#dfn-user-agents"
+    },
+    {
+      "id": "ref-for-dfn-functionality-1",
+      "href": "#dfn-functionality"
+    },
+    {
+      "id": "ref-for-dfn-keyboard-interface-1",
+      "href": "#dfn-keyboard-interface"
+    },
+    {
+      "id": "ref-for-dfn-keyboard-interface-2",
+      "href": "#dfn-keyboard-interface"
+    },
+    {
+      "id": "ref-for-dfn-functionality-2",
+      "href": "#dfn-functionality"
+    },
+    {
+      "id": "ref-for-dfn-keyboard-interface-3",
+      "href": "#dfn-keyboard-interface"
+    },
+    {
+      "id": "ref-for-dfn-keyboard-shortcuts-1",
+      "href": "#dfn-keyboard-shortcuts"
+    },
+    {
+      "id": "ref-for-dfn-mechanism-4",
+      "href": "#dfn-mechanism"
+    },
+    {
+      "id": "ref-for-dfn-user-interface-components-5",
+      "href": "#dfn-user-interface-components"
+    },
+    {
+      "id": "ref-for-dfn-real-time-events-1",
+      "href": "#dfn-real-time-events"
+    },
+    {
+      "id": "ref-for-dfn-essential-5",
+      "href": "#dfn-essential"
+    },
+    {
+      "id": "ref-for-dfn-blinking-1",
+      "href": "#dfn-blinking"
+    },
+    {
+      "id": "ref-for-dfn-mechanism-5",
+      "href": "#dfn-mechanism"
+    },
+    {
+      "id": "ref-for-dfn-pause-2",
+      "href": "#dfn-pause"
+    },
+    {
+      "id": "ref-for-dfn-essential-6",
+      "href": "#dfn-essential"
+    },
+    {
+      "id": "ref-for-dfn-essential-7",
+      "href": "#dfn-essential"
+    },
+    {
+      "id": "ref-for-dfn-synchronized-media-8",
+      "href": "#dfn-synchronized-media"
+    },
+    {
+      "id": "ref-for-dfn-real-time-events-2",
+      "href": "#dfn-real-time-events"
+    },
+    {
+      "id": "ref-for-dfn-emergency-1",
+      "href": "#dfn-emergency"
+    },
+    {
+      "id": "ref-for-dfn-user-inactivity-1",
+      "href": "#dfn-user-inactivity"
+    },
+    {
+      "id": "ref-for-dfn-web-page-s-1",
+      "href": "#dfn-web-page-s"
+    },
+    {
+      "id": "ref-for-dfn-flashes-1",
+      "href": "#dfn-flashes"
+    },
+    {
+      "id": "ref-for-dfn-general-flash-and-red-flash-thresholds-1",
+      "href": "#dfn-general-flash-and-red-flash-thresholds"
+    },
+    {
+      "id": "ref-for-dfn-web-page-s-2",
+      "href": "#dfn-web-page-s"
+    },
+    {
+      "id": "ref-for-dfn-flashes-2",
+      "href": "#dfn-flashes"
+    },
+    {
+      "id": "ref-for-dfn-motion-animation-1",
+      "href": "#dfn-motion-animation"
+    },
+    {
+      "id": "ref-for-dfn-essential-8",
+      "href": "#dfn-essential"
+    },
+    {
+      "id": "ref-for-dfn-mechanism-6",
+      "href": "#dfn-mechanism"
+    },
+    {
+      "id": "ref-for-dfn-web-page-s-3",
+      "href": "#dfn-web-page-s"
+    },
+    {
+      "id": "ref-for-dfn-web-page-s-4",
+      "href": "#dfn-web-page-s"
+    },
+    {
+      "id": "ref-for-dfn-web-page-s-5",
+      "href": "#dfn-web-page-s"
+    },
+    {
+      "id": "ref-for-dfn-navigated-sequentially-1",
+      "href": "#dfn-navigated-sequentially"
+    },
+    {
+      "id": "ref-for-dfn-purpose-of-each-link-1",
+      "href": "#dfn-purpose-of-each-link"
+    },
+    {
+      "id": "ref-for-dfn-programmatically-determined-link-context-1",
+      "href": "#dfn-programmatically-determined-link-context"
+    },
+    {
+      "id": "ref-for-dfn-ambiguous-to-users-in-general-1",
+      "href": "#dfn-ambiguous-to-users-in-general"
+    },
+    {
+      "id": "ref-for-dfn-web-page-s-6",
+      "href": "#dfn-web-page-s"
+    },
+    {
+      "id": "ref-for-dfn-set-of-web-pages-1",
+      "href": "#dfn-set-of-web-pages"
+    },
+    {
+      "id": "ref-for-dfn-processes-1",
+      "href": "#dfn-processes"
+    },
+    {
+      "id": "ref-for-dfn-labels-1",
+      "href": "#dfn-labels"
+    },
+    {
+      "id": "ref-for-dfn-focus-indicator-1",
+      "href": "#dfn-focus-indicator"
+    },
+    {
+      "id": "ref-for-dfn-set-of-web-pages-2",
+      "href": "#dfn-set-of-web-pages"
+    },
+    {
+      "id": "ref-for-dfn-mechanism-7",
+      "href": "#dfn-mechanism"
+    },
+    {
+      "id": "ref-for-dfn-purpose-of-each-link-2",
+      "href": "#dfn-purpose-of-each-link"
+    },
+    {
+      "id": "ref-for-dfn-ambiguous-to-users-in-general-2",
+      "href": "#dfn-ambiguous-to-users-in-general"
+    },
+    {
+      "id": "ref-for-dfn-section-1",
+      "href": "#dfn-section"
+    },
+    {
+      "id": "ref-for-dfn-user-interface-components-6",
+      "href": "#dfn-user-interface-components"
+    },
+    {
+      "id": "ref-for-dfn-user-interface-components-7",
+      "href": "#dfn-user-interface-components"
+    },
+    {
+      "id": "ref-for-dfn-user-interface-components-8",
+      "href": "#dfn-user-interface-components"
+    },
+    {
+      "id": "ref-for-dfn-focus-indicator-2",
+      "href": "#dfn-focus-indicator"
+    },
+    {
+      "id": "ref-for-dfn-css-pixels-3",
+      "href": "#dfn-css-pixels"
+    },
+    {
+      "id": "ref-for-dfn-perimeter-1",
+      "href": "#dfn-perimeter"
+    },
+    {
+      "id": "ref-for-dfn-user-agents-3",
+      "href": "#dfn-user-agents"
+    },
+    {
+      "id": "ref-for-dfn-presentation-3",
+      "href": "#dfn-presentation"
+    },
+    {
+      "id": "ref-for-dfn-content-1",
+      "href": "#dfn-content"
+    },
+    {
+      "id": "ref-for-dfn-technologies-1",
+      "href": "#dfn-technologies"
+    },
+    {
+      "id": "ref-for-dfn-functionality-3",
+      "href": "#dfn-functionality"
+    },
+    {
+      "id": "ref-for-dfn-single-pointer-1",
+      "href": "#dfn-single-pointer"
+    },
+    {
+      "id": "ref-for-dfn-essential-9",
+      "href": "#dfn-essential"
+    },
+    {
+      "id": "ref-for-dfn-functionality-4",
+      "href": "#dfn-functionality"
+    },
+    {
+      "id": "ref-for-dfn-single-pointer-2",
+      "href": "#dfn-single-pointer"
+    },
+    {
+      "id": "ref-for-dfn-down-event-1",
+      "href": "#dfn-down-event"
+    },
+    {
+      "id": "ref-for-dfn-up-event-1",
+      "href": "#dfn-up-event"
+    },
+    {
+      "id": "ref-for-dfn-mechanism-8",
+      "href": "#dfn-mechanism"
+    },
+    {
+      "id": "ref-for-dfn-essential-10",
+      "href": "#dfn-essential"
+    },
+    {
+      "id": "ref-for-dfn-user-interface-components-9",
+      "href": "#dfn-user-interface-components"
+    },
+    {
+      "id": "ref-for-dfn-labels-2",
+      "href": "#dfn-labels"
+    },
+    {
+      "id": "ref-for-dfn-text-8",
+      "href": "#dfn-text"
+    },
+    {
+      "id": "ref-for-dfn-images-of-text-6",
+      "href": "#dfn-images-of-text"
+    },
+    {
+      "id": "ref-for-dfn-name-2",
+      "href": "#dfn-name"
+    },
+    {
+      "id": "ref-for-dfn-functionality-5",
+      "href": "#dfn-functionality"
+    },
+    {
+      "id": "ref-for-dfn-user-interface-components-10",
+      "href": "#dfn-user-interface-components"
+    },
+    {
+      "id": "ref-for-dfn-accessibility-supported-1",
+      "href": "#dfn-accessibility-supported"
+    },
+    {
+      "id": "ref-for-dfn-essential-11",
+      "href": "#dfn-essential"
+    },
+    {
+      "id": "ref-for-dfn-targets-1",
+      "href": "#dfn-targets"
+    },
+    {
+      "id": "ref-for-dfn-pointer-inputs-1",
+      "href": "#dfn-pointer-inputs"
+    },
+    {
+      "id": "ref-for-dfn-css-pixels-4",
+      "href": "#dfn-css-pixels"
+    },
+    {
+      "id": "ref-for-dfn-blocks-of-text-2",
+      "href": "#dfn-blocks-of-text"
+    },
+    {
+      "id": "ref-for-dfn-user-agents-4",
+      "href": "#dfn-user-agents"
+    },
+    {
+      "id": "ref-for-dfn-presentation-4",
+      "href": "#dfn-presentation"
+    },
+    {
+      "id": "ref-for-dfn-essential-12",
+      "href": "#dfn-essential"
+    },
+    {
+      "id": "ref-for-dfn-essential-13",
+      "href": "#dfn-essential"
+    },
+    {
+      "id": "ref-for-dfn-functionality-6",
+      "href": "#dfn-functionality"
+    },
+    {
+      "id": "ref-for-dfn-dragging-movements-1",
+      "href": "#dfn-dragging-movements"
+    },
+    {
+      "id": "ref-for-dfn-single-pointer-3",
+      "href": "#dfn-single-pointer"
+    },
+    {
+      "id": "ref-for-dfn-essential-14",
+      "href": "#dfn-essential"
+    },
+    {
+      "id": "ref-for-dfn-user-agents-5",
+      "href": "#dfn-user-agents"
+    },
+    {
+      "id": "ref-for-dfn-targets-2",
+      "href": "#dfn-targets"
+    },
+    {
+      "id": "ref-for-dfn-pointer-inputs-2",
+      "href": "#dfn-pointer-inputs"
+    },
+    {
+      "id": "ref-for-dfn-css-pixels-5",
+      "href": "#dfn-css-pixels"
+    },
+    {
+      "id": "ref-for-dfn-bounding-boxes-1",
+      "href": "#dfn-bounding-boxes"
+    },
+    {
+      "id": "ref-for-dfn-user-agents-6",
+      "href": "#dfn-user-agents"
+    },
+    {
+      "id": "ref-for-dfn-presentation-5",
+      "href": "#dfn-presentation"
+    },
+    {
+      "id": "ref-for-dfn-essential-15",
+      "href": "#dfn-essential"
+    },
+    {
+      "id": "ref-for-dfn-human-language-s-2",
+      "href": "#dfn-human-language-s"
+    },
+    {
+      "id": "ref-for-dfn-web-page-s-7",
+      "href": "#dfn-web-page-s"
+    },
+    {
+      "id": "ref-for-dfn-programmatically-determinable-5",
+      "href": "#dfn-programmatically-determinable"
+    },
+    {
+      "id": "ref-for-dfn-human-language-s-3",
+      "href": "#dfn-human-language-s"
+    },
+    {
+      "id": "ref-for-dfn-programmatically-determinable-6",
+      "href": "#dfn-programmatically-determinable"
+    },
+    {
+      "id": "ref-for-dfn-text-9",
+      "href": "#dfn-text"
+    },
+    {
+      "id": "ref-for-dfn-mechanism-9",
+      "href": "#dfn-mechanism"
+    },
+    {
+      "id": "ref-for-dfn-used-in-an-unusual-or-restricted-way-1",
+      "href": "#dfn-used-in-an-unusual-or-restricted-way"
+    },
+    {
+      "id": "ref-for-dfn-idioms-1",
+      "href": "#dfn-idioms"
+    },
+    {
+      "id": "ref-for-dfn-jargon-1",
+      "href": "#dfn-jargon"
+    },
+    {
+      "id": "ref-for-dfn-mechanism-10",
+      "href": "#dfn-mechanism"
+    },
+    {
+      "id": "ref-for-dfn-abbreviations-1",
+      "href": "#dfn-abbreviations"
+    },
+    {
+      "id": "ref-for-dfn-lower-secondary-education-level-1",
+      "href": "#dfn-lower-secondary-education-level"
+    },
+    {
+      "id": "ref-for-dfn-supplementary-content-1",
+      "href": "#dfn-supplementary-content"
+    },
+    {
+      "id": "ref-for-dfn-mechanism-11",
+      "href": "#dfn-mechanism"
+    },
+    {
+      "id": "ref-for-dfn-user-interface-components-11",
+      "href": "#dfn-user-interface-components"
+    },
+    {
+      "id": "ref-for-dfn-change-of-context-1",
+      "href": "#dfn-change-of-context"
+    },
+    {
+      "id": "ref-for-dfn-user-interface-components-12",
+      "href": "#dfn-user-interface-components"
+    },
+    {
+      "id": "ref-for-dfn-change-of-context-2",
+      "href": "#dfn-change-of-context"
+    },
+    {
+      "id": "ref-for-dfn-web-page-s-8",
+      "href": "#dfn-web-page-s"
+    },
+    {
+      "id": "ref-for-dfn-set-of-web-pages-3",
+      "href": "#dfn-set-of-web-pages"
+    },
+    {
+      "id": "ref-for-dfn-same-relative-order-1",
+      "href": "#dfn-same-relative-order"
+    },
+    {
+      "id": "ref-for-dfn-same-functionality-1",
+      "href": "#dfn-same-functionality"
+    },
+    {
+      "id": "ref-for-dfn-set-of-web-pages-4",
+      "href": "#dfn-set-of-web-pages"
+    },
+    {
+      "id": "ref-for-dfn-change-of-context-3",
+      "href": "#dfn-change-of-context"
+    },
+    {
+      "id": "ref-for-dfn-mechanism-12",
+      "href": "#dfn-mechanism"
+    },
+    {
+      "id": "ref-for-dfn-web-page-s-9",
+      "href": "#dfn-web-page-s"
+    },
+    {
+      "id": "ref-for-dfn-mechanism-13",
+      "href": "#dfn-mechanism"
+    },
+    {
+      "id": "ref-for-dfn-set-of-web-pages-5",
+      "href": "#dfn-set-of-web-pages"
+    },
+    {
+      "id": "ref-for-dfn-input-error-2",
+      "href": "#dfn-input-error"
+    },
+    {
+      "id": "ref-for-dfn-labels-3",
+      "href": "#dfn-labels"
+    },
+    {
+      "id": "ref-for-dfn-input-error-3",
+      "href": "#dfn-input-error"
+    },
+    {
+      "id": "ref-for-dfn-web-page-s-10",
+      "href": "#dfn-web-page-s"
+    },
+    {
+      "id": "ref-for-dfn-legal-commitments-1",
+      "href": "#dfn-legal-commitments"
+    },
+    {
+      "id": "ref-for-dfn-user-controllable-1",
+      "href": "#dfn-user-controllable"
+    },
+    {
+      "id": "ref-for-dfn-input-error-4",
+      "href": "#dfn-input-error"
+    },
+    {
+      "id": "ref-for-dfn-mechanism-14",
+      "href": "#dfn-mechanism"
+    },
+    {
+      "id": "ref-for-dfn-context-sensitive-help-1",
+      "href": "#dfn-context-sensitive-help"
+    },
+    {
+      "id": "ref-for-dfn-web-page-s-11",
+      "href": "#dfn-web-page-s"
+    },
+    {
+      "id": "ref-for-dfn-input-error-5",
+      "href": "#dfn-input-error"
+    },
+    {
+      "id": "ref-for-dfn-mechanism-15",
+      "href": "#dfn-mechanism"
+    },
+    {
+      "id": "ref-for-dfn-processes-2",
+      "href": "#dfn-processes"
+    },
+    {
+      "id": "ref-for-dfn-essential-16",
+      "href": "#dfn-essential"
+    },
+    {
+      "id": "ref-for-dfn-cognitive-function-test-1",
+      "href": "#dfn-cognitive-function-test"
+    },
+    {
+      "id": "ref-for-dfn-processes-3",
+      "href": "#dfn-processes"
+    },
+    {
+      "id": "ref-for-dfn-mechanism-16",
+      "href": "#dfn-mechanism"
+    },
+    {
+      "id": "ref-for-dfn-non-text-content-2",
+      "href": "#dfn-non-text-content"
+    },
+    {
+      "id": "ref-for-dfn-cognitive-function-test-2",
+      "href": "#dfn-cognitive-function-test"
+    },
+    {
+      "id": "ref-for-dfn-processes-4",
+      "href": "#dfn-processes"
+    },
+    {
+      "id": "ref-for-dfn-mechanism-17",
+      "href": "#dfn-mechanism"
+    },
+    {
+      "id": "ref-for-dfn-user-interface-components-13",
+      "href": "#dfn-user-interface-components"
+    },
+    {
+      "id": "ref-for-dfn-name-3",
+      "href": "#dfn-name"
+    },
+    {
+      "id": "ref-for-dfn-role-1",
+      "href": "#dfn-role"
+    },
+    {
+      "id": "ref-for-dfn-programmatically-determinable-7",
+      "href": "#dfn-programmatically-determinable"
+    },
+    {
+      "id": "ref-for-dfn-states-2",
+      "href": "#dfn-states"
+    },
+    {
+      "id": "ref-for-dfn-programmatically-set-1",
+      "href": "#dfn-programmatically-set"
+    },
+    {
+      "id": "ref-for-dfn-user-agents-7",
+      "href": "#dfn-user-agents"
+    },
+    {
+      "id": "ref-for-dfn-assistive-technologies-4",
+      "href": "#dfn-assistive-technologies"
+    },
+    {
+      "id": "ref-for-dfn-status-messages-1",
+      "href": "#dfn-status-messages"
+    },
+    {
+      "id": "ref-for-dfn-programmatically-determinable-8",
+      "href": "#dfn-programmatically-determinable"
+    },
+    {
+      "id": "ref-for-dfn-role-2",
+      "href": "#dfn-role"
+    },
+    {
+      "id": "ref-for-dfn-assistive-technologies-5",
+      "href": "#dfn-assistive-technologies"
+    },
+    {
+      "id": "ref-for-dfn-conform-1",
+      "href": "#dfn-conform"
+    },
+    {
+      "id": "ref-for-dfn-accessibility-supported-2",
+      "href": "#dfn-accessibility-supported"
+    },
+    {
+      "id": "ref-for-dfn-relied-upon-1",
+      "href": "#dfn-relied-upon"
+    },
+    {
+      "id": "ref-for-dfn-normative-1",
+      "href": "#dfn-normative"
+    },
+    {
+      "id": "ref-for-dfn-informative-1",
+      "href": "#dfn-informative"
+    },
+    {
+      "id": "ref-for-dfn-web-page-s-12",
+      "href": "#dfn-web-page-s"
+    },
+    {
+      "id": "ref-for-dfn-satisfies-1",
+      "href": "#dfn-satisfies"
+    },
+    {
+      "id": "ref-for-dfn-conforming-alternate-versions-1",
+      "href": "#dfn-conforming-alternate-versions"
+    },
+    {
+      "id": "ref-for-dfn-conform-2",
+      "href": "#dfn-conform"
+    },
+    {
+      "id": "ref-for-dfn-web-page-s-13",
+      "href": "#dfn-web-page-s"
+    },
+    {
+      "id": "ref-for-dfn-web-page-s-14",
+      "href": "#dfn-web-page-s"
+    },
+    {
+      "id": "ref-for-dfn-processes-5",
+      "href": "#dfn-processes"
+    },
+    {
+      "id": "ref-for-dfn-accessibility-supported-3",
+      "href": "#dfn-accessibility-supported"
+    },
+    {
+      "id": "ref-for-dfn-technologies-2",
+      "href": "#dfn-technologies"
+    },
+    {
+      "id": "ref-for-dfn-relied-upon-2",
+      "href": "#dfn-relied-upon"
+    },
+    {
+      "id": "ref-for-dfn-technologies-3",
+      "href": "#dfn-technologies"
+    },
+    {
+      "id": "ref-for-dfn-accessibility-supported-4",
+      "href": "#dfn-accessibility-supported"
+    },
+    {
+      "id": "ref-for-dfn-web-page-s-15",
+      "href": "#dfn-web-page-s"
+    },
+    {
+      "id": "ref-for-dfn-relied-upon-3",
+      "href": "#dfn-relied-upon"
+    },
+    {
+      "id": "ref-for-dfn-web-page-s-16",
+      "href": "#dfn-web-page-s"
+    },
+    {
+      "id": "ref-for-dfn-technologies-4",
+      "href": "#dfn-technologies"
+    },
+    {
+      "id": "ref-for-dfn-relied-upon-4",
+      "href": "#dfn-relied-upon"
+    },
+    {
+      "id": "ref-for-dfn-relied-upon-5",
+      "href": "#dfn-relied-upon"
+    },
+    {
+      "id": "ref-for-dfn-relied-upon-6",
+      "href": "#dfn-relied-upon"
+    },
+    {
+      "id": "ref-for-dfn-accessibility-supported-5",
+      "href": "#dfn-accessibility-supported"
+    },
+    {
+      "id": "ref-for-dfn-assistive-technologies-6",
+      "href": "#dfn-assistive-technologies"
+    },
+    {
+      "id": "ref-for-dfn-user-agents-8",
+      "href": "#dfn-user-agents"
+    },
+    {
+      "id": "ref-for-dfn-technologies-5",
+      "href": "#dfn-technologies"
+    },
+    {
+      "id": "ref-for-dfn-human-language-s-4",
+      "href": "#dfn-human-language-s"
+    },
+    {
+      "id": "ref-for-dfn-relied-upon-7",
+      "href": "#dfn-relied-upon"
+    },
+    {
+      "id": "ref-for-dfn-technologies-6",
+      "href": "#dfn-technologies"
+    },
+    {
+      "id": "ref-for-dfn-user-agents-9",
+      "href": "#dfn-user-agents"
+    },
+    {
+      "id": "ref-for-dfn-video-4",
+      "href": "#dfn-video"
+    },
+    {
+      "id": "ref-for-dfn-extended-audio-description-2",
+      "href": "#dfn-extended-audio-description"
+    },
+    {
+      "id": "ref-for-dfn-video-5",
+      "href": "#dfn-video"
+    },
+    {
+      "id": "ref-for-dfn-audio-4",
+      "href": "#dfn-audio"
+    },
+    {
+      "id": "ref-for-dfn-audio-5",
+      "href": "#dfn-audio"
+    },
+    {
+      "id": "ref-for-dfn-video-6",
+      "href": "#dfn-video"
+    },
+    {
+      "id": "ref-for-dfn-flashes-3",
+      "href": "#dfn-flashes"
+    },
+    {
+      "id": "ref-for-dfn-text-alternative-2",
+      "href": "#dfn-text-alternative"
+    },
+    {
+      "id": "ref-for-dfn-images-of-text-7",
+      "href": "#dfn-images-of-text"
+    },
+    {
+      "id": "ref-for-dfn-video-7",
+      "href": "#dfn-video"
+    },
+    {
+      "id": "ref-for-dfn-audio-descriptions-4",
+      "href": "#dfn-audio-descriptions"
+    },
+    {
+      "id": "ref-for-dfn-user-agents-10",
+      "href": "#dfn-user-agents"
+    },
+    {
+      "id": "ref-for-dfn-viewport-2",
+      "href": "#dfn-viewport"
+    },
+    {
+      "id": "ref-for-dfn-content-2",
+      "href": "#dfn-content"
+    },
+    {
+      "id": "ref-for-dfn-web-page-s-17",
+      "href": "#dfn-web-page-s"
+    },
+    {
+      "id": "ref-for-dfn-functionality-7",
+      "href": "#dfn-functionality"
+    },
+    {
+      "id": "ref-for-dfn-human-language-s-5",
+      "href": "#dfn-human-language-s"
+    },
+    {
+      "id": "ref-for-dfn-accessibility-supported-6",
+      "href": "#dfn-accessibility-supported"
+    },
+    {
+      "id": "ref-for-dfn-mechanism-18",
+      "href": "#dfn-mechanism"
+    },
+    {
+      "id": "ref-for-dfn-supplementary-content-2",
+      "href": "#dfn-supplementary-content"
+    },
+    {
+      "id": "ref-for-dfn-user-agents-11",
+      "href": "#dfn-user-agents"
+    },
+    {
+      "id": "ref-for-dfn-structure-2",
+      "href": "#dfn-structure"
+    },
+    {
+      "id": "ref-for-dfn-presentation-6",
+      "href": "#dfn-presentation"
+    },
+    {
+      "id": "ref-for-dfn-relative-luminance-1",
+      "href": "#dfn-relative-luminance"
+    },
+    {
+      "id": "ref-for-dfn-relative-luminance-2",
+      "href": "#dfn-relative-luminance"
+    },
+    {
+      "id": "ref-for-dfn-down-event-2",
+      "href": "#dfn-down-event"
+    },
+    {
+      "id": "ref-for-dfn-up-event-2",
+      "href": "#dfn-up-event"
+    },
+    {
+      "id": "ref-for-dfn-video-8",
+      "href": "#dfn-video"
+    },
+    {
+      "id": "ref-for-dfn-video-9",
+      "href": "#dfn-video"
+    },
+    {
+      "id": "ref-for-dfn-audio-descriptions-5",
+      "href": "#dfn-audio-descriptions"
+    },
+    {
+      "id": "ref-for-dfn-relative-luminance-3",
+      "href": "#dfn-relative-luminance"
+    },
+    {
+      "id": "ref-for-dfn-general-flash-and-red-flash-thresholds-2",
+      "href": "#dfn-general-flash-and-red-flash-thresholds"
+    },
+    {
+      "id": "ref-for-dfn-blinking-2",
+      "href": "#dfn-blinking"
+    },
+    {
+      "id": "ref-for-dfn-user-interface-components-14",
+      "href": "#dfn-user-interface-components"
+    },
+    {
+      "id": "ref-for-dfn-states-3",
+      "href": "#dfn-states"
+    },
+    {
+      "id": "ref-for-dfn-processes-6",
+      "href": "#dfn-processes"
+    },
+    {
+      "id": "ref-for-dfn-flashes-4",
+      "href": "#dfn-flashes"
+    },
+    {
+      "id": "ref-for-dfn-relative-luminance-4",
+      "href": "#dfn-relative-luminance"
+    },
+    {
+      "id": "ref-for-dfn-sign-language-1",
+      "href": "#dfn-sign-language"
+    },
+    {
+      "id": "ref-for-dfn-conform-3",
+      "href": "#dfn-conform"
+    },
+    {
+      "id": "ref-for-dfn-normative-2",
+      "href": "#dfn-normative"
+    },
+    {
+      "id": "ref-for-dfn-web-page-s-18",
+      "href": "#dfn-web-page-s"
+    },
+    {
+      "id": "ref-for-dfn-text-10",
+      "href": "#dfn-text"
+    },
+    {
+      "id": "ref-for-dfn-text-alternative-3",
+      "href": "#dfn-text-alternative"
+    },
+    {
+      "id": "ref-for-dfn-content-3",
+      "href": "#dfn-content"
+    },
+    {
+      "id": "ref-for-dfn-name-4",
+      "href": "#dfn-name"
+    },
+    {
+      "id": "ref-for-dfn-primary-education-1",
+      "href": "#dfn-primary-education"
+    },
+    {
+      "id": "ref-for-dfn-processes-7",
+      "href": "#dfn-processes"
+    },
+    {
+      "id": "ref-for-dfn-relied-upon-8",
+      "href": "#dfn-relied-upon"
+    },
+    {
+      "id": "ref-for-dfn-user-agents-12",
+      "href": "#dfn-user-agents"
+    },
+    {
+      "id": "ref-for-dfn-assistive-technologies-7",
+      "href": "#dfn-assistive-technologies"
+    },
+    {
+      "id": "ref-for-dfn-blocks-of-text-3",
+      "href": "#dfn-blocks-of-text"
+    },
+    {
+      "id": "ref-for-dfn-labels-4",
+      "href": "#dfn-labels"
+    },
+    {
+      "id": "ref-for-dfn-keyboard-interface-4",
+      "href": "#dfn-keyboard-interface"
+    },
+    {
+      "id": "ref-for-dfn-programmatically-determinable-9",
+      "href": "#dfn-programmatically-determinable"
+    },
+    {
+      "id": "ref-for-dfn-human-language-s-6",
+      "href": "#dfn-human-language-s"
+    },
+    {
+      "id": "ref-for-dfn-ascii-art-1",
+      "href": "#dfn-ascii-art"
+    },
+    {
+      "id": "ref-for-dfn-informative-2",
+      "href": "#dfn-informative"
+    },
+    {
+      "id": "ref-for-dfn-conform-4",
+      "href": "#dfn-conform"
+    },
+    {
+      "id": "ref-for-dfn-viewport-3",
+      "href": "#dfn-viewport"
+    },
+    {
+      "id": "ref-for-dfn-bounding-boxes-2",
+      "href": "#dfn-bounding-boxes"
+    },
+    {
+      "id": "ref-for-dfn-live-3",
+      "href": "#dfn-live"
+    },
+    {
+      "id": "ref-for-dfn-content-4",
+      "href": "#dfn-content"
+    },
+    {
+      "id": "ref-for-dfn-user-agents-13",
+      "href": "#dfn-user-agents"
+    },
+    {
+      "id": "ref-for-dfn-assistive-technologies-8",
+      "href": "#dfn-assistive-technologies"
+    },
+    {
+      "id": "ref-for-dfn-programmatically-determinable-10",
+      "href": "#dfn-programmatically-determinable"
+    },
+    {
+      "id": "ref-for-dfn-relationships-2",
+      "href": "#dfn-relationships"
+    },
+    {
+      "id": "ref-for-dfn-user-agents-14",
+      "href": "#dfn-user-agents"
+    },
+    {
+      "id": "ref-for-dfn-assistive-technologies-9",
+      "href": "#dfn-assistive-technologies"
+    },
+    {
+      "id": "ref-for-dfn-programmatically-determinable-11",
+      "href": "#dfn-programmatically-determinable"
+    },
+    {
+      "id": "ref-for-dfn-section-2",
+      "href": "#dfn-section"
+    },
+    {
+      "id": "ref-for-dfn-conform-5",
+      "href": "#dfn-conform"
+    },
+    {
+      "id": "ref-for-dfn-technologies-7",
+      "href": "#dfn-technologies"
+    },
+    {
+      "id": "ref-for-dfn-web-page-s-19",
+      "href": "#dfn-web-page-s"
+    },
+    {
+      "id": "ref-for-dfn-sign-language-2",
+      "href": "#dfn-sign-language"
+    },
+    {
+      "id": "ref-for-dfn-user-interface-components-15",
+      "href": "#dfn-user-interface-components"
+    },
+    {
+      "id": "ref-for-dfn-change-of-context-4",
+      "href": "#dfn-change-of-context"
+    },
+    {
+      "id": "ref-for-dfn-processes-8",
+      "href": "#dfn-processes"
+    },
+    {
+      "id": "ref-for-dfn-web-page-s-20",
+      "href": "#dfn-web-page-s"
+    },
+    {
+      "id": "ref-for-dfn-web-page-s-21",
+      "href": "#dfn-web-page-s"
+    },
+    {
+      "id": "ref-for-dfn-content-5",
+      "href": "#dfn-content"
+    },
+    {
+      "id": "ref-for-dfn-web-page-s-22",
+      "href": "#dfn-web-page-s"
+    },
+    {
+      "id": "ref-for-dfn-processes-9",
+      "href": "#dfn-processes"
+    },
+    {
+      "id": "ref-for-dfn-audio-6",
+      "href": "#dfn-audio"
+    },
+    {
+      "id": "ref-for-dfn-video-10",
+      "href": "#dfn-video"
+    },
+    {
+      "id": "ref-for-dfn-media-alternative-for-text-4",
+      "href": "#dfn-media-alternative-for-text"
+    },
+    {
+      "id": "ref-for-dfn-user-interface-components-16",
+      "href": "#dfn-user-interface-components"
+    },
+    {
+      "id": "ref-for-dfn-mechanism-19",
+      "href": "#dfn-mechanism"
+    },
+    {
+      "id": "ref-for-dfn-user-agents-15",
+      "href": "#dfn-user-agents"
+    },
+    {
+      "id": "ref-for-dfn-programmatically-determinable-12",
+      "href": "#dfn-programmatically-determinable"
+    },
+    {
+      "id": "ref-for-dfn-human-language-s-7",
+      "href": "#dfn-human-language-s"
+    },
+    {
+      "id": "ref-for-dfn-text-11",
+      "href": "#dfn-text"
+    },
+    {
+      "id": "ref-for-dfn-non-text-content-3",
+      "href": "#dfn-non-text-content"
+    },
+    {
+      "id": "ref-for-dfn-programmatically-determinable-13",
+      "href": "#dfn-programmatically-determinable"
+    },
+    {
+      "id": "ref-for-dfn-assistive-technologies-10",
+      "href": "#dfn-assistive-technologies"
+    },
+    {
+      "id": "ref-for-dfn-video-11",
+      "href": "#dfn-video"
+    },
+    {
+      "id": "ref-for-dfn-audio-7",
+      "href": "#dfn-audio"
+    },
+    {
+      "id": "ref-for-dfn-user-agents-16",
+      "href": "#dfn-user-agents"
+    },
+    {
+      "id": "ref-for-dfn-user-agents-17",
+      "href": "#dfn-user-agents"
+    },
+    {
+      "id": "ref-for-dfn-user-interface-components-17",
+      "href": "#dfn-user-interface-components"
+    },
+    {
+      "id": "ref-for-dfn-single-pointer-4",
+      "href": "#dfn-single-pointer"
+    },
+    {
+      "id": "ref-for-dfn-used-in-an-unusual-or-restricted-way-2",
+      "href": "#dfn-used-in-an-unusual-or-restricted-way"
+    },
+    {
+      "id": "ref-for-dfn-motion-animation-2",
+      "href": "#dfn-motion-animation"
+    },
+    {
+      "id": "ref-for-dfn-programmatically-determinable-14",
+      "href": "#dfn-programmatically-determinable"
+    },
+    {
+      "id": "ref-for-dfn-change-of-context-5",
+      "href": "#dfn-change-of-context"
+    },
+    {
+      "id": "ref-for-dfn-general-flash-and-red-flash-thresholds-3",
+      "href": "#dfn-general-flash-and-red-flash-thresholds"
+    },
+    {
+      "id": "ref-for-dfn-cognitive-function-test-3",
+      "href": "#dfn-cognitive-function-test"
+    },
+    {
+      "id": "ref-for-dfn-structure-3",
+      "href": "#dfn-structure"
+    }
+  ],
+  "sc_ids": [
+    "non-text-content",
+    "audio-only-and-video-only-prerecorded",
+    "captions-prerecorded",
+    "audio-description-or-media-alternative-prerecorded",
+    "captions-live",
+    "audio-description-prerecorded",
+    "sign-language-prerecorded",
+    "extended-audio-description-prerecorded",
+    "media-alternative-prerecorded",
+    "audio-only-live",
+    "info-and-relationships",
+    "meaningful-sequence",
+    "sensory-characteristics",
+    "orientation",
+    "identify-input-purpose",
+    "identify-purpose",
+    "use-of-color",
+    "audio-control",
+    "contrast-minimum",
+    "resize-text",
+    "images-of-text",
+    "contrast-enhanced",
+    "low-or-no-background-audio",
+    "visual-presentation",
+    "images-of-text-no-exception",
+    "reflow",
+    "non-text-contrast",
+    "text-spacing",
+    "content-on-hover-or-focus",
+    "keyboard",
+    "no-keyboard-trap",
+    "keyboard-no-exception",
+    "character-key-shortcuts",
+    "timing-adjustable",
+    "pause-stop-hide",
+    "no-timing",
+    "interruptions",
+    "re-authenticating",
+    "timeouts",
+    "three-flashes-or-below-threshold",
+    "three-flashes",
+    "animation-from-interactions",
+    "bypass-blocks",
+    "page-titled",
+    "focus-order",
+    "link-purpose-in-context",
+    "multiple-ways",
+    "headings-and-labels",
+    "focus-visible",
+    "location",
+    "link-purpose-link-only",
+    "section-headings",
+    "focus-not-obscured-minimum",
+    "focus-not-obscured-enhanced",
+    "focus-appearance",
+    "pointer-gestures",
+    "pointer-cancellation",
+    "label-in-name",
+    "motion-actuation",
+    "target-size-enhanced",
+    "concurrent-input-mechanisms",
+    "dragging-movements",
+    "target-size-minimum",
+    "language-of-page",
+    "language-of-parts",
+    "unusual-words",
+    "abbreviations",
+    "reading-level",
+    "pronunciation",
+    "on-focus",
+    "on-input",
+    "consistent-navigation",
+    "consistent-identification",
+    "change-on-request",
+    "consistent-help",
+    "error-identification",
+    "labels-or-instructions",
+    "error-suggestion",
+    "error-prevention-legal-financial-data",
+    "help",
+    "error-prevention-all",
+    "redundant-entry",
+    "accessible-authentication-minimum",
+    "accessible-authentication-enhanced",
+    "parsing",
+    "name-role-value",
+    "status-messages"
+  ]
+}

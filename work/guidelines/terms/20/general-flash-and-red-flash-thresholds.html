@@ -1,0 +1,53 @@
+<dt><dfn id="dfn-general-flash-and-red-flash-thresholds">limiares de flash xeral e de flash vermello</dfn></dt>
+<dd>
+   
+   <p>un <a href="#dfn-flashes">flash</a> ou unha secuencia de imaxes que cambia rapidamente está por debaixo do limiar (é dicir, o contido <strong>cumpre</strong>) se calquera das seguintes condicións é verdadeira:
+   </p>
+   
+   <ul>
+      
+      <li>non hai máis de tres <strong>flash xerais</strong> e/ou non hai máis de tres <strong>flash vermellos</strong> dentro de ningún período dun segundo; ou
+      </li>
+      
+      <li>a área combinada dos flash que ocorren simultaneamente non ocupa máis dun total
+         de 0.006 estereorradiáns dentro de ningún campo visual de 10 graos na pantalla (25 % de calquera campo
+         visual de 10 graos na pantalla) á distancia típica de visualización
+      </li>
+      
+   </ul>
+   
+   <p>onde:</p>
+   
+   <ul>
+      
+      <li>Un <strong>flash xeral</strong> defínese como un par de cambios opostos na <a href="#dfn-relative-luminance">luminancia relativa</a> do 10 % ou máis da luminancia relativa máxima (1.0) onde a luminancia relativa da
+         imaxe máis escura está por debaixo de 0.80; e onde "un par de cambios opostos" é un aumento
+         seguido dunha diminución, ou unha diminución seguida dun aumento, e
+      </li>
+      
+      <li>Un <strong>flash vermello</strong> defínese como calquera par de transicións opostas que implican un vermello saturado
+      </li>
+      
+   </ul>
+   
+   <p><em>Excepción:</em> A sucesión de flash que forme un patrón fino e equilibrado, como ruído branco ou un patrón alternante
+      de taboleiro de xadrez con "cadros" menores de 0.1 grao (de campo visual á distancia típica
+      de visualización) por lado non viola os limiares.
+   </p>
+   
+   <p class="note">Para software xeral ou contido web, usar un rectángulo de 341 x 256 píxeles en calquera lugar da área de pantalla mostrada cando o contido se ve a 1024 x 768 píxeles proporcionará unha boa estimación dun campo visual de 10 graos para tamaños de pantalla e distancias de visualización estándar (por exemplo, pantalla de 15-17 polgadas a 22-26 polgadas). Sábese que esta resolución de 75 - 85 ppi é menor, e polo tanto máis conservadora, que a resolución nominal de píxel CSS de 96 ppi nas especificacións CSS. As pantallas de resolucións maiores que mostran a mesma renderización do contido xeran imaxes menores e máis seguras, así que son as resolucións menores as que se usan para definir os limiares.
+   </p>
+   
+   <p class="note">Unha transición é o cambio na luminancia relativa (ou luminancia relativa/cor para
+      os flash vermellos) entre picos e vales adxacentes nun gráfico da medición da luminancia relativa (ou
+      luminancia relativa/cor para os flash vermellos) contra o tempo. Un flash consiste
+      en dúas transicións opostas.
+   </p>
+
+   <p class="note">A nova definición de traballo no campo para o <strong>"par de transicións opostas que implican un vermello saturado"</strong> (das WCAG 2.2) é un par de transicións opostas onde, unha transición é cara ou desde un estado cun valor R/(R + G + B) maior ou igual a 0.8, e a diferenza entre estados é maior que 0.2 (sen unidade) no diagrama de cromaticidade UCS CIE 1976. [[ISO_9241-391]] </p>
+   
+   <p class="note">Hai ferramentas que levan a cabo a análise a partir da captura de pantalla de vídeo. Non obstante,
+      non é necesaria ningunha ferramenta para avaliar esta condición se non hai máis de 3 flash en ningún período dun segundo. O contido cumpre automaticamente (véxase #1 e #2 de arriba).
+   </p>
+   
+</dd>

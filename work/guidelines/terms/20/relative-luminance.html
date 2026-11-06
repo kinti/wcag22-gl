@@ -1,0 +1,63 @@
+<dt><dfn id="dfn-relative-luminance">luminancia relativa</dfn></dt>
+<dd>
+   
+   <p>o brillo relativo de calquera punto nun espazo de cores, normalizado a 0 para o negro
+      máis escuro e a 1 para o branco máis claro
+   </p>
+   
+  <div class="note">
+   <p>Para o espazo de cores sRGB, a luminancia relativa dunha cor defínese como L = 0.2126
+      * <strong>R</strong> + 0.7152 * <strong>G</strong> + 0.0722 * <strong>B</strong> onde <strong>R</strong>, <strong>G</strong> e <strong>B</strong> se definen como:
+   </p>
+   
+   <ul>
+      
+      <li>se RsRGB &lt;= 0.04045 entón <strong>R</strong> = RsRGB/12.92 en caso contrario <strong>R</strong> = ((RsRGB+0.055)/1.055) ^ 2.4
+      </li>
+      
+      <li>se GsRGB &lt;= 0.04045 entón <strong>G</strong> = GsRGB/12.92 en caso contrario <strong>G</strong> = ((GsRGB+0.055)/1.055) ^ 2.4
+      </li>
+      
+      <li>se BsRGB &lt;= 0.04045 entón <strong>B</strong> = BsRGB/12.92 en caso contrario <strong>B</strong> = ((BsRGB+0.055)/1.055) ^ 2.4
+      </li>
+      
+   </ul>
+   
+   <p>e RsRGB, GsRGB e BsRGB defínense como:</p>
+   
+   <ul>
+      
+      <li>RsRGB = R8bit/255</li>
+      
+      <li>GsRGB = G8bit/255</li>
+      
+      <li>BsRGB = B8bit/255</li>
+      
+   </ul>
+   
+   <p>O carácter "^" é o operador de exponenciación. (Fórmula tomada de 
+      [[SRGB]].)
+   </p>
+
+  </div>
+
+  <p class="note">Antes de maio de 2021 o valor de 0.04045 na definición era diferente (0.03928). Procedía dunha versión máis antiga da especificación e foi actualizado. Non ten efecto práctico ningún nos cálculos no contexto destas pautas.</p>
+  
+   <p class="note">Case tódolos sistemas usados hoxe en día para ver contido web asumen codificación sRGB. A menos que se
+      saiba que se vai usar outro espazo de cores para procesar e mostrar o contido,
+      as persoas autoras deberían avaliar usando o espazo de cores sRGB. Se se usan outros espazos de cores, vexa <a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum">Comprender o Criterio de Éxito 1.4.3</a>.
+   </p>
+   
+   <p class="note">Se ocorre tramado (dithering) despois da entrega, úsase o valor de cor da orixe. Para as cores
+      que se tramaron na orixe, deben usarse os valores medios das cores tramadas
+      (media de R, media de G e media de B).
+   </p>
+   
+   <p class="note">Hai ferramentas que fan automaticamente os cálculos ao probar o contraste e
+      o flash.
+   </p>
+   
+   <p class="note">Hai dispoñible unha <a href="relative-luminance.html">páxina separada que dá a definición de luminancia relativa usando MathML</a> para mostrar as fórmulas.
+   </p>
+   
+</dd>

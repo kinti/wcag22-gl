@@ -3,7 +3,9 @@
 
 Input : an unmodified HTML export from ReSpec (UI export or respec.toHTML()).
         Pass its path as the first argument. DOM captures are not recommended.
-Output: the same file post-processed: ReSpec chrome stripped, .head +
+Input path is taken from argv[1] (the RAW browser capture; do NOT point
+        it at an already-processed export).
+Output: work/export/index.html post-processed: ReSpec chrome stripped, .head +
         generated sotd + section annotations + dfn panels + UI strings in
         Galician, translation disclaimer inserted. Idempotence is NOT
         guaranteed: always run over a fresh capture.
@@ -233,6 +235,11 @@ def main() -> int:
       <p><strong lang="en">Lead translating organization:</strong> <strong>a11y.es</strong> — Jesús Quintana,
       <a href="https://a11y.es/">https://a11y.es/</a>, <a href="mailto:hola@a11y.es">hola@a11y.es</a> (proposta).</p>
       <h2>Tradución ao galego</h2>
+      <p><strong>BORRADOR de tradución non oficial — pendente de revisión
+      externa.</strong> Para propoñer correccións a esta tradución, abra unha
+      <a href="https://github.com/kinti/wcag22-gl/issues">incidencia no
+      repositorio do proxecto</a>. (As ligazóns de comentarios deste documento
+      apuntan ao repositorio do estándar inglés.)</p>
       <p>Esta é unha tradución ao galego do documento
       <a href="https://www.w3.org/TR/2024/REC-WCAG22-20241212/" lang="en">Web Content Accessibility Guidelines (WCAG) 2.2</a>,
       Recomendación do W3C do 12 de decembro de 2024. A presente tradución pode conter erros ou

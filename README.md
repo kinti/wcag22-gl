@@ -105,10 +105,12 @@ python3 tools/inline_preview.py work/guidelines/index.html work/guidelines work/
 # 2) servir e capturar o render (ReSpec esixe HTTP; o HTML final vén do render)
 cd work/guidelines && python3 -m http.server 8080
 # abrir http://localhost:8080/index-inlined.html e gardar o DOM renderizado
-# (existe un receptor de exemplo en tools/export_helpers.py)
+# nun ficheiro BRUTO fóra de work/export/ (ex.: /tmp/export-bruto.html)
 
 # 3) post-proceso (cabaceira, sotd, UI, disclaimer; autocomproba restos de inglés)
-python3 tools/make_export.py
+python3 tools/make_export.py /tmp/export-bruto.html
+# SEN argumento procesa work/export/index.html no propio sitio (sobrescribe o
+# export traducido co bruto) — usa sempre a ruta explícita
 
 # 4) comprobación da entrega contra a publicación congelada
 python3 tools/check_translation.py

@@ -250,6 +250,13 @@ def main() -> int:
       <i lang="en">Lead Translation Organization</i> (proposta), co obxectivo de presentala como
       <i lang="en">Candidate Authorized Translation</i> segundo a
       <a href="https://www.w3.org/2005/02/TranslationPolicy" lang="en">Policy for Authorized W3C Translations</a>.</p>
+      <p>Revisión lingüística e técnica en marcha coa participación de
+      <a href="https://termigal.gal/" hreflang="gl">Termigal</a>
+      (Inés Veiga Mateos), o
+      <a href="https://ilg.usc.gal/" hreflang="gl">Instituto da Lingua Galega</a>
+      e a <a href="https://uxionovoneyra.com/" hreflang="gl">Fundación Uxío Novoneyra</a>.
+      Quen queira sumarse á revisión, ten as portas abertas: toda achega figurará
+      no equipo de revisión da Candidata.</p>
     </section>
     '''
     t = re.sub(r"(<body\b[^>]*>)", r"\1\n" + DISCLAIMER, t, count=1)

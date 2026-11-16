@@ -32,11 +32,11 @@ do W3C o 20 de outubro de 2026.
 
 A revisión lingüística e técnica está en marcha coa participación de:
 
-- **Inés Veiga Mateos (Termigal)**: terminóloga. Termigal é o portal de
-  terminoloxía galega de referencia ([termigal.gal](https://termigal.gal)).
-- **Instituto da Lingua Galega**: centro de investigación da lingua galega
-  adscrito á Universidade de Santiago de Compostela; referencia en gramática,
-  léxico e terminoloxía do galego.
+- **Inés Veiga Mateos**: terminóloga, vinculada ao
+  [Instituto da Lingua Galega](https://ilg.usc.gal/) (o centro de
+  investigación da lingua galega da Universidade de Santiago de Compostela)
+  e a [Termigal](https://termigal.gal/) (o portal de terminoloxía galega de
+  referencia).
 - **Fundación Uxío Novoneyra**
   ([uxionovoneyra.com](https://uxionovoneyra.com/)): fundación cultural de
   Folgoso do Courel (Lugo) que conserva e difunde a obra do poeta Uxío

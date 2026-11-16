@@ -251,10 +251,13 @@ def main() -> int:
       <i lang="en">Candidate Authorized Translation</i> segundo a
       <a href="https://www.w3.org/2005/02/TranslationPolicy" lang="en">Policy for Authorized W3C Translations</a>.</p>
       <p>Revisión lingüística e técnica en marcha coa participación de
-      <a href="https://termigal.gal/" hreflang="gl">Termigal</a>
-      (Inés Veiga Mateos), o
+      Inés Veiga Mateos, vinculada ao
       <a href="https://ilg.usc.gal/" hreflang="gl">Instituto da Lingua Galega</a>
-      e a <a href="https://uxionovoneyra.com/" hreflang="gl">Fundación Uxío Novoneyra</a>.
+      (o centro de investigación da lingua galega da Universidade de Santiago
+      de Compostela) e a
+      <a href="https://termigal.gal/" hreflang="gl">Termigal</a>
+      (o portal de terminoloxía galega de referencia), e da
+      <a href="https://uxionovoneyra.com/" hreflang="gl">Fundación Uxío Novoneyra</a>.
       Quen queira sumarse á revisión, ten as portas abertas: toda achega figurará
       no equipo de revisión da Candidata.</p>
     </section>

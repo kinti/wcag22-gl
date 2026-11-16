@@ -220,7 +220,7 @@ def main() -> int:
     t = t.replace('title="theme toggle icon"', 'title="icona para alternar o tema"')
 
     # how-to: a sección de Conformidade debe ter id="conformance"; o render
-    # auto-xera "conformidade" (título GL) — renomézase id e hrefs internos
+    # auto-xera "conformidade" (título GL): renomézase id e hrefs internos
     t = t.replace('id="conformidade"', 'id="conformance"')
     t = t.replace('href="#conformidade"', 'href="#conformance"')
 
@@ -232,10 +232,10 @@ def main() -> int:
     # -- 6) disclaimer de tradución -------------------------------------------
     DISCLAIMER = f'''<section id="traducion-gl" class="introductory">
       <h2 lang="en">Web Content Accessibility Guidelines (WCAG) 2.2</h2>
-      <p><strong lang="en">Lead translating organization:</strong> <strong>a11y.es</strong> — Jesús Quintana,
+      <p><strong lang="en">Lead translating organization:</strong> <strong>a11y.es</strong> - Jesús Quintana,
       <a href="https://a11y.es/">https://a11y.es/</a>, <a href="mailto:hola@a11y.es">hola@a11y.es</a> (proposta).</p>
       <h2>Tradución ao galego</h2>
-      <p><strong>BORRADOR de tradución non oficial — pendente de revisión
+      <p><strong>BORRADOR de tradución non oficial - pendente de revisión
       externa.</strong> Para propoñer correccións a esta tradución, abra unha
       <a href="https://github.com/kinti/wcag22-gl/issues">incidencia no
       repositorio do proxecto</a>. (As ligazóns de comentarios deste documento

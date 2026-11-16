@@ -8,7 +8,7 @@ Data sources:
 
 Usage: gen_sbs.py            -> sheets for all four principles (p1..p4)
        gen_sbs.py 2.5        -> single guideline sheet
-Output: docs/sbs/p{1..4}.md  — GL column intentionally empty: that is the work.
+Output: docs/sbs/p{1..4}.md : GL column intentionally empty: that is the work.
 Stdlib only.
 """
 from __future__ import annotations
@@ -44,8 +44,8 @@ def slug_of(sc_id: str) -> str:
 
 def sheet(principle: dict, es_cache: dict) -> str:
     lines = [
-        f"# Hoja side-by-side — Principio {principle['num']}: "
-        f"{principle['handle']} / ES ref. — GL: __redactar aquí__",
+        f"# Hoja side-by-side: Principio {principle['num']}: "
+        f"{principle['handle']} / ES ref.: GL: __redactar aquí__",
         "",
         "> EN = fuente normativo (única autoridad de fidelidad). "
         "ES = referencia Sidar 2.0 (SOLO ayuda; no tiene autoridad y no existe "
@@ -53,7 +53,7 @@ def sheet(principle: dict, es_cache: dict) -> str:
         "",
     ]
     for g in principle["guidelines"]:
-        lines += [f"## Pauta {g['num']} — EN: {g['handle']}",
+        lines += [f"## Pauta {g['num']}: EN: {g['handle']}",
                   f"### ES: {'(sin referencia española)' if g['num'] not in ('1','2','3','4') else ''}", ""]
         for sc in g["successcriteria"]:
             num, slug = sc["num"], slug_of(sc["id"])
@@ -70,7 +70,7 @@ def sheet(principle: dict, es_cache: dict) -> str:
                 "```",
                 "",
                 "**ES (Sidar 2.0):**" if es else
-                "**ES: NO EXISTE — solo fuente EN**",
+                "**ES: NO EXISTE: solo fuente EN**",
                 "",
                 "```" if es else "",
                 es and f"{es['title']}: {es['text']}" or "",
@@ -97,9 +97,9 @@ def main() -> int:
         path = OUT / f"p{principle['num']}.md"
         path.write_text(sheet(principle, ES), encoding="utf-8")
         total = sum(len(g["successcriteria"]) for g in principle["guidelines"])
-        print(f"wrote {path} — {total} SC")
+        print(f"wrote {path}: {total} SC")
         n += 1
-    print(f"done — {n} sheet(s); ES cache covers {len(ES)} of 87 SC")
+    print(f"done: {n} sheet(s); ES cache covers {len(ES)} of 87 SC")
     return 0
 
 

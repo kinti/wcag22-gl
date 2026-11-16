@@ -38,7 +38,7 @@ coherencia.
 
 ## Normas do proxecto (as duras do W3C)
 
-- **Non se traducen os ids nin se toca o CSS** — as áncoras do orixinal e da
+- **Non se traducen os ids nin se toca o CSS**: as áncoras do orixinal e da
   tradución deben coincidir.
 - Todo o texto que permaneza en inglés levara `lang="en"`.
 - A orixinal inglesa é a única versión normativa: calquera emenda debe

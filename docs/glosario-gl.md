@@ -1,9 +1,9 @@
-# Glosario EN → GL — referencia canónica del proyecto
+# Glosario EN → GL, referencia canónica del proyecto
 
 > **VALIDADO por Jesús (2026-11-06): este glosario es vinculante.** Cada
 > decisión nueva se añade aquí ANTES de entrar en un borrador; el QA de
 > coherencia grepa contra este fichero. El endoso EXTERNO (ILG / coalición)
-> queda pendiente como formalidad de la ruta CAT — si la coalición propone
+> queda pendiente como formalidad de la ruta CAT: si la coalición propone
 > un cambio, se actualiza aquí primero y después los borradores.
 > Marcas: ✅ cerrado · ⚠️ abierto para la revisión externa (mientras tanto,
 > la forma GL escrita en la fila es LA QUE SE USA).
@@ -118,11 +118,11 @@
 | How to Meet | Como cumprir |
 | Table of Contents | Índice de contidos |
 
-## Decisións da tanda 1 (P1, 29 SC — borrador G 5-nov, a correxir por Jesús/ILG)
+## Decisións da tanda 1 (P1, 29 SC, borrador G 5-nov, a correxir por Jesús/ILG)
 
 | EN | GL usada no borrador | Nota |
 |---|---|---|
-| time-based media | medio tempodependente | aliñado con Sidar («tempodependiente») — fila principal actualizada |
+| time-based media | medio tempodependente | aliñado con Sidar («tempodependiente»), fila principal actualizada |
 | extended audio description | audiodescrición estendida | «estendida» (RAG) non «extendida» |
 | Reflow | Reaxuste | ⚠️ alternativa: manter «Reflow» con lang="en" |
 | viewport | viewport (sen traducir) | usado na nota de 1.4.10 |
@@ -146,7 +146,7 @@
 | Guideline X / Success Criterion X.Y.Z / Conformance Requirement | Pauta X / Criterio de Éxito X.Y.Z / Requisito de Conformidade | textos de link traducidos, hrefs intactos |
 | New (clase change, soamente 2.2) | Novo | usar cando apareza |
 
-## Decisións da tanda 2 (P2, 34 SC — borrador G 6-nov, a correxir por Jesús/ILG)
+## Decisións da tanda 2 (P2, 34 SC, borrador G 6-nov, a correxir por Jesús/ILG)
 
 | EN | GL usada no borrador | Nota |
 |---|---|---|
@@ -202,7 +202,7 @@
 | Concurrent Input Mechanisms | Mecanismos de Entrada Concomitantes | ⚠️ alternativa «de entrada simultánea» |
 | Motion Actuation | Activación por Movemento | |
 
-## Decisións da tanda 3 (P3, 21 SC — borrador G 6-nov, a correxir por Jesús/ILG)
+## Decisións da tanda 3 (P3, 21 SC, borrador G 6-nov, a correxir por Jesús/ILG)
 
 | EN | GL usada no borrador | Nota |
 |---|---|---|
@@ -238,18 +238,18 @@
 | cognitive burden | carga cognitiva | |
 | Object Recognition / Personal Content (dt) | Recoñecemento de Obxectos / Contido Persoal | |
 
-## Decisións da tanda 4 (P4, 3 SC — borrador G 6-nov, a correxir por Jesús/ILG)
+## Decisións da tanda 4 (P4, 3 SC, borrador G 6-nov, a correxir por Jesús/ILG)
 
 | EN | GL usada no borrador | Nota |
 |---|---|---|
-| Parsing (Obsolete and removed) | Análise (Obsoleto e retirado) | 4.1.1 obsoleto — tradúcese igualmente, segue no documento |
+| Parsing (Obsolete and removed) | Análise (Obsoleto e retirado) | 4.1.1 obsoleto: tradúcese igualmente, segue no documento |
 | role (termo normativo 4.1.x) | función | ⚠️ IMPORTANTE: a comunidade ARIA di «rol»; Sidar 2.0 usaba «función». DECIDIR: función vs rol |
 | programmatically set | establecido programaticamente | |
 | notification of changes | notificación dos cambios | |
 | Status Messages | Mensaxes de Estado | |
 | script (en texto) | script (sen traducir) | |
 
-## Decisións da fase TERMS (102 dfn — borrador G 6-nov, a correxir por Jesús/ILG)
+## Decisións da fase TERMS (102 dfn, borrador G 6-nov, a correxir por Jesús/ILG)
 
 | EN | GL usada no borrador | Nota |
 |---|---|---|
@@ -300,19 +300,19 @@
 | user need | necesidades das persoas usuarias (era «necesidades de usuaria», concordanza rota) | ✅ |
 | escríbense / fornécese / fornécense | verbos con enclítico correctos (escriben+se, fornecer+se) | ✅ |
 | de modo que | **de xeito que** (preferencia de Jesús) | ✅ 5× corrixido |
-| em-dash — | eran MÍOS (o fonte usa « - »); revertidos os 10 do index; o de user-agent vén do fonte e QUEDA | ✅ |
+| em-dash: | eran MÍOS (o fonte usa « - »); revertidos os 10 do index; o de user-agent vén do fonte e QUEDA | ✅ |
 | metodología/evaluaronse | metodoloxía/avaliaronse (galegismos) | ✅ |
-| internacionalmente | CORRECTA así; «internacioalmente» semella errata — NON aplicado | ⚠️ confirmar con Jesús |
-| interface | **interfaz — APLICADA** (2ª orde expresa de Jesús 6-nov, 47×/29 ficheros; plural «as interfaces»); o pushback RAG/Termigal queda rexistrado para ILG | ✅ decidida |
+| internacionalmente | CORRECTA así; «internacioalmente» semella errata, NON aplicado | ⚠️ confirmar con Jesús |
+| interface | **interfaz, APLICADA** (2ª orde expresa de Jesús 6-nov, 47×/29 ficheros; plural «as interfaces»); o pushback RAG/Termigal queda rexistrado para ILG | ✅ decidida |
 | Guidelines / Success Criterion | TRADÚCENSE (Pautas / Criterio de Éxito); en inglés quedan SOLO: nome propio «Accessibility Guidelines Working Group», sotd (lang=en), nomes históricos citados no changelog (lang=en), e a UI/cabeceira de ReSpec (tradúcese no paso 5 do how-to: «translate the .head») | ✅ política documentada |
 
 ## Segunda rolda de revisión de Jesús (6-nov, cos seus picks)
 
 | Termo | Decisión | Estado |
 |---|---|---|
-| user need | **dos usuarios** (non «persoas usuarias») — marca a dirección do ⚠️ usuario/usuaria | ✅ 2× |
+| user need | **dos usuarios** (non «persoas usuarias»), marca a dirección do ⚠️ usuario/usuaria | ✅ 2× |
 | escríbense | **redáctanse** (preferencia de Jesús) | ✅ |
-| Success Criterion | **criterio de éxito MANTIDO** — pick de Jesús coa recomendación (tradición Sidar ES 2.0 + catalán authorized «criteris d'èxit» + glosario validado); descartado «criterio de aceptación» | ✅ pechado |
+| Success Criterion | **criterio de éxito MANTIDO**, pick de Jesús coa recomendación (tradición Sidar ES 2.0 + catalán authorized «criteris d'èxit» + glosario validado); descartado «criterio de aceptación» | ✅ pechado |
 | fornecer | **proporcionar en TODO** (pick de Jesús; 53×/23 ficheros con conxugación: fornécese→proporciónase, fornécense→proporciónanse…) | ✅ global |
 
 ## Decisións do EXPORT (6-nov, tras preguntas de Jesús sobre o inglés)
@@ -321,12 +321,12 @@
 |---|---|---|
 | sotd (Estado do documento) | **TRADÚCESE** (revertida a miña decisión de mantelo en EN) | catalán authorized («Estat d'aquest document») + Sidar ES tradúceno |
 | cabeceira .head | toda en galego: Recomendación do W3C do… / Esta versión / Última versión publicada / Último esborrany do editor / Historia / Comentarios | catalán authorized + Sidar; o how-to paso 5 esixe «translate the .head» |
-| data de publicación | 12 de decembro de 2024 (ReSpec deuna «diciembre» — fallback es — corrixida no export) | |
+| data de publicación | 12 de decembro de 2024 (ReSpec deuna «diciembre», fallback es, corrixida no export) | |
 | ToC | Índice de contidos | glosario UI |
 | Understanding / How to Meet | Comprender X / Como cumprir X (levan o nome do SC/pauta) | catalán: «Com s'interpreta / Com es compleix» |
 | Permalink / Referenced in | Ligazón permanente / Mencionado en: | |
 | queda en inglés | nome propio AG WG, empresas, URLs w3.org, lang="en" citado (changelog histórico, título orixinal no disclaimer, legal funders) | mesmo criterio có catalán authorized |
-| export v1 | work/export/index.html — audit 88/100, 0 high (só FP lang="sm" do propio motor, presente no EN orixinal) | |
+| export v1 | work/export/index.html, audit 88/100, 0 high (só FP lang="sm" do propio motor, presente no EN orixinal) | |
 
 ## Terceira rolda de revisión (6-nov, preview export)
 
@@ -346,12 +346,12 @@
 | Termo | Decisión / orixe | Estado |
 |---|---|---|
 | producease (2.5.2) | ERRO meu: era o imperfecto; correcto **prodúcese** (presente de producir, con acento) | ✅ |
-| contrasinal | **feminino** (orde de Jesús: «unha contrasinal», 5×; ⚠️ NOTA para ILG: o dicionario da RAG recolleo como MASCULINO — «o contrasinal», por «sinal» m.; arbitrará a revisión externa) | ✅ aplicado + ⚠️ ILG |
+| contrasinal | **feminino** (orde de Jesús: «unha contrasinal», 5×; ⚠️ NOTA para ILG: o dicionario da RAG recolleo como MASCULINO («o contrasinal», por «sinal» m.; arbitrará a revisión externa) | ✅ aplicado + ⚠️ ILG |
 | automaticamente | CORRECTO sen tilde: en galego os adverbios en -mente non levan acento (norma RAG; o español «automáticamente» non aplica). Corpus: 11×, ningunha con acento | ✅ sen cambio |
 | RFC2119 keys (MAY, MUST…) | **NO se traducen**: son as palabras clave DEFINIDAS polo RFC; o propio texto explica «tal e como se amosan aquí»; Sidar mantívoas igual | ✅ sen cambio |
 | «Ademais» sen tilde | CORRECTO: a acentuación galega só acentúa agudas terminadas en vogal/-n/-s; as palabras graves rematadas en -s NON levan tilde (a diferenza do español). Compara «tamén», que sí (aguda en -n) | ✅ sen cambio |
 | disclaimer LTO | **«Tradución liderada por Jesús Quintana (a11y.es)»** (orde de Jesús) | ✅ |
-| Tres Flash ou Por Debaixo do Limiar (2.3.1) | literal de «Three Flaves or Below Threshold». ⚠️ NOTA estilo: os títulos usan maiúscula inglesa (Title Case) herdada; o galego natural usaría minúscula («Tres flash ou por debaixo do limiar») — decisión de estilo para a rolda ILG en TODO o documento | ⚠️ ILG |
+| Tres Flash ou Por Debaixo do Limiar (2.3.1) | literal de «Three Flaves or Below Threshold». ⚠️ NOTA estilo: os títulos usan maiúscula inglesa (Title Case) herdada; o galego natural usaría minúscula («Tres flash ou por debaixo do limiar»), decisión de estilo para a rolda ILG en TODO o documento | ⚠️ ILG |
 | bug «aparecen in all maiúsculas» | bug do make_export.py (comentario ReSpec partía a frase) → «aparecen en maiúsculas» | ✅ |
 
 ## Quinta rolda: revisión dunha IA externa (validada por G + fixes de G, 6-nov)
@@ -361,14 +361,14 @@ cumple/cumplir→cumpre/cumprir (restos casteláns meus), cuyo→cuxo, personas�
 accesibilidad→accesibilidade, a o que→ao que, (o funcionalidade)→(ou funcionalidade),
 demonístrese→demóstrase, andes→estantes (web-page), padróns→**patróns**,
 remapear→**reasignar**, gatillo→**disparador**, tooltip→**nota emerxente** (⚠️「tooltip»
-estaba decidido sen traducir — a IA externa traduciu; queda a decisión da última rolda),
+estaba decidido sen traducir, a IA externa traduciu; queda a decisión da última rolda),
 padding→**recheo**, plugin→**complemento**, soportado→**compatible/admitido**, Female→Feminino,
 profesións/IEC/citas EN marcadas lang="en", MathML mtext and→e, relative-luminance xml:lang=gl.
 
 **Estrutural (a IA externa diagnosticou ben, G reconstruíu os datos)**:
-- IDs x… TRADUCIDOS xerados por wcag.js rompían «do not translate ids» — RESTAURADOS ao EN
+- IDs x… TRADUCIDOS xerados por wcag.js rompían «do not translate ids», RESTAURADOS ao EN
   (mapa posicional render EN↔GL: 134 entradas en tools/original-heading-ids.json; o mapa da
-  IA externa tiña os valores ben pero emparellados MAL — renomeaba ids orixinais: sotd→table-of-contents)
+  IA externa tiña os valores ben pero emparellados MAL, renomeaba ids orixinais: sotd→table-of-contents)
 - doclinks Understanding/quickref con slug galego (143 rotos) → restaurados (97 entradas)
 - **python -m http.server DROPEA fragmentos ao azar** (respec-offender-data-include-failed;
   renders con SCs desaparecidos) → tools/inline_preview.py pre-inlina os 192 includes (determinista, 0 fallos)
@@ -376,7 +376,7 @@ profesións/IEC/citas EN marcadas lang="en", MathML mtext and→e, relative-lumi
   renumeración 5.1.2.1) → sección anónima coma o fonte + renome conformidade→conformance no export
   (how-to cumprido, numeración EN exacta: 5.1/5.2/5.2.1)
 - editores W3C ORIXINAIS restaurados en respec-config (o how-to di «translate the editors list»,
-  non substituíla — o equipo de tradución vive no disclaimer; erro meu anterior)
+  non substituíla, o equipo de tradución vive no disclaimer; erro meu anterior)
 - fixup.js con estrutura i18n {en, gl} (correcto)
 - wcag.js só inxecta os bloques canónicos (As-well/RFC) se a sección ten id → agora inxéctaos
   make_export.py coas nosas versións galegas; a nosa frase RFC2119 do fonte sobrevive

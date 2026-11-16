@@ -20,7 +20,7 @@ SPECIAL = [
     ("guidelines/index.html", "Main document (full REC)"),
     ("guidelines/input-purposes.html", "Input purposes table (SC 1.3.5/1.3.6)"),
     ("guidelines/relative-luminance.html", "Relative luminance calculator"),
-    ("guidelines/respec-config.js", "ReSpec config — editors list"),
+    ("guidelines/respec-config.js", "ReSpec config: editors list"),
     ("fixup.js", "Published fixup.js (3 UI strings)"),
 ]
 
@@ -63,12 +63,12 @@ def main() -> int:
     total = 0
 
     for sub, label in (
-        ("sc/20", "Success Criteria WCAG 2.0 base — guidelines/sc/20"),
-        ("sc/21", "Success Criteria added in 2.1 — guidelines/sc/21"),
-        ("sc/22", "Success Criteria added in 2.2 — guidelines/sc/22"),
-        ("terms/20", "Definitions 2.0 base — guidelines/terms/20"),
-        ("terms/21", "Definitions added in 2.1 — guidelines/terms/21"),
-        ("terms/22", "Definitions added in 2.2 — guidelines/terms/22"),
+        ("sc/20", "Success Criteria WCAG 2.0 base: guidelines/sc/20"),
+        ("sc/21", "Success Criteria added in 2.1: guidelines/sc/21"),
+        ("sc/22", "Success Criteria added in 2.2: guidelines/sc/22"),
+        ("terms/20", "Definitions 2.0 base: guidelines/terms/20"),
+        ("terms/21", "Definitions added in 2.1: guidelines/terms/21"),
+        ("terms/22", "Definitions added in 2.2: guidelines/terms/22"),
     ):
         files = sorted((SRC / sub).glob("*.html"))
         rows = [(f"guidelines/{sub}/{f.name}", title_of(f)) for f in files]
@@ -83,13 +83,13 @@ def main() -> int:
     )
 
     header = (
-        "# WCAG 2.2 galego — checklist de progreso\n\n"
+        "# WCAG 2.2 galego: checklist de progreso\n\n"
         f"Fuente: w3c/wcag @ tag `WCAG22-20241212` · generado con "
         f"`tools/gen_checklist.py` · {total} piezas en total.\n\n"
         "Estados: ☐ pending · ✎ draft · ✓ reviewed (humano) · ★ approved\n\n"
     )
     OUT.write_text(header + "\n\n".join(sections) + "\n", encoding="utf-8")
-    print(f"wrote {OUT} — {total} items")
+    print(f"wrote {OUT}: {total} items")
     return 0
 
 

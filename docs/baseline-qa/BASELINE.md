@@ -2,7 +2,7 @@
 
 Fuente: `source/guidelines/index.html` @ WCAG22-20241212 (1dfe1647)
 
-- **a11ytoolkit audit (estático, es): score 96/100 — 0 high, 0 medium, 2 low**
+- **a11ytoolkit audit (estático, es): score 96/100: 0 high, 0 medium, 2 low**
 - Detalle completo: `audit-fuente.json`
 
 **La traducción debe mantener score ≥ 96 y nunca introducir un hallazgo

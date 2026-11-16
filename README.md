@@ -1,16 +1,16 @@
-# Pautas de Accesibilidade para o Contido Web (WCAG) 2.2 — tradución ao galego
+# Pautas de Accesibilidade para o Contido Web (WCAG) 2.2: tradución ao galego
 
 > **English summary.** This repository holds an *unofficial draft* Galician
 > translation of [WCAG 2.2](https://www.w3.org/TR/2024/REC-WCAG22-20241212/)
-> (W3C Recommendation, 12 December 2024) — the first WCAG translation into
+> (W3C Recommendation, 12 December 2024): the first WCAG translation into
 > Galician. All 199 pieces are translated; external human review is pending.
 > Our goal is to propose it as a W3C Candidate Authorized Translation.
-> Contributions welcome — see `CONTRIBUTING.md`. Read the current draft at
+> Contributions welcome: see `CONTRIBUTING.md`. Read the current draft at
 > `work/export/index.html` (open it locally or serve the folder over HTTP).
 
 ## Que é
 
-Borrador da **primeira traducción das WCAG ao galego** — non existe ningunha,
+Borrador da **primeira traducción das WCAG ao galego**: non existe ningunha,
 autorizada nin non oficial, en ningunha versión. Tradúcese o documento
 completo: os 86 criterios de éxito vixentes, as definicións do glosario
 normativo, a introdución, a sección de conformidade e os recoñecementos (199
@@ -64,11 +64,11 @@ git clone --depth 1 --branch WCAG22-20241212 https://github.com/w3c/wcag source
 |---|---|
 | 87 criterios de éxito + 102 definicións + índice + luminancia + input purposes + fixup.js + recoñecementos | ✅ traducidos (199/199) |
 | Corrección humana (redonda a redonda) | 🔄 feita sobre o borrador; continua |
-| Revisión lingüística e técnica externa | ⏳ **pendente** — buscamos revisores |
+| Revisión lingüística e técnica externa | ⏳ **pendente**: buscamos revisores |
 | Validadores W3C (markup, ligazóns, CSS, i18n) | ⏳ na entrega |
 
 O estado por ficheiro está en `docs/checklist.md`; as decisións terminolóxicas
-fechadas, en `docs/glosario-gl.md` (canónico — o control de coherencia grepa
+fechadas, en `docs/glosario-gl.md` (canónico: o control de coherencia grepa
 contra el).
 
 ## Obxectivo
@@ -80,7 +80,7 @@ a política permite propoñer unha tradución voluntaria existente como
 candidata, que pasa por un período de revisión pública de polo menos 30 días
 antes de ser endosada polo W3C e publicada en w3.org.
 
-## Colaboración — buscamos revisores
+## Colaboración: buscamos revisores
 
 - **Revisores técnicos** (accesibilidade): verificar que cada criterio di o
   que di o orixinal.
@@ -96,14 +96,14 @@ Ver `CONTRIBUTING.md`.
 
 Abre unha **incidencia** co formato: apartado afectado, texto actual,
 proposta e xustificación (con cita do orixinal inglés se procede). As
-correccións de texto non necesitan pull request — valen as incidencias; os
+correccións de texto non necesitan pull request: valen as incidencias; os
 mantedores aplícannas e rexístranas no glosario canónico.
 
 ## Como ler e xerar o documento
 
 **Ler o borrador actual**: está publicado en
 **<https://kinti.github.io/wcag22-gl/>** (GitHub Pages serve o contido de
-`work/export/` — a páxina de entrada é o propio documento traducido, co
+`work/export/`: a páxina de entrada é o propio documento traducido, co
 aviso de tradución non oficial arriba).
 
 Tamén podes lelo en local: abre `work/export/index.html` nun navegador (con
@@ -130,14 +130,14 @@ cd work/guidelines && python3 -m http.server 8080
 # 3) post-proceso (cabaceira, sotd, UI, disclaimer; autocomproba restos de inglés)
 python3 tools/make_export.py /tmp/export-bruto.html
 # SEN argumento procesa work/export/index.html no propio sitio (sobrescribe o
-# export traducido co bruto) — usa sempre a ruta explícita
+# export traducido co bruto): usa sempre a ruta explícita
 
 # 4) comprobación da entrega contra a publicación congelada
 python3 tools/check_translation.py
 ```
 
 A entrega final ao W3C (paso 6.3 da política) son tres ficheiros:
-`index.html`, `relative-luminance.html` e `fixup.js` — ademais do
+`index.html`, `relative-luminance.html` e `fixup.js`: ademais do
 `guidelines.css` para a lectura local.
 
 ## Estrutura do repositorio

@@ -1,4 +1,4 @@
-# Preguntas abertas para a revisión externa — WCAG 2.2 galego
+# Preguntas abertas para a revisión externa: WCAG 2.2 galego
 
 > Última actualización: 9-nov-2026, tras a rolda de QA machine (0 violacións:
 > castelanismos, em-dashes, tooltips, drift do glosario = limpo; o verificador
@@ -10,7 +10,7 @@
 > (`docs/glosario-gl.md`) segue a ser o contrato: aquí só se decide, o corpus
 > actualízase despois.
 
-## Bloque A — decisións principais (cambian moitas ocurrencias)
+## Bloque A: decisións principais (cambian moitas ocurrencias)
 
 | # | EN | Usada no corpus | Alternativa | Risco do cambio |
 |---|---|---|---|---|
@@ -23,19 +23,19 @@
 | A7 | contrast ratio | **razón de contraste** | «proporción de contraste» | medio |
 | A8 | viewport | **viewport** (sen traducir) | traducir? | medio: dfn + 1.4.10 |
 | A9 | time-based media | **medio tempodependente** | (alineado con Sidar ES) | medio |
-| A10 | pointer | **punteiro** | — | baixo |
+| A10 | pointer | **punteiro** | (ningún) | baixo |
 | A11 | screen magnifier | **lente de aumento de pantalla** | «magnificador» | baixo |
-| A12 | cognitive function test | **proba de función cognitiva** | — | baixo |
+| A12 | cognitive function test | **proba de función cognitiva** | (ningún) | baixo |
 
-## Bloque B — alternativas menores (unha palabra, risco baixo)
+## Bloque B: alternativas menores (unha palabra, risco baixo)
 
 | # | EN | Usada | Alternativa proposta |
 |---|---|---|---|
-| B1 | conforms / meeting a SC | cumpre / cumprir con | — |
-| B2 | advisory technique | técnica consultiva | — |
+| B1 | conforms / meeting a SC | cumpre / cumprir con | (ningún) |
+| B2 | advisory technique | técnica consultiva | (ningún) |
 | B3 | programmatically determined | determinado programaticamente | «determinable» |
-| B4 | Understandable | Comprensible | — |
-| B5 | input purpose | finalidade da entrada | — |
+| B4 | Understandable | Comprensible | (ningún) |
+| B5 | input purpose | finalidade da entrada | (ningún) |
 | B6 | CSS pixels | píxeles CSS | «píxeles CSS» con lang="en"? |
 | B7 | space bar | barra espaciadora | «barra espazadora» |
 | B8 | Timeouts | Tempos Límite | «Tempos de inactividade» |
@@ -44,13 +44,13 @@
 | B11 | down-event / up-event | sen traducir | «evento de pulsación/liberación» |
 | B12 | Reflow | Reaxuste | manter «Reflow» lang="en" |
 | B13 | Dismissible/Hoverable/Persistent | Descartable / Se pode pousar o punteiro / Persistente | segundo dt descritivo |
-| B14 | Up Reversal | Reversión ao Soltar | — |
-| B15 | flash (plural) | invariable «tres flash» | — |
-| B16 | idioms / jargon | modismos / xerga | — |
+| B14 | Up Reversal | Reversión ao Soltar | (ningún) |
+| B15 | flash (plural) | invariable «tres flash» | (ningún) |
+| B16 | idioms / jargon | modismos / xerga | (ningún) |
 | B17 | tooltips | nota emerxente (5ª rolda; corpus 2× en 1.4.13) vs «tooltip» (glosario tanda 1: sen traducir) | **CONFLITO DOCUMENTAL entre roldas: o corpus xa é consistente («nota emerxente»); resolver a fila do glosario** |
 | B18 | hover (verbo/nome) | «paso do punteiro» / «hover» mixto | unificar |
 
-## Bloque C — estilo global (decisión única, afecta ~70 títulos)
+## Bloque C: estilo global (decisión única, afecta ~70 títulos)
 
 Os títulos dos criterios usan **Title Case** herdado do inglés («Tamaño do
 Obxectivo (Mínimo)», «Sen Trampa de Teclado»). O galego natural usa minúscula:
@@ -59,13 +59,13 @@ coa minúscula natural** (os 18 son monopalabra ou con numeral). Decidir UNHA
 norma para todo o documento antes de que comece a revisión (cambiala despois
 dobra o custo).
 
-## Bloque D — pendentes específicos de Jesús
+## Bloque D: pendentes específicos de Jesús
 
 | # | Cuestión | Estado |
 |---|---|---|
-| D1 | «internacionalmente» (SotD) — a IA externa sospeitou errata por «internacioalmente»; o corpus usa a forma correcta | confirmar que queda así |
+| D1 | «internacionalmente» (SotD): a IA externa sospeitou errata por «internacioalmente»; o corpus usa a forma correcta | confirmar que queda así |
 | D2 | «impresión grande» (SC 1.1) vs «letra ampliada» (Sidar) | pick persoal |
-| D3 | «contrasinal» feminino («unha contrasinal», orde 6-nov) — a RAG recolleo MASCULINO | mantense feminino; a ILG arbitra |
+| D3 | «contrasinal» feminino («unha contrasinal», orde 6-nov): a RAG recolleo MASCULINO | mantense feminino; a ILG arbitra |
 
 ## Como revisar (protocolo)
 

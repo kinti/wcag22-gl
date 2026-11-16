@@ -18,7 +18,7 @@ SRC = ROOT / "docs" / "es-sidar" / "source.html"
 OUT = ROOT / "docs" / "es-sidar" / "es.json"
 
 # Sidar wraps each SC in: <p class="sctxt"><strong class="sc-handle">N.N.N
-# Title:</strong> body (Nivel X)</p>  — body may contain inline markup.
+# Title:</strong> body (Nivel X)</p> : body may contain inline markup.
 BLOCK = re.compile(
     r'<p class="sctxt"><strong class="sc-handle">\s*(\d+\.\d+\.\d+)'
     r'[^<]*?</strong>(.*?)</p>',
@@ -46,7 +46,7 @@ def main() -> int:
     OUT.write_text(
         json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8"
     )
-    print(f"wrote {OUT} — {len(cache)} SC texts (Sidar covers WCAG 2.0 only)")
+    print(f"wrote {OUT}: {len(cache)} SC texts (Sidar covers WCAG 2.0 only)")
     return 0
 
 

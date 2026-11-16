@@ -28,6 +28,26 @@ Anuncio público de intención enviado á lista
 [`w3c-translators`](https://lists.w3.org/Archives/Public/w3c-translators/2026OctDec/0002.html)
 do W3C o 20 de outubro de 2026.
 
+## Quen revisa
+
+A revisión lingüística e técnica está en marcha coa participación de:
+
+- **Inés Veiga Mateos (Termigal)**: terminóloga. Termigal é o portal de
+  terminoloxía galega de referencia ([termigal.gal](https://termigal.gal)).
+- **Instituto da Lingua Galega**: centro de investigación da lingua galega
+  adscrito á Universidade de Santiago de Compostela; referencia en gramática,
+  léxico e terminoloxía do galego.
+- **Fundación Uxío Novoneyra**
+  ([uxionovoneyra.com](https://uxionovoneyra.com/)): fundación cultural de
+  Folgoso do Courel (Lugo) que conserva e difunde a obra do poeta Uxío
+  Novoneyra e promove o galego e a cultura de Galicia.
+
+**Quen queira sumarse**, ten as portas abertas: ler un criterio, votar as
+palabras aínda abertas ou contar eratas serve igual (ver
+[`docs/revisores/preguntas-abertas.md`](docs/revisores/preguntas-abertas.md)).
+Todo o que participe figurará nos agradecementos e no equipo de revisión da
+Candidata.
+
 ## Fonte
 
 A **Recomendación inglesa do 12 de decembro de 2024**: repositorio

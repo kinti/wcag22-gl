@@ -251,12 +251,12 @@ def main() -> int:
       <i lang="en">Candidate Authorized Translation</i> segundo a
       <a href="https://www.w3.org/2005/02/TranslationPolicy" lang="en">Policy for Authorized W3C Translations</a>.</p>
       <p>Revisión lingüística e técnica en marcha coa participación de
-      Inés Veiga Mateos, vinculada ao
+      Inés Veiga Mateos, terminóloga do
       <a href="https://ilg.usc.gal/" hreflang="gl">Instituto da Lingua Galega</a>
-      (o centro de investigación da lingua galega da Universidade de Santiago
-      de Compostela) e a
+      (centro de investigación da Universidade de Santiago de Compostela) e de
       <a href="https://termigal.gal/" hreflang="gl">Termigal</a>
-      (o portal de terminoloxía galega de referencia), e da
+      (o portal de terminoloxía galega de referencia, no Centro Ramón Piñeiro
+      para a Investigación en Humanidades), e da
       <a href="https://uxionovoneyra.com/" hreflang="gl">Fundación Uxío Novoneyra</a>.
       Quen queira sumarse á revisión, ten as portas abertas: toda achega figurará
       no equipo de revisión da Candidata.</p>

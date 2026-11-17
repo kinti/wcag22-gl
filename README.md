@@ -32,11 +32,11 @@ do W3C o 20 de outubro de 2026.
 
 A revisión lingüística e técnica está en marcha coa participación de:
 
-- **Inés Veiga Mateos**: terminóloga, vinculada ao
-  [Instituto da Lingua Galega](https://ilg.usc.gal/) (o centro de
-  investigación da lingua galega da Universidade de Santiago de Compostela)
-  e a [Termigal](https://termigal.gal/) (o portal de terminoloxía galega de
-  referencia).
+- **Inés Veiga Mateos**: terminóloga do
+  [Instituto da Lingua Galega](https://ilg.usc.gal/) (centro de
+  investigación da Universidade de Santiago de Compostela) e de
+  [Termigal](https://termigal.gal/) (o portal de terminoloxía galega de
+  referencia, no Centro Ramón Piñeiro para a Investigación en Humanidades).
 - **Fundación Uxío Novoneyra**
   ([uxionovoneyra.com](https://uxionovoneyra.com/)): fundación cultural de
   Folgoso do Courel (Lugo) que conserva e difunde a obra do poeta Uxío
@@ -156,7 +156,7 @@ A entrega final ao W3C (paso 6.3 da política) son tres ficheiros:
 │       ├── index.html · relative-luminance.html · fixup.js · guidelines.css
 │
 ├── docs/
-│   ├── glosario-gl.md         Terminología inglés–galego (canónica)
+│   ├── glosario-gl.md         Terminología inglés-galego (canónica)
 │   ├── checklist.md           Estado de tradución e revisión
 │   └── baseline-qa/           Auditoría base do orixinal (referencia de calidade)
 │

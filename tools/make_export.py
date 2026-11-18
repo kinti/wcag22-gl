@@ -256,7 +256,7 @@ def main() -> int:
       (centro de investigación da Universidade de Santiago de Compostela) e de
       <a href="https://termigal.gal/" hreflang="gl">Termigal</a>
       (o portal de terminoloxía galega de referencia, no Centro Ramón Piñeiro
-      para a Investigación en Humanidades), e da
+      para a Investigación en Humanidades), de Olga Carreras, e da
       <a href="https://uxionovoneyra.com/" hreflang="gl">Fundación Uxío Novoneyra</a>.
       Quen queira sumarse á revisión, ten as portas abertas: toda achega figurará
       no equipo de revisión da Candidata.</p>

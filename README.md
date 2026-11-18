@@ -37,6 +37,7 @@ A revisión lingüística e técnica está en marcha coa participación de:
   investigación da Universidade de Santiago de Compostela) e de
   [Termigal](https://termigal.gal/) (o portal de terminoloxía galega de
   referencia, no Centro Ramón Piñeiro para a Investigación en Humanidades).
+- **Olga Carreras**: revisora de accesibilidade e usabilidade.
 - **Fundación Uxío Novoneyra**
   ([uxionovoneyra.com](https://uxionovoneyra.com/)): fundación cultural de
   Folgoso do Courel (Lugo) que conserva e difunde a obra do poeta Uxío

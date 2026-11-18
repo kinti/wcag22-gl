@@ -250,6 +250,8 @@ def main() -> int:
       <i lang="en">Lead Translation Organization</i> (proposta), co obxectivo de presentala como
       <i lang="en">Candidate Authorized Translation</i> segundo a
       <a href="https://www.w3.org/2005/02/TranslationPolicy" lang="en">Policy for Authorized W3C Translations</a>.</p>
+      <p>Erratas: <a href="errata.html">páxina de erratas da tradución galega</a> (rexistro público a través das
+      <a href="https://github.com/kinti/wcag22-gl/issues">incidencias do repositorio</a>).</p>
       <p>Revisión lingüística e técnica en marcha coa participación de
       Inés Veiga Mateos, terminóloga do
       <a href="https://ilg.usc.gal/" hreflang="gl">Instituto da Lingua Galega</a>

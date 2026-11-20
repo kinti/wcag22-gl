@@ -117,6 +117,7 @@
 | Understanding | Comprender |
 | How to Meet | Como cumprir |
 | Table of Contents | Índice de contidos |
+| Example / Example N (marcador de sección) | Exemplo / Exemplo N |
 
 ## Decisións da tanda 1 (P1, 29 SC, borrador G 5-nov, a correxir por Jesús/ILG)
 

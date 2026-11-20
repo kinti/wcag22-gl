@@ -196,6 +196,7 @@ def main() -> int:
     # xerados por wcag.js/ReSpec (non existen no fonte)
     t = rep(t, '<bdi class="secno">Success Criterion ', '<bdi class="secno">Criterio de Éxito ', 40)
     t = rep(t, "<span>Note</span>", "<span>Nota</span>", 30)
+    t = rep(t, 'class="marker">Example', 'class="marker">Exemplo', 42)
     t = t.replace("Understanding Success Criterion ", "Comprender o Criterio de Éxito ")
     t = t.replace("How to Meet Success Criterion ", "Como cumprir o Criterio de Éxito ")
     t = rep(t, "Permalink for this Section", "Ligazón permanente para esta sección", 10)

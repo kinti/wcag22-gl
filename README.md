@@ -4,7 +4,9 @@
 > translation of [WCAG 2.2](https://www.w3.org/TR/2024/REC-WCAG22-20241212/)
 > (W3C Recommendation, 12 December 2024): the first WCAG translation into
 > Galician. All 199 pieces are translated; external human review is pending.
-> Our goal is to propose it as a W3C Candidate Authorized Translation.
+> Our goal is to keep improving it with the community and, in the future,
+> to propose it as a W3C Candidate Authorized Translation once a stakeholder
+> group is established, per the W3C translation policy.
 > Contributions welcome: see `CONTRIBUTING.md`. Read the current draft at
 > `work/export/index.html` (open it locally or serve the folder over HTTP).
 
@@ -23,10 +25,13 @@ pezas, listadas en `docs/checklist.md`).
 ## Quen a impulsa
 
 **[Jesús Quintana Fernández](https://a11y.es)**, fundador de
-[a11y.es](https://a11y.es/), como Lead Translation Organization proposto.
+[a11y.es](https://a11y.es/), tradutor e coordinador do proxecto.
 Anuncio público de intención enviado á lista
 [`w3c-translators`](https://lists.w3.org/Archives/Public/w3c-translators/2026OctDec/0002.html)
-do W3C o 20 de outubro de 2026.
+do W3C o 20 de outubro de 2026, e camiño de tradución voluntaria acordado
+co W3C na reunión do 20 de novembro de 2026, coa intención de considerar
+a candidatura de tradución autorizada cando o grupo de stakeholders estea
+constituído.
 
 ## Quen revisa
 

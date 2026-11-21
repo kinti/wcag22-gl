@@ -93,7 +93,7 @@ antes de ser endosada polo W3C e publicada en w3.org.
 - **Revisores técnicos** (accesibilidade): verificar que cada criterio di o
   que di o orixinal.
 - **Revisores lingüísticos** (galego): terminoloxía, estilo, coherencia coa
-  normativa RAG/Termigal.
+  normativa [RAG](https://academia.gal/)/[Termigal](https://termigal.gal/).
 - **Organizacións representativas** (universidades, entidades do ámbito da
   lingua e da accesibilidade): o grupo de interese que a política W3C esixe
   para unha tradución autorizada.

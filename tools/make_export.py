@@ -258,7 +258,9 @@ def main() -> int:
       <a href="https://termigal.gal/" hreflang="gl">Termigal</a>
       (o portal de terminoloxía galega de referencia, no
       <a href="https://www.cirp.gal/" hreflang="gl">Centro Ramón Piñeiro</a>
-      para a Investigación en Humanidades), de Olga Carreras, de Miguel Dorado
+      para a Investigación en Humanidades), de Olga Carreras Montoto
+      (<a href="https://www.usableyaccesible.com/" hreflang="es">Usable y Accesible</a>),
+      de Miguel Dorado
       Sóñora (<a href="https://faxpg.es/" hreflang="gl">FAxPG</a>, Federación de Asociacións de Persoas Xordas de Galicia),
       e da
       <a href="https://uxionovoneyra.com/" hreflang="gl">Fundación Uxío Novoneyra</a>.

@@ -43,7 +43,7 @@ A revisión lingüística e técnica está en marcha coa participación de:
   [Termigal](https://termigal.gal/) (o portal de terminoloxía galega de
   referencia, no [Centro Ramón Piñeiro](https://www.cirp.gal/) para a
   Investigación en Humanidades).
-- **Olga Carreras**: revisora de accesibilidade e usabilidade.
+- **Olga Carreras Montoto** ([Usable y Accesible](https://www.usableyaccesible.com/)): revisora de accesibilidade e usabilidade.
 - **Miguel Dorado Sóñora**: [FAxPG](https://faxpg.es/) (Federación de Asociacións de Persoas Xordas de Galicia).
 - **Fundación Uxío Novoneyra**
   ([uxionovoneyra.com](https://uxionovoneyra.com/)): fundación cultural de

@@ -55,16 +55,22 @@ def restore_doclink_urls(t: str) -> str:
     """Restore the original English Understanding/quickref URLs in doclinks."""
     ids = sorted(DOCLINK_SLUGS, key=len, reverse=True)
     alt = "|".join(re.escape(i) for i in ids)
+
+    def slug(m):
+        # 26 table values already end in ".html" and both patterns add the
+        # suffix themselves: drop it here so it is never written twice.
+        return DOCLINK_SLUGS[m.group(2)].removesuffix(".html")
+
     pat_u = re.compile(
         r'(<section\b[^>]*\bid="(' + alt + r')"[^>]*>.*?<div class="doclinks">.*?Understanding/)([^"?#]+)(\.html)',
         re.S,
     )
-    t = pat_u.sub(lambda m: f"{m.group(1)}{DOCLINK_SLUGS[m.group(2)]}{m.group(4)}", t)
+    t = pat_u.sub(lambda m: f"{m.group(1)}{slug(m)}{m.group(4)}", t)
     pat_q = re.compile(
         r'(<section\b[^>]*\bid="(' + alt + r')"[^>]*>.*?<div class="doclinks">.*?quickref/#)([^"?#]+)(")',
         re.S,
     )
-    t = pat_q.sub(lambda m: f"{m.group(1)}{DOCLINK_SLUGS[m.group(2)]}{m.group(4)}", t)
+    t = pat_q.sub(lambda m: f"{m.group(1)}{slug(m)}{m.group(4)}", t)
     return t
 
 
@@ -255,7 +261,7 @@ def main() -> int:
       <a href="https://ilg.usc.gal/" hreflang="gl">Instituto da Lingua Galega</a>
       (centro de investigación da
       <a href="https://www.usc.gal/" hreflang="gl">Universidade de Santiago de Compostela</a>) e de
-      <a href="https://termigal.gal/" hreflang="gl">Termigal</a>
+      <a href="https://academia.gal/" hreflang="gl">Termigal</a>
       (o portal de terminoloxía galega de referencia, no
       <a href="https://www.cirp.gal/" hreflang="gl">Centro Ramón Piñeiro</a>
       para a Investigación en Humanidades), de Olga Carreras Montoto
@@ -263,7 +269,7 @@ def main() -> int:
       de Miguel Dorado
       Sóñora (<a href="https://faxpg.es/" hreflang="gl">FAxPG</a>, Federación de Asociacións de Persoas Xordas de Galicia),
       e da
-      <a href="https://uxionovoneyra.com/" hreflang="gl">Fundación Uxío Novoneyra</a>.
+      <a href="https://uxionovoneyra.gal/" hreflang="gl">Fundación Uxío Novoneyra</a>.
       Quen queira sumarse á revisión, ten as portas abertas: toda achega figurará
       no equipo de revisión da Candidata.</p>
     </section>

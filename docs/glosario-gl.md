@@ -247,7 +247,7 @@
 | EN | GL usada no borrador | Nota |
 |---|---|---|
 | Parsing (Obsolete and removed) | Análise (Obsoleto e retirado) | 4.1.1 obsoleto: tradúcese igualmente, segue no documento |
-| role (termo normativo 4.1.x) | por confirmar: rol ou función | ⚠️ 24-nov: decisión de Jesús pendente de aclarar (no borrador segue «función»); cando vai en código (atributo role= e valores ARIA) non se traduce |
+| role (termo normativo 4.1.x) | rol | ✅ 24-nov (era «función»), aplicado no borrador; cando vai en código (atributo role= e valores ARIA) non se traduce |
 | programmatically set | establecido programaticamente | |
 | notification of changes | notificación dos cambios | |
 | Status Messages | Mensaxes de Estado | |
@@ -281,7 +281,7 @@
 | pure decoration | decoración pura | |
 | real-time event | evento en tempo real | |
 | relied upon | basearse en | |
-| role | por confirmar: rol ou función | ⚠️ 24-nov (ver tanda 4) |
+| role | rol | ✅ 24-nov (ver tanda 4) |
 | satisfies a success criterion | cumpre un criterio de éxito | |
 | supplemental content | contido complementario | |
 | synchronized media | medios sincronizados | |
@@ -432,6 +432,6 @@ significa que o documento aínda usa a forma anterior e hai que aplicala.
 | contrast ratio | ratio de contraste; plural «ratios» | aplicado | antes «razón de contraste». «ratio» non figura no Dicionario da RAG; usado en masculino («un ratio», «os ratios»), por confirmar. A frase «contrast ratio formula» non aparece no documento |
 | grid | grella | xa se usaba | confirmado por Jesús o 24-nov; «grilla» non figura no Dicionario da RAG |
 | general/red flash thresholds | limiares de escintileo xeral e de escintileo vermello | aberta | proposta de Jesús con dúbidas; el deixouna aberta para que a valoren os seguintes revisores |
-| role | por confirmar: rol ou función | aberto | no borrador segue «función»; en código (atributo role= e valores ARIA) non se toca. En «important role» e «roles of» da introdución é outro sentido (papel) e non cambia |
+| role | rol | aplicado | antes «función» (título de 4.1.2, a súa definición e dúas frases); en código (atributo role= e valores ARIA) non se toca. En «important role» e «roles of» da introdución é outro sentido (papel) e non cambia |
 | target | obxectivo | xa se usaba | «(target)» engadido na primeira aparición (2.5.5) |
 | single pointer | único punteiro | xa se usa | retírase a nota «estilete para stylus» |

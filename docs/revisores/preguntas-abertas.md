@@ -10,15 +10,14 @@
 > (`docs/glosario-gl.md`) segue a ser o contrato: aquí só se decide, o corpus
 > actualízase despois.
 >
-> **Actualización do 24-nov-2026:** Jesús xa decidiu A7, B9, B10 e B15 (aplicadas
-> ao borrador e reflectidas no glosario); A1 (role) está pendente dunha aclaración
-> súa. As filas afectadas están marcadas coa data.
+> **Actualización do 24-nov-2026:** Jesús xa decidiu A1, A7, B9, B10 e B15 (aplicadas
+> ao borrador e reflectidas no glosario). As filas afectadas están marcadas coa data.
 
 ## Bloque A: decisións principais (cambian moitas ocurrencias)
 
 | # | EN | Usada no corpus | Alternativa | Risco do cambio |
 |---|---|---|---|---|
-| A1 | role (normativo 4.1.x) | **función** | «rol» (comunidade ARIA; Sidar 2.0 usaba «función») | alto: dfn + SC 4.1.2. **24-nov: pendente de aclaración de Jesús entre «rol» e «función»; en código non se traduce** |
+| A1 | role (normativo 4.1.x) | **rol** (24-nov) | DECIDIDO por Jesús o 24-nov: «rol», aplicado ao borrador (era «función»); en código non se traduce | alto: dfn + SC 4.1.2 |
 | A2 | assistive technology | **tecnoloxía de asistencia** | «tecnoloxía de apoio» (uso Xunta) | alto: todo o documento |
 | A3 | accessibility supported | **con compatibilidade coas tecnoloxías de asistencia** | forma máis curta? | alto: dfn longa e crítica |
 | A4 | user | **persoas usuarias** / usuarios (mixto: «user need» = «dos usuarios») | unificar estilo inclusivo | alto: ~centos de casos |

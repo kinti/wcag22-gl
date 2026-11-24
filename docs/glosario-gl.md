@@ -40,13 +40,13 @@
 | EN | GL proposta | | Nota |
 |---|---|---|---|
 | user agent | axente de usuario | ✅ | |
-| assistive technology (AT) | tecnoloxía de asistencia | ⚠️ | alternativa: «tecnoloxía de apoio» (Xunta); confirmar |
+| assistive technology (AT) | tecnoloxía de apoio | ✅ | 24-nov (era «tecnoloxía de asistencia»), aplicado no borrador |
 | author | autor | ✅ | |
 | content | contido | ✅ | |
 | web page | páxina web | ✅ | |
 | web site / set of web pages | sitio web / conxunto de páxinas web | ✅ | |
 | programmatically determined | determinado programaticamente | ⚠️ | |
-| accessibility-supported | compatibilidade coas tecnoloxías de asistencia | ⚠️ | termo difícil; prioridade ILG |
+| accessibility-supported | compatibilidade coas tecnoloxías de apoio | ⚠️ | termo difícil; prioridade ILG (o 24-nov «asistencia» pasa a «apoio») |
 | platform | plataforma | ✅ | |
 | technology (web technology) | tecnoloxía (tecnoloxía web) | ✅ | |
 | user | usuario / usuaria | ⚠️ | estilo inclusivo = decisión ILG |
@@ -141,11 +141,11 @@
 | human languages | linguas humanas | «lingua» confirmar con ILG |
 | scripts (writing) | escrituras | |
 | dithering | tramado (dithering) | con parentese EN na primeira mención |
-| pointer hover | paso do punteiro | |
+| pointer hover | paso do punteiro | 24-nov: «hover» consérvase onde está, con «(colocar o cursor sobre)» na primeira aparición en prosa |
 | keyboard focus | foco de teclado | |
 | input error | erro de entrada | |
 | sub-menus / nonmodal popups | submenús / ventás emerxentes non modais | |
-| tooltips | tooltips (sen traducir) | |
+| tooltips | notas emerxentes, con «(tooltip)» na primeira aparición | ✅ 24-nov |
 | Dismissible / Hoverable / Persistent (dt) | Descartable / Se pode pousar o punteiro / Persistente | ⚠️ o segundo é descritivo; alternativa «Permite o hover» |
 | Guideline X / Success Criterion X.Y.Z / Conformance Requirement | Pauta X / Criterio de Éxito X.Y.Z / Requisito de Conformidade | textos de link traducidos, hrefs intactos |
 | New (clase change, soamente 2.2) | Novo | usar cando apareza |
@@ -176,7 +176,7 @@
 | Re-authenticating | Reautenticación | |
 | Timeouts | Tempos Límite | ⚠️ alternativa «Tempos de inactividade» |
 | user inactivity | inactividade de usuario | |
-| minor | menor de idade | |
+| minor | menor | ✅ 24-nov (era «menor de idade»: sobraba) |
 | flash | flash; plural «flashes» | ✅ 24-nov (o plural era «flash» invariable), aplicado no borrador |
 | threshold | limiar | |
 | flickering | parpadeo | ✅ 24-nov (era «tremelicita»), aplicado no borrador |
@@ -259,7 +259,7 @@
 |---|---|---|
 | id/data-lt dos dfn | SEN TOCAR (inglés) | regra dura: anchors match; só o texto visible se traduce |
 | abbreviation | abreviatura | siglas (initialisms) e acrónimos diferenciados |
-| accessibility supported | con compatibilidade coas tecnoloxías de asistencia | forma adxectiva longa nos termos; nos SC usouse «con compatibilidade coas tecnoloxías de asistencia» |
+| accessibility supported | con compatibilidade coas tecnoloxías de apoio | forma adxectiva longa nos termos; nos SC usouse «con compatibilidade coas tecnoloxías de apoio» |
 | ASCII art | arte ASCII | |
 | screen magnifier | lente de aumento de pantalla | ⚠️ alternativa «magnificador» |
 | screen reader | lector de pantalla | |
@@ -289,7 +289,7 @@
 | down-event/up-event | sen traducir | |
 | single pointer | único punteiro | |
 | style property | propiedade de estilo | |
-| state | estado | hover/select sen traducir na enumeración |
+| state | estado | hover/select sen traducir na enumeración; 24-nov: «hover (colocar o cursor sobre)» |
 | user inactivity | inactividade de usuario | |
 | motion animation | animación de movemento | |
 | minimum bounding box | caixa delimitadora mínima | |
@@ -365,7 +365,7 @@ cumple/cumplir→cumpre/cumprir (restos casteláns meus), cuyo→cuxo, personas�
 accesibilidad→accesibilidade, a o que→ao que, (o funcionalidade)→(ou funcionalidade),
 demonístrese→demóstrase, andes→estantes (web-page), padróns→**patróns**,
 remapear→**reasignar**, gatillo→**disparador**, tooltip→**nota emerxente** (⚠️「tooltip»
-estaba decidido sen traducir, a IA externa traduciu; queda a decisión da última rolda),
+estaba decidido sen traducir, a IA externa traduciu; decidido o 24-nov: «notas emerxentes», con «(tooltip)» na primeira aparición),
 padding→**recheo**, plugin→**complemento**, soportado→**compatible/admitido**, Female→Feminino,
 profesións/IEC/citas EN marcadas lang="en", MathML mtext and→e, relative-luminance xml:lang=gl.
 
@@ -435,3 +435,7 @@ significa que o documento aínda usa a forma anterior e hai que aplicala.
 | role | rol | aplicado | antes «función» (título de 4.1.2, a súa definición e dúas frases); en código (atributo role= e valores ARIA) non se toca. En «important role» e «roles of» da introdución é outro sentido (papel) e non cambia |
 | target | obxectivo | xa se usaba | «(target)» engadido na primeira aparición (2.5.5) |
 | single pointer | único punteiro | xa se usa | retírase a nota «estilete para stylus» |
+| assistive technology | tecnoloxía de apoio; plural «tecnoloxías de apoio» | aplicado | antes «tecnoloxía de asistencia» |
+| minor | menor | aplicado | antes «menor de idade» (2.2.6) |
+| tooltips | notas emerxentes, con «(tooltip)» na primeira aparición | aplicado | resolve a diferenza entre a tanda 1 («sen traducir») e o documento |
+| hover | hover, con «(colocar o cursor sobre)» na primeira aparición en prosa | aplicado | o título de 1.4.13 («Contido en Hover ou Foco») e «paso do punteiro» consérvanse tal cual |

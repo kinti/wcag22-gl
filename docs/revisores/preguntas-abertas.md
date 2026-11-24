@@ -10,16 +10,16 @@
 > (`docs/glosario-gl.md`) segue a ser o contrato: aquí só se decide, o corpus
 > actualízase despois.
 >
-> **Actualización do 24-nov-2026:** Jesús xa decidiu A1, A7, B9, B10 e B15 (aplicadas
-> ao borrador e reflectidas no glosario). As filas afectadas están marcadas coa data.
+> **Actualización do 24-nov-2026:** Jesús xa decidiu A1, A2, A7, B9, B10, B15, B17 e B18, e en A3 só
+> a palabra «asistencia» (aplicadas ao borrador e reflectidas no glosario). As filas afectadas están marcadas coa data.
 
 ## Bloque A: decisións principais (cambian moitas ocurrencias)
 
 | # | EN | Usada no corpus | Alternativa | Risco do cambio |
 |---|---|---|---|---|
 | A1 | role (normativo 4.1.x) | **rol** (24-nov) | DECIDIDO por Jesús o 24-nov: «rol», aplicado ao borrador (era «función»); en código non se traduce | alto: dfn + SC 4.1.2 |
-| A2 | assistive technology | **tecnoloxía de asistencia** | «tecnoloxía de apoio» (uso Xunta) | alto: todo o documento |
-| A3 | accessibility supported | **con compatibilidade coas tecnoloxías de asistencia** | forma máis curta? | alto: dfn longa e crítica |
+| A2 | assistive technology | **tecnoloxía de apoio** (24-nov) | DECIDIDO por Jesús o 24-nov: «tecnoloxía de apoio», aplicado ao borrador (era «tecnoloxía de asistencia») | alto: todo o documento |
+| A3 | accessibility supported | **con compatibilidade coas tecnoloxías de apoio** (24-nov) | só muda «asistencia» por «apoio» pola decisión A2; a forma longa segue aberta | alto: dfn longa e crítica |
 | A4 | user | **persoas usuarias** / usuarios (mixto: «user need» = «dos usuarios») | unificar estilo inclusivo | alto: ~centos de casos |
 | A5 | language (of a page) | **lingua** | «idioma» | medio |
 | A6 | heading | **encabezado** | «cabeceira» | medio |
@@ -50,8 +50,8 @@
 | B14 | Up Reversal | Reversión ao Soltar | (ningún) |
 | B15 | flash (plural) | «flashes» (24-nov) | DECIDIDO por Jesús o 24-nov: plural «flashes», aplicado ao borrador |
 | B16 | idioms / jargon | modismos / xerga | (ningún) |
-| B17 | tooltips | nota emerxente (5ª rolda; corpus 2× en 1.4.13) vs «tooltip» (glosario tanda 1: sen traducir) | **CONFLITO DOCUMENTAL entre roldas: o corpus xa é consistente («nota emerxente»); resolver a fila do glosario** |
-| B18 | hover (verbo/nome) | «paso do punteiro» / «hover» mixto | unificar |
+| B17 | tooltips | notas emerxentes (24-nov) | DECIDIDO por Jesús o 24-nov: «notas emerxentes», con «(tooltip)» na primeira aparición; resolve a diferenza coa tanda 1 do glosario |
+| B18 | hover (verbo/nome) | «hover» consérvase, con «(colocar o cursor sobre)» na primeira aparición en prosa (24-nov) | DECIDIDO por Jesús o 24-nov: non se unifica; «paso do punteiro» consérvase |
 
 ## Bloque C: estilo global (decisión única, afecta ~70 títulos)
 

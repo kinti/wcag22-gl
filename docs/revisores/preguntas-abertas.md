@@ -9,18 +9,22 @@
 > consistente); a pregunta é se a forma galega máis idónea é outra. O glosario
 > (`docs/glosario-gl.md`) segue a ser o contrato: aquí só se decide, o corpus
 > actualízase despois.
+>
+> **Actualización do 24-nov-2026:** Jesús xa decidiu A7, B9, B10 e B15 (aplicadas
+> ao borrador e reflectidas no glosario); A1 (role) está pendente dunha aclaración
+> súa. As filas afectadas están marcadas coa data.
 
 ## Bloque A: decisións principais (cambian moitas ocurrencias)
 
 | # | EN | Usada no corpus | Alternativa | Risco do cambio |
 |---|---|---|---|---|
-| A1 | role (normativo 4.1.x) | **función** | «rol» (comunidade ARIA; Sidar 2.0 usaba «función») | alto: dfn + SC 4.1.2 |
+| A1 | role (normativo 4.1.x) | **función** | «rol» (comunidade ARIA; Sidar 2.0 usaba «función») | alto: dfn + SC 4.1.2. **24-nov: pendente de aclaración de Jesús entre «rol» e «función»; en código non se traduce** |
 | A2 | assistive technology | **tecnoloxía de asistencia** | «tecnoloxía de apoio» (uso Xunta) | alto: todo o documento |
 | A3 | accessibility supported | **con compatibilidade coas tecnoloxías de asistencia** | forma máis curta? | alto: dfn longa e crítica |
 | A4 | user | **persoas usuarias** / usuarios (mixto: «user need» = «dos usuarios») | unificar estilo inclusivo | alto: ~centos de casos |
 | A5 | language (of a page) | **lingua** | «idioma» | medio |
 | A6 | heading | **encabezado** | «cabeceira» | medio |
-| A7 | contrast ratio | **razón de contraste** | «proporción de contraste» | medio |
+| A7 | contrast ratio | **ratio de contraste** (24-nov) | DECIDIDO por Jesús o 24-nov: «ratio de contraste», aplicado ao borrador (era «razón de contraste»). «ratio» non figura no Dicionario da RAG | medio |
 | A8 | viewport | **viewport** (sen traducir) | traducir? | medio: dfn + 1.4.10 |
 | A9 | time-based media | **medio tempodependente** | (alineado con Sidar ES) | medio |
 | A10 | pointer | **punteiro** | (ningún) | baixo |
@@ -39,13 +43,13 @@
 | B6 | CSS pixels | píxeles CSS | «píxeles CSS» con lang="en"? |
 | B7 | space bar | barra espaciadora | «barra espazadora» |
 | B8 | Timeouts | Tempos Límite | «Tempos de inactividade» |
-| B9 | Focus Not Obscured | Foco Non Ocultado | «Foco Non Oculto» |
-| B10 | Concurrent Input Mechanisms | Mecanismos de Entrada Concomitantes | «de entrada simultánea» |
+| B9 | Focus Not Obscured | Foco Non Oculto (24-nov) | DECIDIDO por Jesús o 24-nov: «Foco Non Oculto», aplicado ao borrador |
+| B10 | Concurrent Input Mechanisms | Mecanismos de Entrada Simultánea (24-nov) | DECIDIDO por Jesús o 24-nov: «Mecanismos de Entrada Simultánea», aplicado ao borrador |
 | B11 | down-event / up-event | sen traducir | «evento de pulsación/liberación» |
 | B12 | Reflow | Reaxuste | manter «Reflow» lang="en" |
 | B13 | Dismissible/Hoverable/Persistent | Descartable / Se pode pousar o punteiro / Persistente | segundo dt descritivo |
 | B14 | Up Reversal | Reversión ao Soltar | (ningún) |
-| B15 | flash (plural) | invariable «tres flash» | (ningún) |
+| B15 | flash (plural) | «flashes» (24-nov) | DECIDIDO por Jesús o 24-nov: plural «flashes», aplicado ao borrador |
 | B16 | idioms / jargon | modismos / xerga | (ningún) |
 | B17 | tooltips | nota emerxente (5ª rolda; corpus 2× en 1.4.13) vs «tooltip» (glosario tanda 1: sen traducir) | **CONFLITO DOCUMENTAL entre roldas: o corpus xa é consistente («nota emerxente»); resolver a fila do glosario** |
 | B18 | hover (verbo/nome) | «paso do punteiro» / «hover» mixto | unificar |

@@ -80,7 +80,7 @@
 | cognitive function test | proba de función cognitiva | ⚠️ | termo novo 2.2 |
 | session | sesión | ✅ | |
 | relative luminance | luminancia relativa | ✅ | |
-| contrast ratio | razón de contraste | ⚠️ | alternativas «proporción» e «ratio de contraste»; por confirmar |
+| contrast ratio | ratio de contraste; plural «ratios» | ✅ | 24-nov (era «razón de contraste»), aplicado no borrador. ⚠️ «ratio» non figura no Dicionario da RAG; usado en masculino («un ratio»), por confirmar |
 | CSS pixels | píxeles CSS | ⚠️ | «CSS pixels» con lang="en"? confirmar convención |
 | viewport | viewport | ⚠️ | manter EN con lang="en" ou traducir? confirmar |
 | zoom | zoom | ✅ | manter (uso xeral) |
@@ -137,7 +137,7 @@
 | foreground / background | primeiro plano / fondo | |
 | decibel | decibelio | |
 | justified | xustificado | |
-| layout | estrutura, plano ou maqueta, con «(Layout)» na primeira aparición | ⚠️ 24-nov: «disposición» retírase (é a colocación, non o modelo); palabra por pechar |
+| layout | plano, maqueta ou estrutura, con «(Layout)» na primeira aparición, ou sen traducir | ⚠️ 24-nov: «disposición» retírase (é a colocación, non o modelo); aínda sen decidir |
 | human languages | linguas humanas | «lingua» confirmar con ILG |
 | scripts (writing) | escrituras | |
 | dithering | tramado (dithering) | con parentese EN na primeira mención |
@@ -177,23 +177,23 @@
 | Timeouts | Tempos Límite | ⚠️ alternativa «Tempos de inactividade» |
 | user inactivity | inactividade de usuario | |
 | minor | menor de idade | |
-| flash | flash; plural «flashes» | ✅ 24-nov (o plural era «flash» invariable) |
+| flash | flash; plural «flashes» | ✅ 24-nov (o plural era «flash» invariable), aplicado no borrador |
 | threshold | limiar | |
-| flickering | parpadeo | ✅ 24-nov (era «tremelicita») |
+| flickering | parpadeo | ✅ 24-nov (era «tremelicita»), aplicado no borrador |
 | Bypass Blocks | Saltar Bloques | |
 | Focus Order | Orde do Foco | RAG «orde» |
 | Link Purpose (In Context / Link Only) | Propósito da Ligazón (No Contexto / Só a Ligazón) | |
 | ambiguous to users in general | ambiguo para as persoas usuarias en xeral | |
 | Multiple Ways | Múltiples Vías | |
 | Section Headings | Encabezados de Sección | |
-| Focus Not Obscured | Foco Non Oculto | ✅ 24-nov (era «Foco Non Ocultado») |
+| Focus Not Obscured | Foco Non Oculto | ✅ 24-nov (era «Foco Non Ocultado»), aplicado no borrador |
 | author-created content | contido creado pola persoa autora | |
 | Focus Appearance | Aparencia do Foco | |
 | sub-component | subcompoñente | |
 | glow | resplandor | |
 | anti-aliasing | suavizado de bordos (anti-aliasing) | primeira mención con EN |
 | drop-down menu | menú despregable | |
-| grid | grella | |
+| grid | grella | ✅ 24-nov confirmado por Jesús (a súa proposta «grilla» descártase: non figura no Dicionario da RAG) |
 | Pointer Gestures | Xestos de Punteiro | |
 | path-based gesture | xesto baseado en traxectoria | |
 | single pointer | único punteiro | |
@@ -203,7 +203,7 @@
 | pointer inputs | entradas de punteiro | |
 | bounding box | caixa delimitadora | |
 | sliders / color pickers | deslizadores / seleccionadores de cor | |
-| Concurrent Input Mechanisms | Mecanismos de Entrada Simultánea | ✅ 24-nov (era «Mecanismos de Entrada Concomitantes») |
+| Concurrent Input Mechanisms | Mecanismos de Entrada Simultánea | ✅ 24-nov (era «Mecanismos de Entrada Concomitantes»), aplicado no borrador |
 | Motion Actuation | Activación por Movemento | |
 
 ## Decisións da tanda 3 (P3, 21 SC, borrador G 6-nov, a correxir por Jesús/ILG)
@@ -247,7 +247,7 @@
 | EN | GL usada no borrador | Nota |
 |---|---|---|
 | Parsing (Obsolete and removed) | Análise (Obsoleto e retirado) | 4.1.1 obsoleto: tradúcese igualmente, segue no documento |
-| role (termo normativo 4.1.x) | rol | ✅ 24-nov (era «función»); cando vai en código (atributo role= e valores ARIA) non se traduce |
+| role (termo normativo 4.1.x) | por confirmar: rol ou función | ⚠️ 24-nov: decisión de Jesús pendente de aclarar (no borrador segue «función»); cando vai en código (atributo role= e valores ARIA) non se traduce |
 | programmatically set | establecido programaticamente | |
 | notification of changes | notificación dos cambios | |
 | Status Messages | Mensaxes de Estado | |
@@ -265,8 +265,8 @@
 | screen reader | lector de pantalla | |
 | sip/puff | sopro/suxión | |
 | rely upon | basearse en | «relied upon» = «nas que se basea» |
-| contrast ratio formula | fórmula de ratio de contraste | ✅ 24-nov; as fórmulas (L1/L2, sRGB) quedan intactas. ⚠️ o termo definido «contrast ratio» segue «razón de contraste»: por confirmar se pasa a «ratio de contraste» |
-| general/red flash thresholds | limiares de flash xeral e de flash vermello | ⚠️ 24-nov: proposta de Jesús «limiares de escintileo xeral e de escintileo vermello», con dúbidas; por pechar |
+| contrast ratio formula | fórmula de ratio de contraste | ✅ 24-nov; as fórmulas (L1/L2, sRGB) quedan intactas; o termo definido «contrast ratio» é tamén «ratio de contraste» |
+| general/red flash thresholds | limiares de flash xeral e de flash vermello | ⚠️ 24-nov: proposta de Jesús «limiares de escintileo xeral e de escintileo vermello», con dúbidas; déixase aberto para que o valoren os seguintes revisores |
 | initialism / acronym | sigla / acrónimo | |
 | Closed/Open Captions | subtítulos pechados/abertos (con EN na primeira mención) | |
 | broadcast delay | retraso de emisión | |
@@ -281,11 +281,11 @@
 | pure decoration | decoración pura | |
 | real-time event | evento en tempo real | |
 | relied upon | basearse en | |
-| role | rol | ✅ 24-nov (ver tanda 4) |
+| role | por confirmar: rol ou función | ⚠️ 24-nov (ver tanda 4) |
 | satisfies a success criterion | cumpre un criterio de éxito | |
 | supplemental content | contido complementario | |
 | synchronized media | medios sincronizados | |
-| target | obxectivo | decisión de Jesús 6-nov; 24-nov: «(Target)» entre paréntese na primeira aparición |
+| target | obxectivo | decisión de Jesús 6-nov; 24-nov: «(target)» entre paréntese na primeira aparición (2.5.5), aplicado no borrador |
 | down-event/up-event | sen traducir | |
 | single pointer | único punteiro | |
 | style property | propiedade de estilo | |
@@ -400,7 +400,7 @@ Se mantienen las preferencias anteriores, incluido «interfaz», «obxectivo»,
 | synchronized visual and/or text alternative | alternativa visual e/ou textual sincronizada; la sincronización es obligatoria en ambos casos |
 | resumed | retomado; nunca «reprendido» |
 | relied upon | basearse en; el sujeto es el cumplimiento o la conformidad, no la tecnología |
-| flashing | sucesión de flash; «flash» se mantenía invariable en plural hasta la decisión del 24-nov: plural «flashes» |
+| flashing | sucesión de flashes; el plural de «flash» es «flashes» desde la decisión del 24-nov |
 | pattern | patrón; aplicar también en singular |
 | bidding | poxando |
 | spoon | culler; «cullerada» significa una cantidad |
@@ -423,14 +423,15 @@ significa que o documento aínda usa a forma anterior e hai que aplicala.
 
 | EN | GL decidido | No borrador | Nota |
 |---|---|---|---|
-| layout | estrutura, plano ou maqueta, con «(Layout)» na primeira aparición | pendente | «disposición» retírase: é a colocación, non o modelo. A palabra aínda non está pechada (Jesús inclínase por maqueta). «disposición espacial» (arte ASCII) traduce «arrangement» e consérvase |
-| flash (plural) | flashes | pendente | antes «flash» invariable; o Dicionario da RAG usa «flashes» |
-| flickering | parpadeo | pendente | antes «tremelicita» (nota do 2.2.2) |
-| Focus Not Obscured | Foco Non Oculto | pendente | antes «Foco Non Ocultado» (2.4.11 e 2.4.12) |
-| Concurrent Input Mechanisms | Mecanismos de Entrada Simultánea | pendente | antes «Mecanismos de Entrada Concomitantes» (2.5.6) |
+| layout | plano, maqueta ou estrutura, con «(Layout)» na primeira aparición, ou sen traducir | aberto | «disposición» retírase: é a colocación, non o modelo. Aínda sen decidir. «disposición espacial» (arte ASCII) traduce «arrangement» e consérvase |
+| flash (plural) | flashes | aplicado | antes «flash» invariable; o Dicionario da RAG usa «flashes». 23 aparicións en plural cambiadas; as 20 restantes son singular, nome de tipo («flash vermello») ou o nome propio Adobe Flash |
+| flickering | parpadeo | aplicado | antes «tremelicita» (nota do 2.2.2) |
+| Focus Not Obscured | Foco Non Oculto | aplicado | antes «Foco Non Ocultado» (2.4.11 e 2.4.12) |
+| Concurrent Input Mechanisms | Mecanismos de Entrada Simultánea | aplicado | antes «Mecanismos de Entrada Concomitantes» (2.5.6) |
 | expanded form | forma expandida | xa se usa | «expanded form» é o desenvolvemento completo da abreviatura (3.1.4), non un formulario |
-| contrast ratio formula | fórmula de ratio de contraste | non aparece como frase no documento | o termo definido «contrast ratio» segue «razón de contraste»: por confirmar se pasa a «ratio de contraste» |
-| general/red flash thresholds | limiares de escintileo xeral e de escintileo vermello | aberta | proposta de Jesús con dúbidas |
-| role | rol | pendente | antes «función»; en código (atributo role= e valores ARIA) non se toca. En «important role» e «roles of» da introdución é outro sentido (papel) e non cambia |
-| target | obxectivo | xa se usa | engadir «(Target)» na primeira aparición: pendente |
+| contrast ratio | ratio de contraste; plural «ratios» | aplicado | antes «razón de contraste». «ratio» non figura no Dicionario da RAG; usado en masculino («un ratio», «os ratios»), por confirmar. A frase «contrast ratio formula» non aparece no documento |
+| grid | grella | xa se usaba | confirmado por Jesús o 24-nov; «grilla» non figura no Dicionario da RAG |
+| general/red flash thresholds | limiares de escintileo xeral e de escintileo vermello | aberta | proposta de Jesús con dúbidas; el deixouna aberta para que a valoren os seguintes revisores |
+| role | por confirmar: rol ou función | aberto | no borrador segue «función»; en código (atributo role= e valores ARIA) non se toca. En «important role» e «roles of» da introdución é outro sentido (papel) e non cambia |
+| target | obxectivo | xa se usaba | «(target)» engadido na primeira aparición (2.5.5) |
 | single pointer | único punteiro | xa se usa | retírase a nota «estilete para stylus» |
